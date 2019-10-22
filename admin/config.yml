@@ -1,6 +1,6 @@
 backend:
-  name: gitlab
-  repo: insideblock/insideblock.com
+  name: github
+  repo: ediano/insideblock.com
   branch: master
   site_domain: www.insideblock.com
 
