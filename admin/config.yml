@@ -6,6 +6,7 @@ backend:
 
 logo_url: /assets/logo/logo.png
 media_folder: "assets/media-image"
+publish_mode: editorial_workflow
 
 slug:
   encoding: "ascii"
