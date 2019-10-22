@@ -1,0 +1,31 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+    },
+    "headline": "{{ page.title }}",
+    "datePublished": "{{ page.date }}",
+    "dateModified": "{{ page.date }}",
+    "description": "{{ content | strip_html | strip_newlines | truncate: 100 }}",
+    "image": {
+        "@type": "ImageObject",
+        "url": "{{ page.image | prepend: site.baseurl | prepend: site.url }}"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "
+        {% assign author = site.authors | where: 'title', page.author | first %}
+        {% if page.author %} {{ author.title }} {% endif %}
+        "},
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.title }}",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ site.url }}{{ site.logo }}"
+        }
+    },
+    "articleBody": "{{ content | strip_html | strip_newlines | remove: '"' | remove: '\' }}"
+}

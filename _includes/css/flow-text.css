@@ -1,0 +1,29 @@
+@media only screen and (max-width: 360px) {
+  .flow-text {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .flow-text {
+    font-size: 1.65rem;
+  }
+}
+
+@media only screen and (min-width: 560px) {
+  .flow-text {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .flow-text {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .flow-text {
+    font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,27 @@
+---
+layout: page
+title: Converter HTML
+description: Especial para converter códigos de anúncios do Google AdSense.<br/>Também é possível converter outros códigos HTML em XML.
+---
+
+<div class="convert-html grid-flex col">
+    <div class="col m6">
+        <h4>Código Original</h4>
+        <textarea  class="col shadow" placeholder="Cole o Código a ser convetido aqui!" name="original" onfocus="this.select()" onmouseover="this.focus()"></textarea><br />
+        <button class="converter btn white black-text">Converter</button>
+    </div>
+
+    <div class="col m6">
+        <h4>Código Convertido</h4>
+        <textarea class="col shadow" placeholder="O novo código vai aparecer aqui depois de clicar em 'Converter'." name="convertido" onfocus="this.select()" onmouseover="this.focus()"></textarea>
+    </div>
+
+    <script type="text/javascript">
+        var botao = document.getElementsByClassName("converter")[0];
+        var convertido = document.getElementsByName("convertido")[0];
+        botao.onclick = function() {
+            var original = document.getElementsByName("original")[0];
+            convertido.value = original.value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+        }
+    </script>
+</div>

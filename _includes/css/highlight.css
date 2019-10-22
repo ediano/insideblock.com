@@ -1,0 +1,166 @@
+code,
+pre {
+    background-color: #282c34;
+    color: #fff
+}
+
+pre {
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+    font-size: 1.6rem
+}
+
+code {
+    border-radius: 2px
+}
+
+code span {
+    display: inline-block
+}
+
+.hll {
+    background-color: #fff
+}
+
+.gs,
+.kc,
+.kn,
+.kp,
+.ne {
+    color: #3c78d8
+}
+
+.nt,
+.p,
+.o {
+    color: #959595
+}
+
+.sc,
+.s1,
+.s2,
+.se,
+.sh,
+.si,
+.sr,
+.ss,
+.s {
+    color: #e06666
+}
+
+.nx {
+    color: #a4c2f4
+}
+
+.nl {
+    color: #5a9bcf
+}
+
+.sx,
+.n {
+    color: #dd7e6b
+}
+
+.c,
+.c1,
+.cm,
+.go,
+.ge {
+    color: #7ba27b;
+    font-style: italic
+}
+
+.il,
+.m,
+.mf,
+.mh,
+.mo {
+    color: #93c47d
+}
+
+.sb,
+.sd {
+    color: #d20
+}
+
+.vc,
+.py {
+    color: #369
+}
+
+.gr,
+.gt {
+    color: #a00
+}
+
+.nv,
+.no,
+.na {
+    color: #26a69a
+}
+
+.gd,
+.gi,
+.kr,
+.k {
+    color: #c27ba0
+}
+
+.cp,
+.cs {
+    color: #c00
+}
+
+.err {
+    color: #a61717;
+    background-color: #e3d2d2
+}
+
+.gh {
+    color: #303030
+}
+
+.gp {
+    color: #555
+}
+
+.gu {
+    color: #606060
+}
+
+.kt {
+    color: #458
+}
+
+.nb {
+    color: #f9cb9c
+}
+
+.ni {
+    color: purple
+}
+
+.ow {
+    color: #080
+}
+
+.w {
+    color: #bbb
+}
+
+.mi {
+    color: #099
+}
+
+.bp {
+    color: #038
+}
+
+.vg {
+    color: #d70
+}
+
+.vi {
+    color: #33b
+}

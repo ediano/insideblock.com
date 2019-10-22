@@ -1,0 +1,10 @@
+# Site: Inside Block
+
+# All Search Engines
+User-Agent: *
+
+# Noindex
+#Disallow:
+
+# Sitemap
+Sitemap: https://www.insideblock.com/sitemap.xml

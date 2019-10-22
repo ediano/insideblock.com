@@ -1,0 +1,168 @@
+backend:
+  name: gitlab
+  repo: insideblock/insideblock.com
+  branch: master
+  site_domain: www.insideblock.com
+
+logo_url: /assets/logo/logo.png
+media_folder: "assets/media-image"
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: "post" # Posts
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Category", name: "category", widget: "select", options: 
+          ["comunicado", "css", "dev", "js", "jekyll", "misc", "sponsorship"], required: false}
+      
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Image Source", name: "image_source", widget: "select", options: 
+          ["Inside Block", "Pixabay", "Google Imagens", "Dillinger"], required: false}
+
+      - {label: "Author", name: "author", widget: "select", options: 
+          ["Ediano Silva Santos", "Danielli Carvalho", "Luciana Fabiano"]}
+
+      - {label: "Coauthor", name: "coauthor", widget: "select", options: 
+          ["Ediano Silva Santos", "Danielli Carvalho", "Luciana Fabiano"], required: false}
+          
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+      - {label: "Ads", name: "ads", widget: "boolean", default: true}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
+
+  - name: "page" # Pages
+    label: "Pages"
+    folder: "_pages"
+    extension: "html"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "select", options: ["compress", "page", "default"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
+      - {label: "Sitemap index", name: "sitemap", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
+
+  - name: "categories" # Category
+    label: "Categories"
+    folder: "_category"
+    extension: "md"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "category"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Sitemap index", name: "sitemap", widget: "boolean", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+
+
+  - name: "authors" # Authors
+    label: "Authors"
+    folder: "_authors"
+    extension: "md"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Nome do author", name: "title", widget: "string"}
+      - {label: "Position", name: "position", widget: "string"}
+      - {label: "Photo", name: "photo", widget: "string", required: false}
+      - {label: "Color", name: "color", widget: "string", required: false}
+      - {label: "Site", name: "site", widget: "string", required: false}
+      - {label: "Sitemap index", name: "sitemap", widget: "boolean", default: false}
+      - {label: "Content", name: "content", widget: "markdown", required: false}
+      - label: 'Rede Social'
+        name: 'social'
+        widget: 'list'
+        required: false
+        types:
+          - label: 'Site'
+            name: 'Site'
+            widget: 'list'
+            fields:
+              - { label: 'Site', name: 'profile', widget: 'string'}
+              - { label: 'Nome do icone', name: 'icon', widget: 'string'}
+          - label: 'Facebook'
+            name: 'Facebook'
+            widget: 'list'
+            fields:
+              - { label: 'Facebook', name: 'profile', widget: 'string'}
+              - { label: 'Nome do icone', name: 'icon', widget: 'string'}
+          - label: 'Twitter'
+            name: 'Twitter'
+            widget: 'list'
+            fields:
+              - { label: 'Twitter', name: 'profile', widget: 'string'}
+              - { label: 'Nome do icone', name: 'icon', widget: 'string'}
+          - label: 'GitLab'
+            name: 'GitLab'
+            widget: 'list'
+            fields:
+              - { label: 'GitLab', name: 'profile', widget: 'string'}
+              - { label: 'Nome do icone', name: 'icon', widget: 'string'}
+          - label: 'GitHub'
+            name: 'GitHub'
+            widget: 'list'
+            fields:
+              - { label: 'GitHub', name: 'profile', widget: 'string' }
+              - { label: 'Nome do icone', name: 'icon', widget: 'string' }
+          - label: 'Flipboard'
+            name: 'Flipboard'
+            widget: 'list'
+            fields:
+              - { label: 'Flipboard', name: 'profile', widget: 'string'}
+              - { label: 'Nome do icone', name: 'icon', widget: 'string'}
+          - label: 'Instagram'
+            name: 'Instagram'
+            widget: 'list'
+            fields:
+              - { label: 'Instagram', name: 'profile', widget: 'string'}
+              - { label: 'Nome do icone', name: 'icon', widget: 'string'}
+          - label: 'LinkedIn'
+            name: 'LinkedIn'
+            widget: 'list'
+            fields:
+              - { label: 'LinkedIn', name: 'profile', widget: 'string'}
+              - { label: 'Nome do icone', name: 'icon', widget: 'string'}
+
+
+  - name: "data" # Data
+    label: "Navegação"
+    folder: "_data"
+    extension: "yml"
+    create: true
+    slug: "{{slug}}"
+    fields:          
+      - {label: "Nome do arquivo", name: "title", widget: "string"}
+
+      - label: 'Crie a sua lista'
+        name: 'list'
+        widget: 'list'
+        required: false
+        types:
+          - label: 'Inserir lista de páginas'
+            name: 'list-link'
+            widget: 'list'
+            fields:
+              - { label: 'Name da página', name: 'page', widget: 'string', required: false}
+              - { label: 'Link da página', name: 'link', widget: 'string', required: false}
+              - { label: 'Descrição da página', name: 'desc', widget: 'string', required: false}
+              - { label: 'Nome do icon', name: 'icon', widget: 'string', required: false}
+              - { label: 'Target', name: 'target', widget: "select", options: ["_black"], required: false}
+              - { label: 'Class', name: 'class', widget: 'string', required: false}

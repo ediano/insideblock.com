@@ -1,0 +1,77 @@
+.night-mode.active,
+.night-mode.active nav .wrap,
+.night-mode.active input,
+.night-mode.active textarea,
+.night-mode.active nav .slide-out,
+.night-mode.active .plugin {
+    background-color: #444;
+    color: #fff
+}
+
+.night-mode.active .header-post,
+.night-mode.active .header-page {
+    background: #333;
+    color: #fff
+}
+
+button.btn-night-mode {
+    padding: 0 15px
+}
+
+button.btn-night-mode svg {
+    fill: #444;
+    border: 1px solid #444;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px
+}
+
+.night-mode.active .share svg,
+button.btn-night-mode.active svg {
+    fill: #fff;
+    border: 1px solid #fff
+}
+
+.night-mode.active .share svg:hover {
+    fill: #fff;
+    border: 1px solid #fff
+}
+
+.night-mode.active .box-search.active input {
+    color: #444
+}
+
+.night-mode.active button,
+.night-mode.active .header-post,
+.night-mode.active a,
+.night-mode.active .card .content .time,
+.night-mode.active .card .card-content .readmore,
+.night-mode.active article,
+.night-mode.active b,
+.night-mode.active strong,
+.night-mode.active em,
+.night-mode.active .disqus-comments #reactions {
+    color: #fff
+}
+
+.night-mode.active .card .content .label {
+    background: #999
+}
+
+.night-mode.active .card .card-content .readmore:hover,
+.night-mode.active a:hover {
+    color: #bbb
+}
+
+.night-mode.active nav .list-item .search svg {
+    fill: #fff
+}
+
+.night-mode.active .list-item>button.sidenav-trigger span {
+    background: #fff
+}
+
+.list-item>button.sidenav-trigger span:before,
+.list-item>button.sidenav-trigger span:after {
+    background: #ccc
+}

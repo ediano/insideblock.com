@@ -1,0 +1,14 @@
+<ol class="item-list-element col" itemscope itemtype="http://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a itemprop="item" href="{{ site.url }}">
+            <span itemprop="name">Home</span></a>
+        <meta itemprop="position" content="1" />
+    </li>
+     / 
+    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a class="cat" itemprop="item" href="{{ site.url }}/{{ page.categories }}">
+            <span itemprop="name">{{ page.categories }}</span>
+        </a>
+        <meta itemprop="position" content="2" />
+    </li>
+</ol>

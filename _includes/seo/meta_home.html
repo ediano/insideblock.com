@@ -1,0 +1,19 @@
+<meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}"/>
+<meta itemprop="dateModified" content="{{ post.date | date_to_xmlschema }}"/>
+<meta itemprop="mainEntityOfPage" content="{{ post.url | prepend: site.url }}"/>
+
+<div itemprop="author" itemscope itemtype="http://schema.org/Person">
+    {% assign author = site.authors | where: 'title', post.author | first %}
+    {% if post.author %}
+        <meta itemprop="name" content="{{ author.title }}"/>
+    {% endif %}
+</div>
+
+<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+    <meta itemprop="name" content="{{ site.title }}"/>
+    <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="{{ site.url }}{{ site.logo }}"/>
+    </div>
+</div>
+
+<meta itemprop="image" content="{{ post.image | prepend: site.baseurl | prepend: site.url }}"/>

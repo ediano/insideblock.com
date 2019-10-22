@@ -1,0 +1,73 @@
+<div class="feed row">
+    <h3 class="col">Newsletters</h3>
+    <p class="col">Inscreva-se para receber as publicações do {{ site.title}} por e-mail.</p>
+    <form class="col" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=InsideBlock', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+        <input class="mail" type="text" name="email"/>
+        <input type="hidden" value="InsideBlock" name="uri"/>
+        <input type="hidden" name="loc" value="pt_BR"/>
+        <input class="btn" type="submit" value="Inscreva-se" />
+    </form>
+    <p class="col">Sua privacidade está garantida...</p>
+</div>
+
+<div class="footer-content">
+    <div class="container row">
+        <div class="list-page col s12 m4">
+            <h4 class="col">Páginas Úteis</h4>
+            <ul class="content col">
+                {% for nav in site.data.nav-footer.list %}
+                <li class="{{ nav.class }}">
+                    <a alt="{{ nav.page }}" href="{{ nav.link }}">{{ nav.page }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="list-page col s12 m4">
+            <h4 class="col">Parceiros</h4>
+            <ul class="content col">
+                {% for list in site.data.partners.list %}
+                <li>
+                    <a alt="{{ list.page }}" href="{{ list.link }}" target="{{ list.target }}">{{ list.page }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="follow col s12 m4" itemscope itemtype="http://schema.org/Organization">
+            <link itemprop="url" href="{{ site.url }}">
+            <h4 class="col">Conecte-se Conosco</h4>
+            <ul class="content col">
+                {% for follow in site.authors %}
+                {% if follow.title == "Inside Block" %}
+                {% for social in follow.social %}
+                <li class="{{ social.class }}">
+                    <a class="{{ social.icon }}" itemprop="sameAs" target="{{ social.target }}" rel="{{ social.rel }}" alt="Siga-nos no {{ social.type }}" href="{{ social.profile }}">
+                        <svg><use xlink:href="#{{ social.icon }}"></use></svg>{{ social.type }}
+                    </a>
+                </li>
+                {% endfor %}
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="footer-copyright">
+    <div class="container row">
+        <div class="copy col s12 m6">
+            <span>© {{ site.time | date: "%Y" }} <a href="{{ site.url }}">{{ site.title }}</a></span>
+            <span>Feito com <3</span>
+        </div>
+        <div class="link col s12 m6">
+            <span>Made by <a class="grey-text text-lighten-4" rel="noopener" href="https://multicamada.com" target="_blank">Multicamada.com</a></span>
+            <span>
+                <a href="//www.dmca.com/Protection/Status.aspx?ID=f71b640d-2f7b-4f6a-8798-0421287783e4" target="_black" title="DMCA.com Protection Status" class="dmca-badge">
+                    <img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-11.png?ID=f71b640d-2f7b-4f6a-8798-0421287783e4"  alt="DMCA.com Protection Status" />
+                </a>
+                <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+            </span>
+        </div>
+    </div>
+</div>

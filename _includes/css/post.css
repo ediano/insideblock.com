@@ -1,0 +1,269 @@
+@media (max-width:767px) {
+    .header-post {
+        background-size: auto 100%
+    }
+    .header-post .info div>span {
+        justify-content: center
+    }
+    .share a.icon-whatsapp.d {
+        display: none
+    }
+}
+
+@media (min-width:768px) {
+    .header-post {
+        background-size: 100%
+    }
+    .header-post .info {
+        display: flex;
+        align-items: center
+    }
+    .header-post .info .authors span>svg {
+        margin-left: auto
+    }
+    .share a.icon-whatsapp.m {
+        display: none
+    }
+    .share.one {
+        display: flex;
+        justify-content: center
+    }
+}
+
+.header-post {
+    position: relative;
+    padding: 7.5rem 0;
+    background-color: #1fc8db;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)
+}
+
+.header-post::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7)
+}
+
+.header-post .grid {
+    position: relative;
+    color: #fff;
+    z-index: 900
+}
+
+.item-list-element,
+.header-post h1 {
+    text-align: center
+}
+
+.item-list-element li,
+.item-list-element span {
+    display: inline-block
+}
+
+.item-list-element li {
+    padding: 0 5px
+}
+
+.item-list-element li a {
+    padding: 0 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ccc
+}
+
+.header-post h1 {
+    color: #fff;
+    font-size: 3rem
+}
+
+.header-post .info div>span {
+    display: flex;
+    align-items: center;
+    padding: 0
+}
+
+.header-post .info div>span>* {
+    color: #fafafa
+}
+
+.sponsorship {
+    text-align: justify;
+    padding: 20px 0 0 0;
+    color: #ccc;
+    font: 1.4rem
+}
+
+article::first-letter {
+    float: left;
+    font-size: 300%;
+    line-height: 1;
+    margin-right: 10px;
+}
+
+article::first-line {
+    font-weight: 500
+}
+
+article>* {
+    float: none;
+    display: block;
+    margin-bottom: 2rem;
+    font-style: normal;
+    text-align: justify
+}
+
+article b,
+article strong,
+article em {
+    font-weight: bold;
+    color: #757575
+}
+
+article img,
+article video {
+    margin: 0 auto
+}
+
+article a {
+    color: #455a64;
+    border-bottom: 2px dashed
+}
+
+article a:hover {
+    border-bottom: 2px solid
+}
+
+article a:not([href*="www.insideblock.com"])::after {
+    content: '';
+    display: inline-block;
+    margin-left: .1rem;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: -3px;
+    background: url(/assets/icons-svg/action/open-in-new.svg);
+    background-size: 100%;
+    background-color: #fff;
+    border-radius: 3px
+}
+
+article h2,
+article h3 {
+    display: block;
+    margin: 25px 0 0 0
+}
+
+article h2 {
+    font-size: 3rem;
+    font-weight: bold
+}
+
+article h3 {
+    font-size: 2.5rem;
+    font-weight: 500
+}
+
+article ul,
+article ol {
+    padding-left: 30px
+}
+
+article ol li {
+    list-style: decimal;
+    margin-bottom: 20px
+}
+
+article ul li {
+    list-style: disc;
+    margin-bottom: 20px
+}
+
+article figure.image {
+    text-align: center
+}
+
+article .image figcaption {
+    display: inline-block;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #ccc
+}
+
+.share {
+    display: block;
+    text-align: center;
+    padding: 10px 0
+}
+
+.share h4,
+.related h4 {
+    margin: 5px;
+    font-size: 2rem
+}
+
+.share a {
+    margin: 5px
+}
+
+.share svg {
+    width: 40px;
+    height: 40px;
+    fill: #000;
+    background: transparent
+}
+
+.share svg:hover {
+    background: transparent
+}
+
+.share .icon-facebook svg:hover {
+    fill: #29487d;
+    border: 1px solid #29487d
+}
+
+.share .icon-twitter svg:hover {
+    fill: #1da1f2;
+    border: 1px solid #1da1f2
+}
+
+.share .icon-linkedin svg:hover {
+    fill: #0073b1;
+    border: 1px solid #0073b1
+}
+
+.share .icon-whatsapp svg:hover {
+    fill: #00bfa5;
+    border: 1px solid #00bfa5
+}
+
+.share .icon-telegram svg:hover {
+    fill: #35ace1;
+    border: 1px solid #35ace1
+}
+
+.share .icon-flipboard svg:hover {
+    fill: #F52828;
+    border: 1px solid #F52828
+}
+
+.related {
+    display: block;
+    margin: 20px 0
+}
+
+.related a {
+    color: #757575
+}
+
+.related a:hover {
+    color: #455a64
+}
+
+.disqus-comments {
+    padding: 25px 0;
+    margin-top: 25px;
+    border-top: 1px solid #ccc
+}

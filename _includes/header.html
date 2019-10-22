@@ -1,0 +1,28 @@
+<nav>
+    <div class="wrap fixed">
+        <div class="container">
+            <div class="brand-logo">
+                <a aria-label="{{ site.title }}" href="{{ site.url }}" alt="{{ site.title }}">
+                    <img src="{{ site.favicon }}" alt="{{ site.title }}"/>
+                </a>
+            </div>
+
+            <div class="list-item right">
+                <button aria-label="Abrir caixa de pesquisa" class="search open"><svg><use xlink:href="#icon-search"></use></svg></button>
+                <button aria-label="Abrir ou fechar menu vertical" class="sidenav-trigger open"><span></span></button>
+
+                <ul class="slide-out">
+                    {% for nav in site.data.nav-header.list %}
+                    <li>
+                        <a href="{{ nav.link }}" class="{{ nav.page }}">{{ nav.page }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <button aria-label="Ligar ou desligar o modo escuro" class="btn-night-mode"><svg><use xlink:href="#icon-highlight"></use></svg></button>
+
+                <button aria-label="Fechar menu vertical" class="sidenav-trigger close"></button>
+            </div>
+        </div>
+    </div>
+</nav>

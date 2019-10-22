@@ -1,0 +1,27 @@
+<style type="text/css">
+{% include css/cookies.css %}
+{% include css/night-mode.css %}
+{% include css/default.css %}
+{% include css/grid.css %}
+{% include css/header.css %}
+{% include css/minicards.css %}
+{% include css/footer.css %}
+{% include css/search.css %}
+
+{% if page.layout == "post" %}
+{% include css/post.css %}
+{% include css/flow-text.css %}
+{% include css/highlight.css %}
+{% include css/table.css %}
+    
+    {% elsif page.layout == "page" or page.layout == "category" %}
+    {% include css/page.css %}
+    {% include css/table.css %}
+
+        {% elsif page.layout == "offline" %}
+        {% include css/offline.css %}
+
+        {% elsif page.layout == "home" %}
+        {% include css/home.css %}
+{% endif %}
+</style>

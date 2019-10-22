@@ -1,0 +1,19 @@
+<div class="box-search">
+    <div class="container">
+        <div class="search-input container">
+            <input autocomplete='off' id="search-input" placeholder='Pesquisar... [Enter]' type='text' />
+            <button class="search close"><svg><use xlink:href="#icon-close"></use></svg></button>
+        </div>
+        <ul id="results-container"></ul>
+    </div>
+</div>
+
+<script>{% include js/box-search.js %}</script>
+
+<script>
+    var sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json'
+    });
+</script>

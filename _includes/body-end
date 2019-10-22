@@ -1,0 +1,8 @@
+{% include search.html %}
+
+<script>
+    {% include js/sidenav.js %}
+    {% include js/search.js %}
+</script>
+
+{% include icon-svg.html %}

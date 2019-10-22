@@ -1,0 +1,18 @@
+<div class="feed">
+    <h5>Cadastrar e-mail</h5>
+    <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=InsideBlock', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+        <p>Cadastre-se e receba nossas atualizações por e-mail!</p>
+        <input class="email" autocomplete="off" type="text" name="email" placeholder="seu@email.com" />
+        <input type="hidden" value="InsideBlock" name="uri" />
+        <input type="hidden" name="loc" value="pt_BR" />
+        <input class="btn" type="submit" value="Cadastre-se" />
+        <p>Sua privacidade está garantida.</p>
+    </form>
+</div>
+
+<div class="ads_aside">
+    <h5>Publicidade</h5>
+    <div class="ads-content">
+        {% include services/ads_responsivo.html %}
+    </div>
+</div>

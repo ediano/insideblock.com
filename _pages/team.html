@@ -1,0 +1,56 @@
+---
+layout: page
+title: Equipe
+description: Conheça um pouco sobre os integrantes por trás desse blog.
+---
+
+{% for people in site.authors %}
+    {% if people.title == "Ediano Silva Santos" %}
+        <section class="author grid-flex col s6">
+            <div class="grid-flex col shadow">
+                <div class="details">
+                    <img itemprop="image" src="{{ people.photo }}" alt="{{ people.title }}">
+                    <div class="content col">
+                        <h3 class="name col" itemprop="author">
+                            <a href="{{ people.site }}" target="_black">{{ people.title }}</a>
+                        </h3>
+                        {{ people.content }}
+                    </div>
+                </div>
+                <div class="social col">
+                    {% for social in people.social %}
+                    <a href="{{ social.profile }}" class="{{ social.icon }}" alt="{{ social.type }}" target="_black">
+                        <svg><use xlink:href="#{{ social.icon }}"></use></svg>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+    {% endif %}
+{% endfor %}
+
+{% for people in site.authors %}
+    {% if people.title != "Ediano Silva Santos" and people.title != "Inside Block" %}
+        <section class="author grid-flex col s6">
+            <div class="grid-flex col shadow">
+                <div class="details col">
+                    <img itemprop="image" src="{{ people.photo }}" alt="{{ people.title }}">
+                    <div class="content col">
+                        <h3 class="name col" itemprop="author">
+                            <a href="{{ people.site }}" target="_black">{{ people.title }}</a>
+                        </h3>
+                        {{ people.content }}
+                    </div>
+                </div>
+                <div class="social col">
+                    {% for social in people.social %}
+                    <a href="{{ social.profile }}" class="{{ social.icon }}" alt="{{ social.type }}" target="_black">
+                        <svg><use xlink:href="#{{ social.icon }}"></use></svg>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+    {% endif %}
+{% endfor %}
+    

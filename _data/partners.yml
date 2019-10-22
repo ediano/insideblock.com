@@ -1,0 +1,11 @@
+title: Partners
+list:
+  - link: 'https://multicamada.com'
+    page: 'Multicamada'
+    target: _black
+    type: list-link
+    
+  - link: 'https://alitaquantum.com'
+    page: 'Alita Quantum'
+    target: _black
+    type: list-link

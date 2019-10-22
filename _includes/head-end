@@ -1,0 +1,15 @@
+{% include seo/social_seo.html %}
+
+<!-- Add manifest -->
+<link rel="manifest" href="{{ "/manifest.json" | prepend: site.baseurl | prepend: site.url }}" />
+
+{% include style.html %}
+
+{% include services/head_services.html %}
+
+<script type="text/javascript">
+    {% include js/offline.js %}
+</script>
+
+{% include seo/webpage.html %}
+{% include services/app_onesignal.html %}

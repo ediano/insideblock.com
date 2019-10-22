@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<main class="home row container">
+    {{ content }}
+
+    {% include post/pagination.html %}
+</main>
+
+<script type="application/ld+json">
+{% include seo/web_site.json %}
+</script>

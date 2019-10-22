@@ -1,0 +1,31 @@
+{% assign author = site.authors | where: 'title', page.author | first %}
+{% if page.author %}
+<section class="author {{ author.color }}">
+    <div class="details">
+        <img itemprop="image" src="{{ author.photo }}" alt="{{ author.title }}">
+        <div class="content">
+            <p class="def">{{ author.position }}</p>
+            <h3 class="name" itemprop="author">
+                <a href="{{ author.site }}">{{ author.title }}</a>
+            </h3>
+            <p class="desc">{{ author.content }}</p>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+{% assign coauthor = site.authors | where: 'title', page.coauthor | first %}
+{% if page.coauthor %}
+<section class="author {{ coauthor.color }}">
+    <div class="details">
+        <img itemprop="image" src="{{ coauthor.photo }}" alt="{{ coauthor.title }}">
+        <div class="content">
+            <p class="def">{{ coauthor.position }}</p>
+            <h3 class="name" itemprop="author">
+                <a href="{{ coauthor.site }}">{{ coauthor.title }}</a>
+            </h3>
+            <p class="desc">{{ coauthor.content }}</p>
+        </div>
+    </div>
+</section>
+{% endif %}

@@ -1,0 +1,25 @@
+<section class="related">
+    <div class="related-post grid">
+        <h4>Posts relacionados</h4>
+        {% assign maxRelatedCounter = 0 %}
+        <ul class="row">
+        {% for post in site.posts %}
+            {% if post.url != page.url %}
+                {% if post.category == page.category %}
+                    <li class="col m6">
+                        <a href="{{ post.url }}">
+                            {{ post.title }}
+                        </a>
+                    </li>
+                    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+                    {% if maxRelatedCounter == 6 %}
+                        {% break %}
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        </ul>
+        
+        <!--<related-posts />-->
+    </div>
+</section>

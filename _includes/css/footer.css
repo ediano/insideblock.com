@@ -1,0 +1,122 @@
+.footer-content {
+    background: #303c42;
+    padding: 25px 0
+}
+
+.footer-content h4 {
+    color: #fafafa;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc
+}
+
+.footer-content .content {
+    padding: 0 15px
+}
+
+.footer-content .content a {
+    height: 41px;
+    color: #cfd8dc
+}
+
+.footer-content .content a:hover {
+    color: #fff
+}
+
+.footer-content .list-page li {
+    margin: 10px 0
+}
+
+.footer-content .list-page a,
+.footer-content .follow a {
+    padding: 10px 5px;
+    font-size: 1.7rem
+}
+
+.footer-content .follow li {
+    height: 42px
+}
+
+.footer-content .follow a {
+    display: flex;
+    align-items: center;
+    float: left
+}
+
+.footer-content .follow svg {
+    margin-right: 10px
+}
+
+.footer-copyright {
+    background: #455a64;
+    padding: 15px 0
+}
+
+.footer-copyright {
+    color: #fafafa
+}
+
+.footer-copyright a {
+    color: #fff;
+    border-bottom: 1px solid #fafafa
+}
+
+.footer-copyright .copy,
+.footer-copyright .link {
+    padding: 15px 0
+}
+
+@media (min-width: 768px) {
+    .footer-copyright .link {
+        text-align: right
+    }
+    .footer-copyright .link img {
+        float: right
+    }
+    footer .feed form {
+        width: 50%
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-copyright .row {
+        text-align: center
+    }
+    .footer-copyright .link img {
+        margin: 0 auto
+    }
+    footer .feed form {
+        width: 80%
+    }
+}
+
+footer .feed {
+    background: #2da0c3;
+    text-align: center;
+    color: #fff;
+    padding: 15px
+}
+
+footer .feed>.col {
+    padding: 0
+}
+
+footer .feed form {
+    margin: 0 auto
+}
+
+footer .feed .btn {
+    color: #fff
+}
+
+footer .feed .mail {
+    border: 1px solid rgba(0, 0, 0, .05);
+    border-radius: 22px;
+    background: #fff;
+    height: 36px;
+    width: 90%;
+    padding: 0 15px;
+    margin-bottom: 15px
+}

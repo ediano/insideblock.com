@@ -1,0 +1,44 @@
+---
+title: Inside Block
+position: Admin
+photo: /assets/logo/cube.png
+color: ib
+site: 'https://www.insideblock.com'
+
+social:
+  - profile: 'https://www.facebook.com/InsideBlock/'
+    icon: icon-facebook
+    target: _black
+    rel: noopener
+    type: Facebook
+
+  - profile: 'https://twitter.com/insideblock'
+    icon: icon-twitter
+    target: _black
+    rel: noopener
+    type: Twitter
+
+  - profile: 'https://gitlab.com/insideblock'
+    icon: icon-gitlab
+    target: _black
+    rel: noopener
+    type: GitLab
+
+  - profile: 'https://flipboard.com/@InsideBlock'
+    icon: icon-flipboard
+    target: _black
+    rel: noopener
+    type: Flipboard
+
+  - profile: 'https://www.instagram.com/inside.block/'
+    icon: icon-instagram
+    target: _black
+    rel: noopener
+    type: Instagram
+
+  - profile: 'https://www.linkedin.com/company/insideblock'
+    icon: icon-linkedin
+    target: _black
+    rel: noopener
+    type: LinkedIn
+---

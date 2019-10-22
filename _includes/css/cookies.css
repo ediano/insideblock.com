@@ -1,0 +1,42 @@
+.cookies.accept {
+    display: none !important
+}
+
+.cookies {
+    bottom: 0;
+    width: 100%;
+    z-index: 998;
+    color: #fff;
+    position: fixed;
+    background: rgba(0, 0, 0, .9)
+}
+
+.cookies .msg-cookies,
+.cookies .btn-cookies {
+    text-align: center;
+    padding: 10px 15px;
+    color: #fff
+}
+
+.cookies .btn-cookies {
+    background: #1e88e5
+}
+
+@media (min-width: 576px) {
+    .cookies {
+        display: flex;
+        align-items: center;
+        height: 60px
+    }
+    .cookies .btn-cookies {
+        height: 60px;
+        margin-left: auto;
+        color: #fff
+    }
+}
+
+@media (max-width: 575px) {
+    .cookies .btn-cookies {
+        width: 100%
+    }
+}

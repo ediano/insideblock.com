@@ -1,0 +1,167 @@
+nav {
+    position: relative;
+    z-index: 999
+}
+
+nav,
+nav .wrap,
+nav .wrap .container {
+    height: 60px
+}
+
+nav .wrap.fixed {
+    position: fixed;
+    top: 0
+}
+
+nav .wrap {
+    background: #fff;
+    padding: 0 15px;
+    width: 100%;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)
+}
+
+nav .wrap,
+nav .wrap .container,
+nav .brand-logo a {
+    display: flex;
+    align-items: center
+}
+
+nav .brand-logo a {
+    font-size: 2.5rem;
+    padding: 0 15px;
+    color: #757575
+}
+
+nav .brand-logo img {
+    width: 50px;
+    height: 50px
+}
+
+nav .list-item {
+    display: flex;
+    align-items: center
+}
+
+nav .list-item.right {
+    margin-left: auto
+}
+
+nav .list-item .search {
+    padding: 0 15px
+}
+
+nav .list-item .search svg {
+    fill: #90a4ae;
+    padding: 0
+}
+
+nav .slide-out li a {
+    padding: 18px 15px;
+    color: #37474f
+}
+
+nav .slide-out li a:hover {
+    background: rgba(0, 0, 0, 0.05)
+}
+
+@media (max-width: 767px) {
+    nav .header-logo {
+        position: relative;
+        width: 100%
+    }
+    nav .brand-logo a::after {
+        content: "IB";
+        font-weight: 700;
+        margin-left: 5px
+    }
+    nav .slide-out,
+    nav .slide-out~button.close {
+        position: fixed;
+        top: 60px;
+        left: -251%;
+        height: calc(100% - 60px);
+        transition: 1s
+    }
+    nav .slide-out {
+        width: 250px;
+        background: #fff
+    }
+    nav .slide-out.active {
+        left: 0;
+        overflow: auto;
+        transition: 1s
+    }
+    nav .slide-out.active~button.close {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        cursor: default;
+    }
+    nav .slide-out.active~button.close {
+        left: 251px;
+        transition: 1s
+    }
+    nav .slide-out li a,
+    nav .slide-out li {
+        display: block
+    }
+    nav .slide-out li a {
+        padding: 15px 25px
+    }
+    .list-item>button.sidenav-trigger.open {
+        padding: 26px 15px
+    }
+    .list-item>button.sidenav-trigger.open span {
+        position: relative;
+        display: block;
+        background: #455a64;
+        width: 30px;
+        height: 2px;
+        transition: .5s ease-in-out
+    }
+    .list-item>button.sidenav-trigger.open span:before,
+    .list-item>button.sidenav-trigger.open span:after {
+        background: #90a4ae;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: .5s ease-in-out
+    }
+    .list-item>button.sidenav-trigger.open span:before {
+        top: -10px;
+    }
+    .list-item>button.sidenav-trigger.open span:after {
+        bottom: -10px;
+    }
+    .list-item>button.sidenav-trigger.open.active span {
+        transform: rotate(45deg);
+    }
+    .list-item>button.sidenav-trigger.open.active span:before {
+        transform: rotate(90deg);
+        top: 0;
+    }
+    .list-item>button.sidenav-trigger.open.active span:after {
+        transform: rotate(90deg);
+        bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    nav .brand-logo a::after {
+        content: "Inside Block";
+        font-weight: 700;
+        margin-left: 5px
+    }
+    nav button.sidenav-trigger.open {
+        display: none
+    }
+    nav .slide-out,
+    nav .slide-out li,
+    nav .slide-out li a {
+        display: inline-block;
+        height: 100%
+    }
+}

@@ -1,0 +1,30 @@
+---
+layout: offline
+title: Você está navegando offline
+sitemap: false
+---
+
+{% for post in site.posts limit: 9 %}
+<article class="row col s6 l4" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+    {% include seo/meta_home.html %}
+    <div class="card col shadow no-pd">
+        {% if post.image %}
+        <a aria-label="Imagem de capa mais título do artigo" class="card-img" href="{{ site.url }}{{ post.url | prepend: site.baseurl }}">
+            <h2 class="card-title post-title" itemprop="headline">{{ post.title }}</h2>
+        </a>
+        {% endif %}
+
+        <div class="content">
+            <time aria-label="Data e ou hora de publicação" class="time" datetime="{{ post.date | date_to_xmlschema }}">{% include post/date.html date=post.date %}</time>
+
+            <div class="card-content">
+                <p class="description">
+                    {% if post.content %}{{ post.content | strip_html | strip_newlines | truncate: 150 }}{% endif %}
+                </p>
+
+                <a aria-label="Continue lendo" class="readmore" href="{{ post.url | prepend: site.url | prepend: site.baseurl }}" alt="{{ post.title }}">Continue lendo →</a>
+            </div>
+        </div>
+    </div>
+</article>
+{% endfor %}

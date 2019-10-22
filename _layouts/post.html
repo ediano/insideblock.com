@@ -1,0 +1,83 @@
+---
+layout: default
+pagination: 
+  enabled: true
+  categories: comunicado, css, dev, jekyll, js, misc
+---
+
+<main class="post">
+    <div class="header-post" role="banner" style="background-image: url('{{ page.image | absolute_url }}')">
+        <div class="grid row">
+            {% include seo/breadcrumb_list.html %}
+
+            <h1 class="post-title col x12">{{ page.title }}</h1>
+
+            <div class="info col s12">
+                <div class="authors col x12 m6">
+                    {% assign author = site.authors | where: 'title', page.author | first %}
+                    {% if page.author %}
+                    <span class="author col">
+                        <svg><use xlink:href="#icon-person"></use></svg>
+                        <a href="{{ author.site }}" target="_black">{{ author.title }}</a>
+                    </span>
+                    {% endif %}
+                    
+                    {% assign coauthor = site.authors | where: 'title', page.coauthor | first %}
+                    {% if page.coauthor %}
+                    <span class="coauthor col">
+                        <svg><use xlink:href="#icon-person-circle"></use></svg>
+                        <a href="{{ coauthor.site }}" target="_black">{{ coauthor.title }}</a>
+                    </span>
+                    {% endif %}
+                </div>
+
+                <div class="time-comments col x12 m6">
+                    <span class="time col">
+                        <svg><use xlink:href="#icon-time"></use></svg>     
+                        <span datetime="{{ page.date | date_to_xmlschema }}">{% include post/date.html date=page.date %}</span>
+                    </span>
+
+                    <span class="comment col">
+                        <svg><use xlink:href="#icon-comments"></use></svg>
+                        <a href="#disqus_thread">0 Comentário</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% for sponsorship in site.category %}
+    {% if page.categories == "sponsorship" %}
+    <div class="sponsorship grid">
+        {{ sponsorship.content }}
+    </div>
+    {% endif %}
+    {% endfor %}
+    
+    {% include services/ads_in_article.html %}
+
+    <div class="share one grid">
+        {% include post/share.html %}
+    </div>
+    
+    {% include minicards/link_brave.html %}
+
+    <article class="grid flow-text" role="article">
+        {{ content }}
+    </article>
+
+    {% include services/ads_in_article.html %}
+
+    <hr class="divider grid"/>
+    <div class="share two grid">
+        {% include post/share.html %}
+    </div>
+
+    <hr class="divider grid"/>
+    {% include post/related.html %}
+    {% include post/comments.html %}
+</main>
+
+<script type="application/ld+json">
+{% include seo/blog_posting.json %}
+</script>

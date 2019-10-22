@@ -1,0 +1,175 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    background: transparent;
+    -webkit-tap-highlight-color: transparent
+}
+
+html {
+    font-size: 10px
+}
+
+html,
+body {
+    background-color: #fff;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, .7)
+}
+
+body {
+    font-size: 1.6rem
+}
+
+html,
+body,
+code {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+a,
+ul li,
+ol li {
+    text-decoration: none;
+    list-style: none
+}
+
+img,
+video {
+    max-width: 100%
+}
+
+.hide {
+    display: none !important
+}
+
+header,
+main,
+footer,
+nav,
+figure,
+img,
+video,
+span {
+    display: block
+}
+
+button,
+input[type="submit"] {
+    cursor: pointer
+}
+
+button.btn,
+input[type="submit"] {
+    height: 36px;
+    padding: 0 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2)
+}
+
+main.home {
+    padding: 50px 0
+}
+
+.grid {
+    width: 90%;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background: #e0e0e0
+}
+
+.comunicado a {
+    background: #303c42
+}
+
+.css a {
+    background: #2cb5e8
+}
+
+.dev a {
+    background: #808080
+}
+
+.jekyll a {
+    background: #c00
+}
+
+.js a {
+    background: #ffcc00
+}
+
+.misc a {
+    background: #00cc66
+}
+
+svg {
+    width: 32px;
+    height: 32px;
+    fill: #fff;
+    padding: 5px;
+    border-radius: 50%
+}
+
+.icon-facebook svg {
+    background: #29487d
+}
+
+.icon-twitter svg {
+    background: #1da1f2
+}
+
+.icon-instagram svg {
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF)
+}
+
+.icon-gitlab svg {
+    background: #fc6d26
+}
+
+.icon-linkedin svg {
+    background: #0073b1
+}
+
+.icon-globe svg {
+    background: #000
+}
+
+.icon-whatsapp svg {
+    background: #00bfa5
+}
+
+.icon-telegram svg {
+    background: #35ace1
+}
+
+.icon-flipboard svg {
+    background: #F52828
+}
+
+.shadow {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2)
+}
+
+.ads {
+    display: block;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    padding: 0 15px;
+    margin: 25px auto;
+    overflow: hidden
+}

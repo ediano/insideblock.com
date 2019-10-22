@@ -1,0 +1,28 @@
+{
+	"name": "Inside Block",
+	"short_name": "Inside Block",
+	"theme_color": "#27a9e1",
+	"background_color": "#27a9e1",
+	"display": "standalone",
+	"scope": "/",
+	"start_url": "/",
+	"lang": "pt-BR",
+	"orientation": "any",
+	"icons": [
+		{
+			"src": "/assets/logo/manifest-144x144.png",
+			"sizes": "144x144",
+			"type": "image/png"
+		},
+		{
+			"src": "/assets/logo/manifest-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/assets/logo/manifest-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

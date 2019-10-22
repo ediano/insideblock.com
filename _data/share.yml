@@ -1,0 +1,41 @@
+title: Share
+
+list:
+  - page: http://www.facebook.com/sharer.php?u=
+    icon: icon-facebook
+    target: _black
+    rel: noopener
+
+  - page: http://twitter.com/share?url=
+    icon: icon-twitter
+    target: _black
+    rel: noopener
+
+  - page: http://www.linkedin.com/shareArticle?mini=true&url=
+    icon: icon-linkedin
+    target: _black
+    rel: noopener
+
+  - page: https://web.whatsapp.com/send?text=
+    icon: icon-whatsapp
+    target: _black
+    rel: noopener
+    class: d
+
+  - page: whatsapp://send?text=
+    icon: icon-whatsapp
+    target: _black
+    rel: noopener
+    class: m
+
+  - page: https://telegram.me/share/url?url=
+    icon: icon-telegram
+    target: _black
+    rel: noopener
+    class:
+
+  - page: https://share.flipboard.com/bookmarklet/popout?v=2&url=
+    icon: icon-flipboard
+    target: _black
+    rel: noopener
+    class:

@@ -1,0 +1,40 @@
+<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 150 | escape }}"/>
+<meta name="keywords" content="{{ site.keywords }}"/>
+{% assign author = site.authors | where: 'title', page.author | first %}
+{% if page.author %}
+<meta name="author" content="{{ author.title }}"/>
+{% else %}
+<meta name="author" content="{{ site.title }}"/>
+{% endif %}
+
+<!-- Social: Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@insideblock">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 150 | escape }}">
+{% if page.image %}
+<meta property="twitter:image:src" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}">
+{% else %}
+<meta property="twitter:image:src" content="{{ site.logo | prepend: site.baseurl | prepend: site.url }}">
+{% endif %}
+
+<!-- Social: Facebook / Open Graph -->
+<meta property="fb:admins" content="161336387609325" />
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+{% if page.image %}
+<meta property="og:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}">
+{% else %}
+<meta property="og:image" content="{{ site.logo | prepend: site.baseurl | prepend: site.url }}">
+{% endif %}
+<meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 150 | escape }}">
+<meta property="og:site_name" content="{{ site.title }}">
+
+<!-- Social: Google+ / Schema.org  -->
+<meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+<meta itemprop="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 150 | escape }}">
+{% if page.image %}
+<meta itemprop="image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}"/>
+{% else %}
+<meta itemprop="image" content="{{ site.logo | prepend: site.baseurl | prepend: site.url }}"/>
+{% endif %} 

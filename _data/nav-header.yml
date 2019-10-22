@@ -1,0 +1,17 @@
+title: Nav Header
+list:
+ - page: Home
+   link: /
+   target:
+    
+ - page: Contato
+   link: /contact
+   target:
+
+ - page: Equipe
+   link: /team
+   target:
+
+ - page: Categorias
+   link: /categories
+   target:

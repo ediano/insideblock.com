@@ -1,0 +1,11 @@
+{% include services/cookies.html %}
+
+<script>
+    {% include js/cookies.js %}
+    {% include js/night-mode.js %}
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id={{ site.g_tagmanager }}" style="display:none;visibility:hidden"></iframe>
+</noscript>

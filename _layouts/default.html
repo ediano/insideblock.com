@@ -1,0 +1,31 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="pt-br" itemscope itemtype="http://schema.org/WebSite">
+
+<head>
+    {% include head-start %}
+    {% include head-end %}
+</head>
+
+<body class="night-mode">
+<!-- Header -->
+<header>
+    {% include header.html %}
+</header>
+
+{% include body-start %}
+
+<!-- Main -->
+{{ content }}
+
+<!-- Footer -->
+<footer>
+    {% include footer.html %}
+</footer>
+
+{% include body-end %}
+</body>
+</html>

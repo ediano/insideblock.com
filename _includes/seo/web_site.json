@@ -1,0 +1,19 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "Website",
+    "url": "{{ site.url }}",
+    "name": "{{ site.title }}",
+    "author": {
+        "type": "Person",
+        "name": "{{ site.title }}",
+        "sameAs": [
+            "https://twitter.com/insideblock",
+            "https://www.facebook.com/InsideBlock/",
+            "https://www.instagram.com/inside.block/",
+            "https://gitlab.com/insideblock",
+            "https://flipboard.com/@InsideBlock",
+            "https://www.linkedin.com/company/insideblock"
+        ]
+    },
+    "description": "{{ site.description }}"
+}

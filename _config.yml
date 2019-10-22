@@ -1,0 +1,82 @@
+# Info Blog
+title: Inside Block
+call: "Os códigos estão dentro do bloco"
+description: >-
+  Os códigos estão dentro do bloco. Dicas e tutoriais sobre tecnologia, desenvolvimento web, SEO, otimização, monetização, blogs, redes sociais e muito mais!
+keywords: >-
+  Git, GitHub, Netlify, HTTPS, SEO, HTML, CSS, XML, JavaScript, JS, Tecnologia, SQL, PHP.
+logo: /assets/logo/logo.png
+favicon: /assets/logo/favicon.png
+author: Inside Block
+web_designer: Ediano Silva Santos
+
+# URL Páginations
+url: 'https://www.insideblock.com'
+baseurl: ''
+#paginate_path: '/page/:num/'
+permalink: '/blog/:title.html'
+pagination:
+  enabled: true
+  per_page: 12
+  permalink: '/blog/page/:num/'
+  sort_reverse: true
+  sort_field: 'date'
+  title: ':title - Página :num'
+  trail:
+    before: 2
+    after: 2
+
+# Jekyll Plugins and Tools
+markdown: kramdown
+highlighter: rouge
+plugins: ['jekyll-paginate-v2','jekyll-sitemap','jekyll-feed']
+
+# Include # Collections
+collections:
+  authors:
+  pages:
+    output: true
+    permalink: /:path
+  category:
+    output: true
+    permalink: /:path
+
+# Feed    
+feed:
+  categories: [dev, css, comunicado, jekyll, js, misc]
+
+# # Offline
+files_to_cache:
+  - '/assets/logo/favicon.png'
+
+pages_to_cache:
+  - '/offline'
+
+# Related
+# related:
+#   max_count: 6
+#   min_score: 0.1
+#   accuracy: 0.75
+
+# Compress HTML
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Netlify
+include: ['_redirects','_headers']
+
+# Verification
+g_analytics: UA-81236717-1
+g_tagmanager: GTM-NHBPTTD
+g_optimize: GTM-TH6M3G8
+
+# Remove pagination from sitemap
+defaults:
+  - scope:
+      path: page
+    values:
+      sitemap: false
+      title: Paginação

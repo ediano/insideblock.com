@@ -1,0 +1,38 @@
+<script type='application/ld+json'>
+    {
+        "@context": "https://schema.org",
+        "@graph": [{
+            "@type": "Organization",
+            "@id": "{{ site.url }}#organization",
+            "name": "{{ site.title }}",
+            "url": "{{ site.url }}",
+            "sameAs": []
+        }, {
+            "@type": "WebSite",
+            "@id": "{{ site.url }}#website",
+            "url": "{{ site.url }}",
+            "name": "{{ site.title }}",
+            "publisher": {
+                "@id": "{{ site.url }}#organization"
+            },
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "{{ site.url }}?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }, {
+            "@type": "WebPage",
+            "@id": "{{ page.url | absolute_url }}#webpage",
+            "url": "{{ page.url | absolute_url }}",
+            "inLanguage": "pt-BR",
+            "name": "{% if page.title %}{{ page.title }} | {{ site.title }} - {{ site.call }}{% else %}{{ site.title }} - {{ site.call }}{% endif %}",
+            "isPartOf": {
+                "@id": "{{ site.url }}#website"
+            },
+            "about": {
+                "@id": "{{ site.url }}#organization"
+            },
+            "description": "{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 150 | escape }}"
+        }]
+    }
+</script>

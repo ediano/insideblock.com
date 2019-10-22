@@ -1,0 +1,17 @@
+title: Nav Footer
+list:
+  - link: /
+    page: Home
+    type: list-link
+    
+  - link: /support-us
+    page: Apoie-nos
+    type: list-link
+    
+  - link: /convert-html
+    page: Converter HTML
+    type: list-link
+    
+  - link: /counter-factors
+    page: Contador de caracteres
+    type: list-link

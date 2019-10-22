@@ -1,0 +1,8 @@
+<h4>#Compartilhe</h4>
+<div class="list">
+    {% for share in site.data.share.list %}
+    <a aria-label="{{ share.icon }}" rel="{{ share.rel }}" class="{{ share.icon }} {{ share.class }}" target="{{share.target }}" href="{{ share.page }}{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+        <svg><use xlink:href="#{{ share.icon }}"></use></svg>
+    </a>
+    {% endfor %}
+</div>
