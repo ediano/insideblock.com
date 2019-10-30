@@ -3,11 +3,11 @@ title: Ediano Silva Santos
 position: 'CEO, Fundador, Autor'
 photo: /assets/people/ediano.png
 color: teal
-site: 'https://gitlab.com/ediano'
+site: 'https://github.com/ediano'
 
 social:
-  - profile: 'https://gitlab.com/ediano'
-    icon: icon-gitlab
+  - profile: 'https://github.com/ediano'
+    icon: icon-github
     target: _black
     rel: noopener
     type: GitLab

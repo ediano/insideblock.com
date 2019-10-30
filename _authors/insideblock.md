@@ -18,8 +18,8 @@ social:
     rel: noopener
     type: Twitter
 
-  - profile: 'https://gitlab.com/insideblock'
-    icon: icon-gitlab
+  - profile: 'https://github.com/insideblock'
+    icon: icon-github
     target: _black
     rel: noopener
     type: GitLab
