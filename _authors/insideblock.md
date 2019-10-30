@@ -22,7 +22,7 @@ social:
     icon: icon-github
     target: _black
     rel: noopener
-    type: GitLab
+    type: GitHub
 
   - profile: 'https://flipboard.com/@InsideBlock'
     icon: icon-flipboard

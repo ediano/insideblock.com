@@ -10,7 +10,7 @@ social:
     icon: icon-github
     target: _black
     rel: noopener
-    type: GitLab
+    type: GitHub
 
   - profile: 'https://www.facebook.com/edianoss'
     icon: icon-facebook
