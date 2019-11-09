@@ -1,4 +1,3 @@
-<script type='application/ld+json'>
 {
     "@context": "http://schema.org/",
     "@type": "Website",
@@ -18,4 +17,3 @@
     },
     "description": "{{ site.description }}"
 }
-</script>
