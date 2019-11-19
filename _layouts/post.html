@@ -5,8 +5,6 @@ pagination:
   categories: comunicado, css, dev, jekyll, js, misc
 ---
 
-{% include js/adsense.html %}
-
 <main class="post">
     <div class="header-post" role="banner" style="background-image: url('{{ page.image | absolute_url }}')">
         <div class="grid row">
@@ -69,6 +67,9 @@ pagination:
     </article>
 
     {% include services/ads_in_article.html %}
+    <script>let adverts = false;</script>
+    <script src="{{ site.url }}/assets/js/adverts.js"></script>
+    {% include js/adblock.html %}
 
     <hr class="divider grid"/>
     <div class="share two grid">

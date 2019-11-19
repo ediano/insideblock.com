@@ -1,8 +1,9 @@
-<script>
+adverts = true;
+if (adverts == true) {
     const scriptAdsense = document.createElement('script');
     scriptAdsense.setAttribute('async', '');
     scriptAdsense.setAttribute('src', 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
     setTimeout(function() {
         document.head.appendChild(scriptAdsense);
     }, 3000);
-</script>
+}
