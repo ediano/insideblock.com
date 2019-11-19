@@ -18,9 +18,7 @@ if (adverts == true) {
         let capsule = document.querySelectorAll('.ads .capsule');
         for(a = 0; a < capsule.length; a++){
             capsule[a].appendChild(insAdsense);
-            ads[i].innerHTML += `
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            `;
+            ads[i].innerHTML += `<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>`;
         }
     }, 3000);
 }
