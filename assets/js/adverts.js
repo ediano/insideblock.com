@@ -15,8 +15,8 @@ if (adverts == true) {
     setTimeout(function() {
         document.head.appendChild(scriptAdsense);
         let capsule = document.querySelectorAll('.ads .capsule');
-        for(i = 0; i < capsule.length; i++){
-            capsule[i].appendChild(insAdsense);
+        for(a = 0; a < capsule.length; a++){
+            capsule[a].appendChild(insAdsense);
         }
     }, 3000);
 }
