@@ -5,12 +5,12 @@ if (adverts == true) {
     scriptAdsense.setAttribute('src', 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
     
     const insAdsense = document.createElement('ins');
-    scriptAdsense.setAttribute('class', 'adsbygoogle');
-    scriptAdsense.setAttribute('style', 'display:block; text-align:center');
-    scriptAdsense.setAttribute('data-ad-layout', 'in-article');
-    scriptAdsense.setAttribute('data-ad-format', 'fluid');
-    scriptAdsense.setAttribute('data-ad-client', 'ca-pub-6753037893956918');
-    scriptAdsense.setAttribute('data-ad-slot', '6049951967');
+    insAdsense.setAttribute('class', 'adsbygoogle');
+    insAdsense.setAttribute('style', 'display:block; text-align:center');
+    insAdsense.setAttribute('data-ad-layout', 'in-article');
+    insAdsense.setAttribute('data-ad-format', 'fluid');
+    insAdsense.setAttribute('data-ad-client', 'ca-pub-6753037893956918');
+    insAdsense.setAttribute('data-ad-slot', '6049951967');
     
     setTimeout(function() {
         document.head.appendChild(scriptAdsense);
