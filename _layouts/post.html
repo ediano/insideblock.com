@@ -65,7 +65,10 @@ pagination:
     </article>
 
     {% include services/ads_in_article.html %}
-    <script>let adverts = false;</script>
+    <script>
+      const ads = document.querySelectorAll('.ads');
+      let adverts = false;
+    </script>
     <script src="{{ site.url }}/assets/js/adverts.js"></script>
     {% include js/adblock.html %}
 
