@@ -4,7 +4,7 @@ if (adverts == true) {
     scriptAdsense.setAttribute('async', '');
     scriptAdsense.setAttribute('src', 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
     
-    for(a = 0; a < ads.length; i++){
+    for(a = 0; a < ads.length; a++){
         ads[a].innerHTML = `
             <ins class="adsbygoogle" style="display:block; text-align:center;"
                 data-ad-layout="in-article" data-ad-format="fluid"
