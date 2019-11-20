@@ -1,10 +1,13 @@
 adverts = true;
-if (adverts == true) {    
+if (adverts == true) {
+    const scriptAdsense = document.createElement('script');
+    scriptAdsense.setAttribute('async', '');
+    scriptAdsense.setAttribute('src', 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
+    
     setTimeout(function() {
-        document.head.appendChild(scriptAdsense);
         for(let i = 0; i < ads.length; i++){
             ads[i].innerHTML = `
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
                 <ins class="adsbygoogle"
                     style="display:block; text-align:center;"
                     data-ad-layout="in-article"
@@ -16,5 +19,7 @@ if (adverts == true) {
                 </script>
             `;
         }
+        
+        document.head.appendChild(scriptAdsense);
     }, 3000);
 }
