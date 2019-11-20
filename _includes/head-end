@@ -12,4 +12,3 @@
 </script>
 
 {% include seo/webpage.html %}
-{% include services/app_onesignal.html %}
