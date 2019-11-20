@@ -1,12 +1,13 @@
+<script async="" src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
 <script>
-let os = false;
+//let os = false;
 let OneSignal = window.OneSignal || [];
 OneSignal.push(function () {
     OneSignal.init({
         appId: "29568b5d-c80d-4a72-8ed5-aa2b923a8057",
     });
 });
-window.onscroll = function () {
+/*window.onscroll = function () {
     if (window.scrollY > 100) {
         if (os == false) {
             const scriptOneSignal = document.createElement('script');
@@ -16,5 +17,5 @@ window.onscroll = function () {
             os = true;
         }
     }
-};
+};*/
 </script>
