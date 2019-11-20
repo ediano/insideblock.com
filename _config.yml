@@ -52,12 +52,6 @@ files_to_cache:
 pages_to_cache:
   - '/offline'
 
-# Related
-# related:
-#   max_count: 6
-#   min_score: 0.1
-#   accuracy: 0.75
-
 # Compress HTML
 compress_html:
   clippings: all

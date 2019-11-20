@@ -36,7 +36,7 @@ Pensando nisso a microsoft criou uma área de extensão, onde você pode baixar 
 4. JS-CSS-HTML Formatter - lonefy
 5. minify - HookyQR
 6. Raindow Brackets - 2gua
-7. Dracula Official - Dracula Theme
+7. One Dark Theme - Joshua Azemoh
 8. Material icon theme - Philipp Kief
 9. C/C++ - Microsoft
 10. Format HTML in PHP - rifi2k
