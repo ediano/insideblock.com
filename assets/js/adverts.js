@@ -14,6 +14,9 @@ if (adverts == true) {
                 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
             `;
         }
-        document.head.appendChild(scriptAdsense);
     }, 3000);
+    
+    setTimeout(function() {
+        document.head.appendChild(scriptAdsense);
+    }, 4000);
 }
