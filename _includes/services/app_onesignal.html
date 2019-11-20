@@ -1,5 +1,11 @@
 <script>
 let os = false;
+let OneSignal = window.OneSignal || [];
+OneSignal.push(function () {
+    OneSignal.init({
+        appId: "29568b5d-c80d-4a72-8ed5-aa2b923a8057",
+    });
+});
 window.onscroll = function () {
     if (window.scrollY > 100) {
         if (os == false) {
@@ -7,14 +13,6 @@ window.onscroll = function () {
             scriptOneSignal.setAttribute('async', '');
             scriptOneSignal.setAttribute('src', 'https://cdn.onesignal.com/sdks/OneSignalSDK.js');
             document.head.appendChild(scriptOneSignal);
-            
-            let OneSignal = window.OneSignal || [];
-            OneSignal.push(function () {
-                OneSignal.init({
-                    appId: "29568b5d-c80d-4a72-8ed5-aa2b923a8057",
-                });
-            });
-
             os = true;
         }
     }
