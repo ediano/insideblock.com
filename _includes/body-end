@@ -6,4 +6,3 @@
 </script>
 
 {% include icon-svg.html %}
-{% include services/app_onesignal.html %}
