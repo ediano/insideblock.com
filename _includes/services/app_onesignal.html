@@ -7,10 +7,10 @@ function fOS() {
     document.head.appendChild(scriptOneSignal);
     os = true;
 }
+var OneSignal = window.OneSignal || [];
 window.onscroll = function () {
     if (window.scrollY > 100) {
         if (os == false) {
-            var OneSignal = window.OneSignal || [];
             OneSignal.push(function () {
                 OneSignal.init({
                     appId: "29568b5d-c80d-4a72-8ed5-aa2b923a8057",
