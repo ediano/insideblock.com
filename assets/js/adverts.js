@@ -1,5 +1,5 @@
-adverts = true;
-if (adverts == true) {
+adverts = false;
+if (adverts == false) {
     const insAdsense = document.querySelectorAll('.ads .ins');
     for (let ins = 0; ins < insAdsense.length; ins++) {
         insAdsense[ins].innerHTML = `
