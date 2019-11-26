@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <!-- Title -->
-{% if page.sitemap == false %}
+{% if page.sitemap == false or paginator.page_trail and page.url contains "blog/page" %}
 <meta content='noindex,nofollow,noarchive' name='robots' />
 <title>{{ page.title }} | {{ site.title }} - {{ site.call }}</title>
 
@@ -11,9 +11,9 @@
     <meta content='index' name='robots' />
     <title>{{ page.title }} | {{ site.title }} - {{ site.call }}</title>
 
-            {% elsif page.layout == "home" %}
-            <meta content='index' name='robots' />
-            <title>{{ site.title }} - {{ site.call }}</title>
+        {% elsif page.layout == "home" %}
+        <meta content='index' name='robots' />
+        <title>{{ site.title }} - {{ site.call }}</title>
 {% endif %}
 
 <meta name="theme-color" content="#27a9e1"/>

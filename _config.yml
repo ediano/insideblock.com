@@ -4,7 +4,7 @@ call: "Os códigos estão dentro do bloco"
 description: >-
   Os códigos estão dentro do bloco. Dicas e tutoriais sobre tecnologia, desenvolvimento web, SEO, otimização, monetização, blogs, redes sociais e muito mais!
 keywords: >-
-  Git, GitHub, Netlify, HTTPS, SEO, HTML, CSS, XML, JavaScript, JS, Tecnologia, SQL, PHP.
+  Git, GitHub Pages, GitLab Pages, Netlify, HTTPS, SEO, HTML, CSS, XML, JavaScript, JS, Tecnologia, SQL, PHP.
 logo: /assets/logo/logo.png
 favicon: /assets/logo/favicon.png
 author: Inside Block
@@ -14,14 +14,14 @@ web_designer: Ediano Silva Santos
 url: 'https://insideblock.com'
 baseurl: ''
 #paginate_path: '/page/:num/'
-permalink: '/blog/:title.html'
+permalink: '/blog/:title'
 pagination:
   enabled: true
   per_page: 12
   permalink: '/blog/page/:num/'
   sort_reverse: true
   sort_field: 'date'
-  title: ':title - Página :num'
+  title: 'Página :num'
   trail:
     before: 2
     after: 2
@@ -70,7 +70,7 @@ g_optimize: GTM-TH6M3G8
 # Remove pagination from sitemap
 defaults:
   - scope:
-      path: page
+      path: '/blog/page/'
     values:
       sitemap: false
-      title: Paginação
+      title: 'Página :num'
