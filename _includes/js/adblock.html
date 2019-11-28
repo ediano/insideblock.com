@@ -1,18 +1,35 @@
 <script>
-    if (adverts === true) {
-        for (let brave = 0; brave < ads.length; brave++) {
-            ads[brave].innerHTML = `
-                <div class="brave">
-                    <a href="https://brave.com/ins228" target="_black">
-                        <img src="{{ site.url }}/assets/img/minicards/brave150px.png" alt="Brave Browser">
-                        Experimente o novo Brave Browser e navegue com mais privacidade!
-                    </a>
-                </div>
-            `;
+    let seconds = new Date();
+    if (adverts === true) { // AdBlock Enabler
+        for (let i = 0; i < ads.length; i++) {
+            if (seconds.getSeconds() % 2 == 0) {
+                ads[i].innerHTML = `
+                    <div class="brave">
+                        <a href="https://brave.com/ins228" target="_black">
+                            <img src="{{ site.url }}/assets/img/minicards/brave150px.png" alt="Brave Browser">
+                            Experimente o novo Brave Browser e navegue com mais privacidade!
+                        </a>
+                    </div>
+                `;
+            } else {
+                if (ads[i].offsetWidth >= 728) {
+                    ads[i].innerHTML = `
+                        <a href="https://www.hostgator.com.br/15090-78-1-625.html" target="_blank">
+                            <img style="border:0px" src="https://afiliados.hostgator.com.br/media/banners/BF2019-criador-de-sites-desconto-728x90.png" width="728" height="90" alt="">
+                        </a>
+                    `;
+                } else {
+                    ads[i].innerHTML = `
+                        <a href="https://www.hostgator.com.br/15090-78-1-621.html" target="_blank">
+                            <img style="border:0px" src="https://afiliados.hostgator.com.br/media/banners/BF2019-criador-de-sites-desconto-300x250.png" width="300" height="250" alt="">
+                        </a>
+                    `;
+                }
+            }
         }
     }
 
-    if (adverts === false) {
+    if (adverts === false) { // AdBlock Disabling
         const insAdsense = document.querySelectorAll('.ads .ins');
         for (let ins = 0; ins < insAdsense.length; ins++) {
             insAdsense[ins].innerHTML = `
