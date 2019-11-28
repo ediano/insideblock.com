@@ -12,16 +12,22 @@
                     </div>
                 `;
             } else {
-                if (ads[i].offsetWidth >= 728) {
+                if (ads[i].offsetWidth < 468) {
                     ads[i].innerHTML = `
-                        <a href="https://www.hostgator.com.br/15090-78-1-625.html" target="_blank" style="display:inline-block">
-                            <img style="border:0px" src="https://i.imgur.com/v6rgic7.png" style="max-width:728px;width:100%;height:auto">
+                        <a href="https://www.hostgator.com.br/15090-78-1-621.html" target="_blank" style="display:inline-block">
+                            <img style="border:0px" src="https://i.imgur.com/DibSnEF.png" style="max-width:300px;width:100%;height:auto">
+                        </a>
+                    `;
+                } else if (ads[i].offsetWidth < 768) {
+                    ads[i].innerHTML = `
+                        <a href="https://www.hostgator.com.br/15090-78-1-621.html" target="_blank" style="display:inline-block">
+                            <img style="border:0px" src="https://i.imgur.com/4XAFHe5.png" style="max-width:468px;width:100%;height:auto">
                         </a>
                     `;
                 } else {
                     ads[i].innerHTML = `
-                        <a href="https://www.hostgator.com.br/15090-78-1-621.html" target="_blank" style="display:inline-block">
-                            <img style="border:0px" src="https://i.imgur.com/DibSnEF.png" style="max-width:300px;width:100%;height:auto">
+                        <a href="https://www.hostgator.com.br/15090-78-1-625.html" target="_blank" style="display:inline-block">
+                            <img style="border:0px" src="https://i.imgur.com/v6rgic7.png" style="max-width:728px;width:100%;height:auto">
                         </a>
                     `;
                 }
