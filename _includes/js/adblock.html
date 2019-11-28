@@ -2,7 +2,7 @@
     let seconds = new Date();
     if (adverts === true) { /* AdBlock Enabler */
         for (let i = 0; i < ads.length; i++) {
-            if (seconds.getSeconds() <= 45) {
+            if (seconds.getSeconds() <= 30 || seconds.getSeconds() % 2 == 0) {
                 ads[i].innerHTML = `
                     <div class="brave">
                         <a href="http://bit.ly/2DqwRrS" target="_black">
