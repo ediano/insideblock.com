@@ -1,6 +1,7 @@
 <script>
+    const ads = document.querySelectorAll('.ads');
     let seconds = new Date();
-    if (adverts === true) { /* AdBlock Enabler */
+    if (typeof adverts == 'undefined') { /* AdBlock Enabler */
         for (let i = 0; i < ads.length; i++) {
             ads[i].innerHTML = `
                 <div class="brave">
