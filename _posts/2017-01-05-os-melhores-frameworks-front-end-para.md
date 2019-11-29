@@ -26,7 +26,7 @@ Eu como administrador do Inside Block, considero o Materializecss o melhor frame
 
 * **Primeiro** - Foi com este material design que eu aprendi muito sobre CSS e HTML, muitos de meus projetos antigos eram desenvolvidos por terceiros, com a ajuda de amigos, ou eu encontrava códigos distribuídos na internet. Hoje sou capaz de desenvolver meu próprio website (layout), com ou sem o framework.
 
-* **Segundo** - O <a href="http://www.insideblock.com/">Inside Block</a> atualmente foi desenvolvido com o material design do Materializecss, eu cheguei a testar mais de 5 frameworks, mas o único que mais correspondeu foi este por apresentar uma performance intuitiva, de fácil aplicação.
+* **Segundo** - O <a href="http://www.insideblock.com/">Inside Block</a> <del>atualmente foi desenvolvido com o material design do Materializecss</del>, eu cheguei a testar mais de 5 frameworks, mas o único que mais correspondeu foi este por apresentar uma performance intuitiva, de fácil aplicação.
 
 O Materializecss foi desenvolvido por uma equipe de quatro estudantes da Universidade Carnegie Mellon, todo o material foi reescrito do zero, seguindo exemplos do Bootstrap, porém muito leve e com alguns componentes a mais, o material é compatível com os navegadores mais populares do mercado atual, incluindo a compatibilidade para diversas plataformas como Windows, MacOS, Linux, Android, iOS e outros. O framework pode ser usado tanto para o desenvolvimento de sites quanto para o desenvolvimento de aplicativos.
 
