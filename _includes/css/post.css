@@ -124,6 +124,10 @@ article em {
     color: #757575
 }
 
+article del {
+    text-decoration: line-through
+}
+
 article img,
 article video {
     margin: 0 auto
