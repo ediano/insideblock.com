@@ -2,30 +2,14 @@
     let seconds = new Date();
     if (adverts === true) { /* AdBlock Enabler */
         for (let i = 0; i < ads.length; i++) {
-            if (seconds.getSeconds() <= 20 || seconds.getSeconds() % 2 == 0) {
-                ads[i].innerHTML = `
-                    <div class="brave">
-                        <a href="http://bit.ly/2DqwRrS" target="_black">
-                            <img src="{{ site.url }}/assets/img/minicards/brave150px.png" alt="Brave Browser">
-                            Experimente o novo Brave Browser e navegue com mais privacidade!
-                        </a>
-                    </div>
-                `;
-            } else {
-                if (ads[i].offsetWidth < 468) {
-                    ads[i].innerHTML = `
-                        <a href="https://www.hostgator.com.br/15090-78-1-621.html" target="_blank" style="display:inline-block">
-                            <img style="border:0px" src="https://i.imgur.com/DibSnEF.png" style="max-width:300px;width:100%;height:auto">
-                        </a>
-                    `;
-                } else {
-                    ads[i].innerHTML = `
-                        <a href="https://www.hostgator.com.br/15090-78-1-627.html" target="_blank" style="display:inline-block">
-                            <img style="border:0px" src="https://i.imgur.com/J3SRwSn.png" style="max-width:970px;width:100%;height:auto">
-                        </a>
-                    `;
-                }
-            }
+            ads[i].innerHTML = `
+                <div class="brave">
+                    <a href="http://bit.ly/2DqwRrS" target="_black">
+                        <img src="{{ site.url }}/assets/img/minicards/brave150px.png" alt="Brave Browser">
+                        Experimente o novo Brave Browser e navegue com mais privacidade!
+                    </a>
+                </div>
+            `;
         }
     }
 
