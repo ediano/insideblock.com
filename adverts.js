@@ -1,1 +1,1 @@
-adverts = false;
+const adverts = false;
