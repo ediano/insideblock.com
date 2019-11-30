@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mantenha a segurança do seu computador com Windows
-date: "2016-07-21 14:46:00"
+datePublished: "2016-07-21 14:46:00"
 tags: [windows, segurança, dicas]
 category: misc
 image: /assets/media-image/mantenha-seguranca-do-seu-computador.jpg

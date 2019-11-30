@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Help desk software a solução para a sua empresa
-date: "2016-07-23 14:21:00"
+datePublished: "2016-07-23 14:21:00"
 tags: [dicas]
 category: misc
 image: /assets/media-image/help-desk-software-solucao-para-sua.jpg

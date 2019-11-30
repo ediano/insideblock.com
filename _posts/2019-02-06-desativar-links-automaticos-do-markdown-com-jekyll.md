@@ -2,7 +2,7 @@
 layout: post
 title: "Desativar links automáticos do Markdown com Jekyll"
 description: "Criar link no markdown é muito simples, desativar os links automáticos é mais fácil ainda."
-date: "2019-02-06 18:20:00"
+datePublished: "2019-02-06 18:20:00"
 tags: [markdown, html, js, disqus, jekyll]
 category: dev
 image: /assets/media-image/desativar-links-automaticos-do-markdown-com-jekyll.jpg

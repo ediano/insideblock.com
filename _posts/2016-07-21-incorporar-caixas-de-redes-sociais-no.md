@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Incorporar caixas de redes sociais no site e blog
-date: '2016-07-21 14:48:00'
+datePublished: '2016-07-21 14:48:00'
 tags:
   - seo
   - redes sociais

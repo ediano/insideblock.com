@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Visual Studio Code: Novo editor de códigos da Microsoft'
-date: '2016-10-15 02:00:00'
+datePublished: '2016-10-15 02:00:00'
 tags:
   - dicas
   - apps

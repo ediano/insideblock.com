@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como colocar domínio personalizado no Blogger"
-date: "2016-07-21 14:51:00"
+datePublished: "2016-07-21 14:51:00"
 tags: [seo, blogger, tutorial]
 category: dev
 image: /assets/media-image/como-colocar-dominio-no-blogspot.jpg

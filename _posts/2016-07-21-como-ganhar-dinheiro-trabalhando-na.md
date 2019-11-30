@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como ganhar dinheiro trabalhando na internet?
-date: "2016-07-21 12:48:00"
+datePublished: "2016-07-21 12:48:00"
 tags: [dicas, monetização]
 category: misc
 image: /assets/media-image/como-ganhar-dinheiro-trabalhando-na.jpg

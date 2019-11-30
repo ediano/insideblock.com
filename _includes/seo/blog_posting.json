@@ -6,8 +6,8 @@
         "@id": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
     },
     "headline": "{{ page.title }}",
-    "datePublished": "{{ page.date }}",
-    "dateModified": "{{ page.date }}",
+    "datePublished": "{{ page.datePublished }}",
+    "dateModified": "{% if page.dateModified %}{{ page.dateModified }}{% else %}{{ page.datePublished }}{% endif %}",
     "description": "{{ content | strip_html | strip_newlines | truncate: 100 }}",
     "image": {
         "@type": "ImageObject",

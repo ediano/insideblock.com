@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ganhe dinheiro com seu blog exibindo anúncios
-date: "2016-09-25 22:41:00"
+datePublished: "2016-09-25 22:41:00"
 tags: [dicas, otimização, adsense]
 category: misc
 image: /assets/media-image/ganhe-dinheiro-com-seu-blog-exibindo.jpg

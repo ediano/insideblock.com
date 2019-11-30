@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Heading tags aprenda a otimizar melhor o Blogger
-date: "2016-09-28 23:15:00"
+datePublished: "2016-09-28 23:15:00"
 tags: [blogger, seo, otimização]
 category: dev
 image: /assets/media-image/heading-tags-aprenda-otimizar-melhor-o/heading-tags-aprenda-otimizar-melhor-o.jpg

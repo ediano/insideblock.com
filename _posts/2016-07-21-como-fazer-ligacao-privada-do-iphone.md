@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como fazer ligação privada do iPhone
-date: "2016-07-21 21:05:00"
+datePublished: "2016-07-21 21:05:00"
 tags: [mobile, tutorial, ios]
 category: misc
 image: /assets/media-image/como-fazer-ligacao-privada-do-iphone/como-fazer-ligacao-privada-do-iphone.jpg

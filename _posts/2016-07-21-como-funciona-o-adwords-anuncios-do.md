@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como funciona o AdWords anúncios do Google?
-date: '2016-07-21 18:05:00'
+datePublished: '2016-07-21 18:05:00'
 tags:
   - dicas
   - adwords

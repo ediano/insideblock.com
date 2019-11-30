@@ -1,5 +1,10 @@
-<meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}"/>
-<meta itemprop="dateModified" content="{{ post.date | date_to_xmlschema }}"/>
+<meta itemprop="datePublished" content="{{ post.datePublished | date_to_xmlschema }}"/>
+<meta itemprop="dateModified" content="
+{% if page.dateModified %}
+{{ post.dateModified | date_to_xmlschema }}
+{{ post.datePublished | date_to_xmlschema }}
+{% else %}
+{% endif %}"/>
 <meta itemprop="mainEntityOfPage" content="{{ post.url | prepend: site.url }}"/>
 
 <div itemprop="author" itemscope itemtype="http://schema.org/Person">

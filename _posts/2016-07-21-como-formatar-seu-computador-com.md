@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como formatar seu computador com Windows 10
-date: "2016-07-21 11:19:00"
+datePublished: "2016-07-21 11:19:00"
 tags: [windows, tutorial]
 category: misc
 image: /assets/media-image/como-formatar-seu-computador-com.jpg

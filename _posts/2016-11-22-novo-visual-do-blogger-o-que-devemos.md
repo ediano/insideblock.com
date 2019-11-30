@@ -5,7 +5,7 @@ description: >-
   O Google pretende lançar um novo visual para a plataforma Blogger, entretanto
   ela ainda não está acessível no endereço da página principal, caso queira
   fazer um teste antes de qualquer usuário acompanhe o artigo
-date: '2016-11-22 22:34:00'
+datePublished: '2016-11-22 22:34:00'
 tags:
   - dicas
   - blogger

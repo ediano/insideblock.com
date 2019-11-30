@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como melhorar a qualidade de reprodução e gravação do computador
-date: "2016-10-09 02:11:00"
+datePublished: "2016-10-09 02:11:00"
 tags: [windows, dicas, tutorial]
 category: misc
 image: /assets/media-image/como-melhorar-qualidade-de-reproducao-e.jpg

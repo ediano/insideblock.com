@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitHub a rede social dos programadores
-date: "2016-09-11 16:10:00"
+datePublished: "2016-09-11 16:10:00"
 tags: [redes sociais, seo]
 category: dev
 image: /assets/media-image/github-rede-social-dos-programadores.jpg

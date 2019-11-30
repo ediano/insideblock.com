@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como redirecionar páginas de erro no Blogger para a Página inicial
-date: '2016-07-21 16:41:00'
+datePublished: '2016-07-21 16:41:00'
 tags:
   - blogger
   - seo

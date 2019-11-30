@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Botões rede social estilo Metro Windows 8
-date: "2016-07-21 14:06:00"
+datePublished: "2016-07-21 14:06:00"
 tags: [seo, redes sociais, front-end]
 category: css
 image: /assets/media-image/botoes-rede-social-estilo-metro-windows.jpg

@@ -2,7 +2,7 @@
 layout: post
 title: Google libera novo visual do Blogger e algumas novidades
 description: "Todos acharão que o Blogger estava esquecido pelo Google, felizmente isso não aconteceu, sua mais nova atualização mostra que os engenheiros estão a todo vapor, se você é um usuário da plataforma,confira as novidades."
-date: "2016-11-23 01:06:00"
+datePublished: "2016-11-23 01:06:00"
 tags: [dicas, blogger]
 category: misc
 image: /assets/media-image/google-libera-novo-visual-do-blogger-e/google-libera-novo-visual-do-blogger-e.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Postagens relacionadas com imagem para Blogger
-date: "2016-07-21 09:22:00"
+datePublished: "2016-07-21 09:22:00"
 tags: [seo, blogger, otimização]
 category: dev
 image: /assets/media-image/postagens-relacionadas-com-imagem-para.jpg

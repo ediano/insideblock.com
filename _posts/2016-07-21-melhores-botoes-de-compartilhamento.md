@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Melhores botões de compartilhamento
-date: "2016-07-21 17:59:00"
+datePublished: "2016-07-21 17:59:00"
 tags: [redes sociais, seo, otimização]
 category: misc
 image: /assets/media-image/melhores-botoes-de-compartilhamento.jpg

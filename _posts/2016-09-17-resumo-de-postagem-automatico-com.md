@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resumo de postagem automático com imagem para Blogger
-date: "2016-09-17 19:01:00"
+datePublished: "2016-09-17 19:01:00"
 tags: [blogger, dicas, otimização]
 category: dev
 image: /assets/media-image/resumo-de-postagem-automatico-com.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Links organicos ou links patrocinados"
-date: "2016-10-12 00:19:00"
+datePublished: "2016-10-12 00:19:00"
 tags: [seo, dicas, otimização]
 category: misc
 image: /assets/media-image/links-organicos-ou-links-patrocinados/links-organicos-ou-links-patrocinados.jpg

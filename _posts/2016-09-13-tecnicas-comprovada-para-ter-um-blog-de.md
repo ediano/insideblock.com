@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Técnicas comprovada para ter um blog de qualidade
-date: "2016-09-13 00:33:00"
+datePublished: "2016-09-13 00:33:00"
 tags: [seo, dicas, otmização]
 category: misc
 image: /assets/media-image/tecnicas-comprovada-para-ter-um-blog-de.jpg

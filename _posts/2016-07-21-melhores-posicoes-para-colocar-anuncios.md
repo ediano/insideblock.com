@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Melhores posições para colocar anúncios no blog
-date: "2016-07-21 13:00:00"
+datePublished: "2016-07-21 13:00:00"
 tags: [seo, dicas, otimização, monetização]
 category: misc
 image: /assets/media-image/melhores-posicoes-para-colocar-anuncios.jpg

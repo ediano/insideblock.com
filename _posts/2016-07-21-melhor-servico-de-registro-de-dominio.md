@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Melhor serviço de registro de domínio
-date: "2016-07-21 14:06:00"
+datePublished: "2016-07-21 14:06:00"
 tags: [dicas]
 category: dev
 image: /assets/media-image/melhor-servico-de-registro-de-dominio.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Inserir anúncios no meio dos artigos do Blogger
-date: "2016-07-21 17:59:00"
+datePublished: "2016-07-21 17:59:00"
 tags: [dicas, blogger, monetização]
 category: misc
 image: /assets/media-image/inserir-anuncios-no-meio-dos-artigos-do.jpg

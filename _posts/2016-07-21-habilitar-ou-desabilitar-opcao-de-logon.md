@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Habilitar ou desabilitar opção de logon (Ctrl-Alt-Delete)
-date: "2016-07-21 18:42:00"
+datePublished: "2016-07-21 18:42:00"
 tags: [windows, dicas]
 category: misc
 image: /assets/media-image/habilitar-ou-desabilitar-opcao-de-logon/habilitar-ou-desabilitar-opcao-de-logon.jpg

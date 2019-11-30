@@ -2,7 +2,7 @@
 layout: post
 title: 'Performance web: Comprimir HTML com Jekyll'
 description: Compile o código fonte de seu site e trabalhe a favor da performance web.
-date: '2018-12-18 10:00:00'
+datePublished: '2018-12-18 10:00:00'
 tags:
   - performance web
   - html

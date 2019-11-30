@@ -6,7 +6,7 @@ description: >-
   independente do assunto proposto pelo blog. Por outro lado devemos levar em
   consideração o estudo do público alvo, descobrir novas tendências e acompanhar
   as exigências da atualidade.
-date: '2017-04-22 16:49:00'
+datePublished: '2017-04-22 16:49:00'
 tags:
   - seo
   - dicas

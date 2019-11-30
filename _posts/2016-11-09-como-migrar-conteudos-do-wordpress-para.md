@@ -5,7 +5,7 @@ description: >-
   Fazer uma migração entre plataformas de blog não é nada fácil, ainda mais sem
   experiência, mas hoje iremos mostrar o passo-a-passo completo, como migrar
   conteúdos do WordPress para o Blogger.
-date: '2016-11-09 22:24:00'
+datePublished: '2016-11-09 22:24:00'
 tags:
   - blogger
   - wordpress

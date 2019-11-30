@@ -34,7 +34,9 @@ pagination:
                 <div class="time-comments col x12 m6">
                     <span class="time col">
                         <svg><use xlink:href="#icon-time"></use></svg>     
-                        <span datetime="{{ page.date | date_to_xmlschema }}">{% include post/date.html date=page.date %}</span>
+                        <span datetime="
+                            {% if page.dateModified %}{{ page.dateModified | date_to_xmlschema}}{% else %}{{ page.datePublished | date_to_xmlschema}}{% endif %}
+                        ">{% include post/date.html date=page.date %}</span>
                     </span>
 
                     <span class="comment col">

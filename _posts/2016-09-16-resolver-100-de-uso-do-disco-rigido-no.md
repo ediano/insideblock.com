@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resolver 100% de uso do disco rigido no Windows
-date: "2016-09-16 23:22:00"
+datePublished: "2016-09-16 23:22:00"
 tags: [windows, tutorial]
 category: misc
 image: /assets/media-image/resolver-100-de-uso-do-disco-rigido-no.jpg

@@ -6,7 +6,7 @@ description: >-
   hoje existem centenas de frameworks front-end que aceleram a construção de
   sites e aplicativos. Criamos uma lista com os melhores e mais populares,
   confira você mesmo.
-date: '2017-01-05 22:10:00'
+datePublished: '2017-01-05 22:10:00'
 tags:
   - dicas
   - front-end

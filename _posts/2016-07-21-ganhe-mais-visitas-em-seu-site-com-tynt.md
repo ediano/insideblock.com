@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ganhe mais visitas em seu site com Tynt
-date: '2016-07-21 14:50:00'
+datePublished: '2016-07-21 14:50:00'
 tags:
   - seo
   - dicas

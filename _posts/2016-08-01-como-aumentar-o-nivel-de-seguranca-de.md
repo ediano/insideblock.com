@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como aumentar o nível de segurança de sua conta de e-mail
-date: "2016-08-01 18:18:00"
+datePublished: "2016-08-01 18:18:00"
 tags: [dicas, segurança]
 category: misc
 image: /assets/media-image/como-aumentar-o-nivel-de-seguranca-de.jpg

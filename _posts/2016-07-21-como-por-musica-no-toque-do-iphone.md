@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Música no toque do iPhone?
-date: "2016-07-21 18:18:00"
+datePublished: "2016-07-21 18:18:00"
 tags: [mobile, ios, dicas, tutorial]
 category: misc
 image: /assets/media-image/como-por-musica-no-toque-do-iphone.jpg

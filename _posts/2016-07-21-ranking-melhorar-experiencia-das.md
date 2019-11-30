@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ranking: Melhorar a experiência das páginas com site responsivo"
-date: "2016-07-21 22:14:00"
+datePublished: "2016-07-21 22:14:00"
 tags: [seo, dicas, otimização, front-end]
 category: css
 image: /assets/media-image/ranking-melhorar-experiencia-das.jpg

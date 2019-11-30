@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como ganhar dinheiro no Facebook
-date: "2016-07-21 18:29:00"
+datePublished: "2016-07-21 18:29:00"
 tags: [redes sociais, dicas, monetização]
 category: misc
 image: /assets/media-image/como-ganhar-dinheiro-no-facebook.jpg

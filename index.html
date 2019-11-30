@@ -19,7 +19,9 @@ pagination:
         <div class="content">
             <a href="/{{ post.category }}" class="label">{{ post.category }}</a>
 
-            <time aria-label="Data e ou hora de publicação" class="time" datetime="{{ post.date | date_to_xmlschema }}">{% include post/date.html date=post.date %}</time>
+            <time aria-label="Data e ou hora de publicação" class="time" datetime="
+                {% if post.dateModified %}{{ post.dateModified | date_to_xmlschema}}{% else %}{{ post.datePublished | date_to_xmlschema}}{% endif %}
+            ">{% include post/date.html date=post.date %}</time>
 
             <div class="card-content">
                 <p class="description">

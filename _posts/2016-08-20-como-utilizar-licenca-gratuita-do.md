@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como reutilizar licença do Windows 10 após trocar o PC
-date: "2016-08-20 14:26:00"
+datePublished: "2016-08-20 14:26:00"
 tags: [windows, dicas]
 category: misc
 image: /assets/media-image/como-utilizar-licenca-gratuita-do.jpg

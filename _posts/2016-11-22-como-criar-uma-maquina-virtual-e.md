@@ -2,7 +2,7 @@
 layout: post
 title: Como criar uma máquina virtual e instalar o Windows
 description: "Você sabia que é possível instalar vários sistemas operacionais virtuais e ainda ter vários ambientes de teste com um único computador físico? Bom, se você não sabia este artigo traz o passo-a-passo completo de como você pode fazer isso."
-date: "2016-11-22 21:21:00"
+datePublished: "2016-11-22 21:21:00"
 tags: [windows, dicas, tutorial]
 category: misc
 image: /assets/media-image/como-criar-uma-maquina-virtual-e.jpg

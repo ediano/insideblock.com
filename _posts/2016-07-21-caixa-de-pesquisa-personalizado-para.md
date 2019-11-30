@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Caixa de pesquisa personalizado para blogger
-date: "2016-07-21 17:18:00"
+datePublished: "2016-07-21 17:18:00"
 tags: [front-end, seo, blogger]
 category: dev
 image: /assets/media-image/caixa-de-pesquisa-personalizado-para.jpg
