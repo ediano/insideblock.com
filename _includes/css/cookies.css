@@ -15,11 +15,15 @@
 .cookies .btn-cookies {
     text-align: center;
     padding: 10px 15px;
-    color: #fff
+    color: #fff;
 }
 
 .cookies .btn-cookies {
-    background: #1e88e5
+    font-size: 1.8rem
+}
+
+.cookies .btn-cookies {
+    background: #007092
 }
 
 @media (min-width: 576px) {
