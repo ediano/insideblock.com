@@ -108,7 +108,8 @@ footer .feed form {
 }
 
 footer .feed .btn {
-    color: #fff
+    background: #fff;
+    color: #2da0c3
 }
 
 footer .feed .mail {
