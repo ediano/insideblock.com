@@ -1,9 +1,13 @@
 ---
 layout: post
 title: Ganhe mais visitas em seu site com Tynt
-date: "2016-07-21 14:50:00"
-tags: [seo, dicas, otimização, tynt]
-category: js
+date: '2016-07-21 14:50:00'
+tags:
+  - seo
+  - dicas
+  - otimização
+  - tynt
+category: misc
 image: /assets/media-image/ganhe-mais-visitas-em-seu-site-com-tynt.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
