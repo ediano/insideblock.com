@@ -23,7 +23,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+      - {label: "Date Publish", name: "datePublished", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+      - {label: "Date Modified", name: "dateModified", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Category", name: "category", widget: "select", options: 
           ["comunicado", "css", "dev", "js", "jekyll", "misc", "sponsorship"], required: false}
