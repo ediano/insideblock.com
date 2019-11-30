@@ -14,7 +14,7 @@ web_designer: Ediano Silva Santos
 url: 'https://insideblock.com'
 baseurl: ''
 #paginate_path: '/page/:num/'
-permalink: '/blog/:title'
+permalink: '/blog/:title/'
 pagination:
   enabled: true
   per_page: 12
