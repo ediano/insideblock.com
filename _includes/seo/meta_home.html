@@ -2,8 +2,8 @@
 <meta itemprop="dateModified" content="
 {% if page.dateModified %}
 {{ post.dateModified | date_to_xmlschema }}
-{{ post.datePublished | date_to_xmlschema }}
 {% else %}
+{{ post.datePublished | date_to_xmlschema }}
 {% endif %}"/>
 <meta itemprop="mainEntityOfPage" content="{{ post.url | prepend: site.url }}"/>
 
