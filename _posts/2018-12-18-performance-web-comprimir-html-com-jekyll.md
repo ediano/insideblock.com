@@ -39,9 +39,9 @@ compress_html:
 
 Note que as linhas fazem menção à compressão HTML, todavia depois de pronta a aplicação pode compilar quase todos os tipo linguagem, incluído CSS e JS. 
 
-Posteriormente, para parametrizar todas as regras de compilação vamos criar um novo arquivo, dentro do diretório **__layouts_**, com o nome **_compress.html_**, em seguida acesse <a href="https://raw.githubusercontent.com/insideblock/labs/master/_code/jekyll-compress-html/compress.html" target="_blank" rel="noopener">esta página</a>, adicione todas as linhas de código da página dentro do novo arquivo.
+Posteriormente, para parametrizar todas as regras de compilação vamos criar um novo arquivo, dentro do diretório **__layouts_**, com o nome _**compress.html**_, em seguida acesse <a href="https://raw.githubusercontent.com/ediano/my-testing-lab/master/_code/jekyll/compress-html/compress.html" target="_blank" rel="noopener">esta página</a>, adicione todas as linhas de código da página dentro do novo arquivo.
 
-Para concluir a aplicação, ainda dentro do diretório **__layouts_**, você deve atribuir o `Front Matter` no arquivo **_default.html_** para apontar para o nosso arquivo **_compress.html_**.
+Para concluir a aplicação, ainda dentro do diretório **__layouts_**, você deve atribuir o `Front Matter` no arquivo _**default.html**_ para apontar para o nosso arquivo _**compress.html**_.
 
 {% raw %}
 
@@ -53,7 +53,7 @@ layout: compress
 
 {% endraw %}
 
-Podemos observar que o apontamento feito através do `Front Matter` é bem simples, entretanto, é importante levar em consideração  que todos os arquivo que estiverem atribuídos ao **_default.html_**, através do `Front Matter`, serão automaticamente compilados, caso existam  arquivos que não estejam atribuídos e você deseja compila-los é só adicionar o `Front Matter` apontando diretamente para **_compress.html_**.
+Podemos observar que o apontamento feito através do `Front Matter` é bem simples, entretanto, é importante levar em consideração  que todos os arquivo que estiverem atribuídos ao _**default.html**_, através do `Front Matter`, serão automaticamente compilados, caso existam  arquivos que não estejam atribuídos e você deseja compila-los é só adicionar o `Front Matter` apontando diretamente para _**compress.html**_.
 
 **Dica:** Para evitar possíveis frustrações, sugiro que sejam feitos testes com o servidor local antes de subir o update para repositório em produção.
 
