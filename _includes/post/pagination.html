@@ -20,7 +20,7 @@
         <a class="next" href="{{ paginator.next_page_path | prepend: site.baseurl }}">⇢</a>
     </li>
     {% endif %}
-    
-    <span class="page_number" style="text-align:center;display:block">Página: {{ paginator.page }} de {{ paginator.total_pages }}</span>
 </ul>
+
+<span class="page_number" style="text-align:center;display:block">Página: {{ paginator.page }} de {{ paginator.total_pages }}</span>
 {% endif %}
