@@ -7,7 +7,7 @@ tags:
   - redes sociais
   - otimização
 category: dev
-image: /assets/media-image/incorporar-caixas-de-redes-sociais-no.jpg
+image: /static/blog/incorporar-caixas-de-redes-sociais-no.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

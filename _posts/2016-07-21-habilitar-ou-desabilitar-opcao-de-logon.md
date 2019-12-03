@@ -4,7 +4,7 @@ title: Habilitar ou desabilitar opção de logon (Ctrl-Alt-Delete)
 datePublished: "2016-07-21 18:42:00"
 tags: [windows, dicas]
 category: misc
-image: /assets/media-image/habilitar-ou-desabilitar-opcao-de-logon/habilitar-ou-desabilitar-opcao-de-logon.jpg
+image: /static/blog/habilitar-ou-desabilitar-opcao-de-logon/habilitar-ou-desabilitar-opcao-de-logon.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -23,7 +23,7 @@ Para que você não tenha mais esse desconforto, siga o tutorial abaixo; Detalhe
 3. Reinicie o Windows, caso continue pedindo Ctrl-Alt-Delete na tela de logon, siga para o próximo método.
 
 <figure class="image">
-<img alt="Contas de usuário" src="/assets/media-image/habilitar-ou-desabilitar-opcao-de-logon/contas-de-usuario.jpg">
+<img alt="Contas de usuário" src="/static/blog/habilitar-ou-desabilitar-opcao-de-logon/contas-de-usuario.jpg">
 <figcaption>Contas de usuário. (Imagem: Inside Block)</figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ Para que você não tenha mais esse desconforto, siga o tutorial abaixo; Detalhe
 3. Marque a opção *Desabilitado*, *Aplique* e em *OK*.
 
 <figure class="image">
-<img alt="Politicas de segurança local" src="/assets/media-image/habilitar-ou-desabilitar-opcao-de-logon/politicas-de-seguranca.jpg">
+<img alt="Politicas de segurança local" src="/static/blog/habilitar-ou-desabilitar-opcao-de-logon/politicas-de-seguranca.jpg">
 <figcaption>Politicas de segurança local. (Imagem: Inside Block)</figcaption>
 </figure>
 

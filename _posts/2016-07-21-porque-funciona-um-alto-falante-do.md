@@ -4,7 +4,7 @@ title: Porque funciona um alto-falante do iPhone?
 datePublished: "2016-07-21 22:19:00"
 tags: [mobile, ios]
 category: misc
-image: /assets/media-image/porque-funciona-um-alto-falante-do/porque-funciona-um-alto-falante-do.jpg
+image: /static/blog/porque-funciona-um-alto-falante-do/porque-funciona-um-alto-falante-do.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -16,7 +16,7 @@ A Apple é mesma cheia de surpresar, eu tive o mesmo problema em um iPhone 3GS, 
 Um bom tempo depois comprei um iPhone 5S, e no segundo dia de uso observei que um dos alto falante também não funcionava, achei logo de inicio que fosse alguma configuração ou algum bug do iOS, alterei e habilitei varias opções de configurações e nada de resolver o problema, ate que resolvi procurar algumas informações na internet, e bombam, “o iPhone tem apenas um alto falante e não dois”.
 
 <figure class="image">
-<img alt="Microfone e alto-falante do Iphone" src="/assets/media-image/porque-funciona-um-alto-falante-do/iphone-microfone-alto-falante.jpg">
+<img alt="Microfone e alto-falante do Iphone" src="/static/blog/porque-funciona-um-alto-falante-do/iphone-microfone-alto-falante.jpg">
 <figcaption>Microfone e alto-falante do Iphone. (Imagem: Inside Block)</figcaption>
 </figure>
 

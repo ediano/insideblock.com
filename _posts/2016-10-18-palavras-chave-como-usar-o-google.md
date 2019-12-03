@@ -4,7 +4,7 @@ title: "Palavras-chave: Como usar o Google AdWords #Parte 1"
 datePublished: "2016-10-18 23:48:00"
 tags: [dicas, seo, adwords]
 category: misc
-image: /assets/media-image/palavras-chave-como-usar-o-google/palavras-chave-como-usar-o-google.jpg
+image: /static/blog/palavras-chave-como-usar-o-google/palavras-chave-como-usar-o-google.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -29,7 +29,7 @@ Nessa opção temos vários campos de preenchimento, porém usaremos apenas a se
 Quando fazemos uma pesquisa com a seção “*Seu produto ou serviço*”, o primeiro resultado encontrado é as “*Ideias de grupos de anúncios*”, esse tipo de grupo não é interessante para criar um nicho de mercado, por isso devemos alterna para “*Ideias de palavras-chave*”.
 
 <figure class="image">
-<img alt="Google AdWords - Idéias de palavras chaves" src="/assets/media-image/palavras-chave-como-usar-o-google/google-adwords.jpg">
+<img alt="Google AdWords - Idéias de palavras chaves" src="/static/blog/palavras-chave-como-usar-o-google/google-adwords.jpg">
 <figcaption>Google AdWords - Idéias de palavras chaves. (Imagem: Inside Block)</figcaption>
 </figure>
 

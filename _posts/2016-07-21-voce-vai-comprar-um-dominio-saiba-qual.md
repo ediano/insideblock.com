@@ -4,7 +4,7 @@ title: Você vai comprar um domínio? Saiba qual a melhor extensão
 datePublished: "2016-07-21 18:34:00"
 tags: [seo, dicas]
 category: dev
-image: /assets/media-image/voce-vai-comprar-um-dominio-saiba-qual.jpg
+image: /static/blog/voce-vai-comprar-um-dominio-saiba-qual.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

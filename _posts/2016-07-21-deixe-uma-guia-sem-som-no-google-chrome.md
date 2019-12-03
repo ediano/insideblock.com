@@ -4,7 +4,7 @@ title: Deixe uma guia sem som no Google Chrome
 datePublished: "2016-07-21 06:35:00"
 tags: [dicas, apps, tutorial]
 category: misc
-image: /assets/media-image/deixe-uma-guia-sem-som-no-google-chrome/deixe-uma-guia-sem-som-no-google-chrome.jpg
+image: /static/blog/deixe-uma-guia-sem-som-no-google-chrome/deixe-uma-guia-sem-som-no-google-chrome.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true
@@ -20,7 +20,7 @@ Em alguns caso as guias recém aberta permanece com o vídeo pausado ou silencia
 1. Abra uma nova guia no Chrome e digite ou cole o seguinte endereço na de pesquisa “*chrome://flags/*” sem aspas, procure por algo parecido como “*Controle de interface do usuário de silenciamento de áudio da guia*”, clique em “Ativar” e “Reiniciar”.
 
 <figure class="image">
-<img alt="Guia do Google Chrome" src="/assets/media-image/deixe-uma-guia-sem-som-no-google-chrome/guia-chrome.jpg">
+<img alt="Guia do Google Chrome" src="/static/blog/deixe-uma-guia-sem-som-no-google-chrome/guia-chrome.jpg">
 <figcaption>Guia do Google Chrome. (Imagem: Inside Block)</figcaption>
 </figure>
 

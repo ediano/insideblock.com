@@ -11,7 +11,7 @@ tags:
   - blogger
 category: misc
 image: >-
-  /assets/media-image/novo-visual-do-blogger-o-que-devemos/novo-visual-do-blogger-o-que-devemos.jpg
+  /static/blog/novo-visual-do-blogger-o-que-devemos/novo-visual-do-blogger-o-que-devemos.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 coauthor: Luciana Fabiano
@@ -21,7 +21,7 @@ ads: true
 Olá usuários da plataforma Blogger, o Google e sua equipe de engenheiros estão preparando uma novidade para todos nós. Recentemente visitei o painel do Blogger no formato rascunho e me deparei com um novo visual, totalmente remodelado. A imagem abaixo é verdadeira e até o momento é assim que vamos ver o painel do Blogger no modelo rascunho.
 
 <figure class="image">
-<img alt="Novno visual do Blogger" src="/assets/media-image/novo-visual-do-blogger-o-que-devemos/layout-new-blogger.jpg">
+<img alt="Novno visual do Blogger" src="/static/blog/novo-visual-do-blogger-o-que-devemos/layout-new-blogger.jpg">
 <figcaption>Novo visual do Blogger. (Imagem: Inside Block)</figcaption>
 </figure>
 

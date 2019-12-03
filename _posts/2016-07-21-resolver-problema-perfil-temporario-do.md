@@ -4,7 +4,7 @@ title: "Resolver problema: Perfil temporário do Windows"
 datePublished: "2016-07-21 14:08:00"
 tags: [windows, tutorial]
 category: misc
-image: /assets/media-image/resolver-problema-perfil-temporario-do/resolver-problema-perfil-temporario-do.jpg
+image: /static/blog/resolver-problema-perfil-temporario-do/resolver-problema-perfil-temporario-do.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -27,7 +27,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
 3. Procure pela pasta que contém o valor do usuário que tem o perfil temporário, Clique com o botão direito sobre a pasta e em *Excluir*, vai perguntar se tem certeza que deseja excluir clique em sim. Reinicia o Windows e faça logon novamente.
 
 <figure class="image">
-<img alt="Registro do Windows" src="/assets/media-image/resolver-problema-perfil-temporario-do/regedit-windows.jpg">
+<img alt="Registro do Windows" src="/static/blog/resolver-problema-perfil-temporario-do/regedit-windows.jpg">
 <figcaption>Registro do Windows. (Imagem: Inside Block)</figcaption>
 </figure>
 

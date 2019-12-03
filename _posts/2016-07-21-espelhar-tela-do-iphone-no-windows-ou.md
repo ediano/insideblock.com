@@ -4,7 +4,7 @@ title: Espelhar tela do iPhone no Windows ou Mac OS
 datePublished: "2016-07-21 13:14:00"
 tags: [mobile, windows, ios]
 category: misc
-image: /assets/media-image/espelhar-tela-do-iphone-no-windows-ou/espelhar-tela-do-iphone-no-windows-ou.jpg
+image: /static/blog/espelhar-tela-do-iphone-no-windows-ou/espelhar-tela-do-iphone-no-windows-ou.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -24,14 +24,14 @@ O aplicativo tem varias funções, como reproduzir o áudio no computador que es
 * Agora ative o Wi-Fi do seu iPhone ou iPad, Acesse a “Central de Controle” do dispositivo e clique no ícone de Wi-Fi para ativar (caso esteja desativado), se a opção “AirPlay” não estive ativa veja que ela vai aparecer no exato momento.
 
 <figure class="image">
-<img alt="Função AirPlay do Iphone" src="/assets/media-image/espelhar-tela-do-iphone-no-windows-ou/airplay-iphone.jpg">
+<img alt="Função AirPlay do Iphone" src="/static/blog/espelhar-tela-do-iphone-no-windows-ou/airplay-iphone.jpg">
 <figcaption>Função AirPlay do Iphone. (Imagem: Inside Block)</figcaption>
 </figure>
 
 * Clique na opção AirPlay, selecione o nome abaixo de iPhone, por padrão o nome fica “LonelyScreen” e marque a opção “Espelhamento”. Em nosso exemplo nos alteramos o nome padrão para RV419.
 
 <figure class="image">
-<img alt="Espelhamento via LonelyScreen do Iphone" src="/assets/media-image/espelhar-tela-do-iphone-no-windows-ou/lonelyscreen.jpg">
+<img alt="Espelhamento via LonelyScreen do Iphone" src="/static/blog/espelhar-tela-do-iphone-no-windows-ou/lonelyscreen.jpg">
 <figcaption>Espelhamento via LonelyScreen do Iphone. (Imagem: Inside Block)</figcaption>
 </figure>
 

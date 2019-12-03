@@ -5,7 +5,7 @@ backend:
   site_domain: www.insideblock.com
 
 logo_url: /assets/logo/logo.png
-media_folder: "assets/media-image"
+media_folder: "static/blog"
 publish_mode: editorial_workflow
 
 slug:

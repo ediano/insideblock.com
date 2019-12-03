@@ -11,7 +11,7 @@ tags:
   - wordpress
   - tutorial
 category: misc
-image: /assets/media-image/como-migrar-conteudos-do-wordpress-para.jpg
+image: /static/blog/como-migrar-conteudos-do-wordpress-para.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 coauthor: Luciana Fabiano

@@ -7,7 +7,7 @@ tags:
   - dicas
   - tutorial
 category: dev
-image: /assets/media-image/como-publicar-automaticamente-do-blog.jpg
+image: /static/blog/como-publicar-automaticamente-do-blog.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

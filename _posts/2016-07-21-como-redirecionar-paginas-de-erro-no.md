@@ -6,7 +6,7 @@ tags:
   - blogger
   - seo
 category: js
-image: /assets/media-image/como-redirecionar-paginas-de-erro-no.jpg
+image: /static/blog/como-redirecionar-paginas-de-erro-no.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

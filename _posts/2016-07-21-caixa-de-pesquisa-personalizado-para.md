@@ -4,7 +4,7 @@ title: Caixa de pesquisa personalizado para blogger
 datePublished: "2016-07-21 17:18:00"
 tags: [front-end, seo, blogger]
 category: dev
-image: /assets/media-image/caixa-de-pesquisa-personalizado-para.jpg
+image: /static/blog/caixa-de-pesquisa-personalizado-para.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

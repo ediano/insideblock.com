@@ -4,7 +4,7 @@ title: Como ativar o AssistiveTouch no iPhone?
 datePublished: "2016-07-21 12:17:00"
 tags: [mobile, ios, tutorial]
 category: misc
-image: /assets/media-image/como-ativar-o-assistivetouch-no-iphone/como-ativar-o-assistivetouch-no-iphone.jpg
+image: /static/blog/como-ativar-o-assistivetouch-no-iphone/como-ativar-o-assistivetouch-no-iphone.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -24,7 +24,7 @@ Para ativar a função AssisteTouch prossiga com as informações abaixo.
 2. Pressione ou araste o botão “seletor” para ativar a função.
 
 <figure class="image">
-<img alt="AssistiveTouch" src="/assets/media-image/como-ativar-o-assistivetouch-no-iphone/assistivetouch.jpg">
+<img alt="AssistiveTouch" src="/static/blog/como-ativar-o-assistivetouch-no-iphone/assistivetouch.jpg">
 <figcaption>AssistiveTouch. (Imagem: Inside Block)</figcaption>
 </figure>
 
