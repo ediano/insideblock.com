@@ -4,7 +4,7 @@ title: Quebre a senha de qualquer computador Windows
 datePublished: "2016-07-21 13:37:00"
 tags: [windows, segurança]
 category: misc
-image: /static/blog/quebre-senha-de-qualquer-computador/quebre-senha-de-qualquer-computador.jpg
+image: /assets/blog/quebre-senha-de-qualquer-computador/quebre-senha-de-qualquer-computador.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -29,7 +29,7 @@ Você pode usar qualquer DVD ou Pen Driver Bootavel do Windows, em qualquer outr
 2. Ao carregar a primeira tela do Boot, clique em “*Avançar*” e em seguida “*Reparar o seu computador*”, aguarde a tela de recuperação carregar é em seguida clique em “*Carregar Drivers*”.
 
 <figure class="image">
-<img alt="Carregamento de drivers" src="/static/blog/quebre-senha-de-qualquer-computador/carregar-drivers.jpg">
+<img alt="Carregamento de drivers" src="/assets/blog/quebre-senha-de-qualquer-computador/carregar-drivers.jpg">
 <figcaption>Carregamento de drivers. (Imagem: Inside Block)</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ Você pode usar qualquer DVD ou Pen Driver Bootavel do Windows, em qualquer outr
 5. Procure pelo arquivo “*SETHC*” e renomeie ele para “*SETHC2*”.
 
 <figure class="image">
-<img alt="Arquivo Sethc" src="/static/blog/quebre-senha-de-qualquer-computador/arquivo-sethc.jpg">
+<img alt="Arquivo Sethc" src="/assets/blog/quebre-senha-de-qualquer-computador/arquivo-sethc.jpg">
 <figcaption>Arquivo Sethc. (Imagem: Inside Block)</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ Você pode usar qualquer DVD ou Pen Driver Bootavel do Windows, em qualquer outr
 6. Agora vá ate o final da tela no arquivo “CMD” que você criou um copia e renomeie para “SETHC”.
 
 <figure class="image">
-<img alt="Arquivo CMD para Sethc" src="/static/blog/quebre-senha-de-qualquer-computador/arquivo-cmd-sethc.jpg">
+<img alt="Arquivo CMD para Sethc" src="/assets/blog/quebre-senha-de-qualquer-computador/arquivo-cmd-sethc.jpg">
 <figcaption>Arquivo CMD para Sethc. (Imagem: Inside Block)</figcaption>
 </figure>
 

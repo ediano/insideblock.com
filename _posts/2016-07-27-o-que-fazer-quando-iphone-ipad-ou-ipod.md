@@ -4,7 +4,7 @@ title: O que fazer quando iPhone, iPad ou iPod está sem som ou com ruidos
 datePublished: "2016-07-27 11:44:00"
 tags: [mobile, ios, tutorial]
 category: misc
-image: /static/blog/o-que-fazer-quando-iphone-ipad-ou-ipod/o-que-fazer-quando-iphone-ipad-ou-ipod.jpg
+image: /assets/blog/o-que-fazer-quando-iphone-ipad-ou-ipod/o-que-fazer-quando-iphone-ipad-ou-ipod.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -22,7 +22,7 @@ Se não for possível ouvir som ou se ele não estiver claro, prossiga para pró
 * Se o dispositivo tiver um interruptor de Toque/Silencioso, verifique se está posicionado para tocar. Se visualizar a cor laranja, o interruptor está ajustado para silencioso.
 
 <figure class="image">
-<img alt="Botão de silencia Iphone" src="/static/blog/o-que-fazer-quando-iphone-ipad-ou-ipod/silenciar-iphone.jpg">
+<img alt="Botão de silencia Iphone" src="/assets/blog/o-que-fazer-quando-iphone-ipad-ou-ipod/silenciar-iphone.jpg">
 <figcaption>Botão de silencia Iphone. (Imagem: Inside Block)</figcaption>
 </figure>
 

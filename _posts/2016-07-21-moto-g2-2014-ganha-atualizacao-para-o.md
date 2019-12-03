@@ -6,7 +6,7 @@ tags:
   - mobile
   - android
 category: misc
-image: /static/blog/moto-g2-2014-ganha-atualizacao-para-o.jpg
+image: /assets/blog/moto-g2-2014-ganha-atualizacao-para-o.jpg
 image_source: Google Imagens
 author: Ediano Silva Santos
 comments: true

@@ -4,7 +4,7 @@ title: "12 Formas de rankear seu site para os mecanismos de pesquisa"
 datePublished: "2016-10-07 10:19:00"
 tags: [seo, dicas, otimização]
 category: dev
-image: /static/blog/otimizacao-de-site-12-formas-de-rankear/otimizacao-de-site-12-formas-de-rankear.jpg
+image: /assets/blog/otimizacao-de-site-12-formas-de-rankear/otimizacao-de-site-12-formas-de-rankear.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -31,7 +31,7 @@ Lembrando, não adianta tentar enganar os buscadores ou seus clientes leitores, 
 As heading tags podem ser usada em qualquer plataforma blog, elas são tags de marcação universais que os buscadores usam para rastrear títulos e subtítulos de um conteúdo, fazer essas marcações melhora o rank da página e o rastreamento do conteúdo, inclusive já falamos aqui como você pode usar as <a href="http://www.insideblock.com/blog/heading-tags-aprenda-otimizar-melhor-o.html" target="_blank">tags de cabeçalho no Blogger</a>.
 
 <figure class="image">
-<img alt="Exemplo de tags heading" src="/static/blog/otimizacao-de-site-12-formas-de-rankear/tags-head.jpg">
+<img alt="Exemplo de tags heading" src="/assets/blog/otimizacao-de-site-12-formas-de-rankear/tags-head.jpg">
 <figcaption>Exemplo de tags heading. (Imagem: Inside Block)</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ Você pode usar as ferramentas Google AdWords e Google Trends para encontrar cat
 As ferramentas webmaster podem ser usadas para fazer rastreamento de páginas através dos dados estruturais do site, o Google Webmaster e o Bing Webmaster ambos pode ser forçado à verificação e indexar todas as páginas enviando sitemaps para o mecanismo de pesquisa.
 
 <figure class="image">
-<img alt="Google Webmasters e Bing Webmasters" src="/static/blog/otimizacao-de-site-12-formas-de-rankear/google-webmasters.jpg">
+<img alt="Google Webmasters e Bing Webmasters" src="/assets/blog/otimizacao-de-site-12-formas-de-rankear/google-webmasters.jpg">
 <figcaption>Google Webmasters e Bing Webmasters. (Imagem: Inside Block)</figcaption>
 </figure>
 

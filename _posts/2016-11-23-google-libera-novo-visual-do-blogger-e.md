@@ -5,7 +5,7 @@ description: "Todos acharão que o Blogger estava esquecido pelo Google, felizme
 datePublished: "2016-11-23 01:06:00"
 tags: [dicas, blogger]
 category: misc
-image: /static/blog/google-libera-novo-visual-do-blogger-e/google-libera-novo-visual-do-blogger-e.jpg
+image: /assets/blog/google-libera-novo-visual-do-blogger-e/google-libera-novo-visual-do-blogger-e.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 coauthor: Luciana Fabiano
@@ -16,7 +16,7 @@ ads: true
 O Google liberou para todos os usuários o novo visual do Blogger, alguns minutos depois de termos <a href="http://www.insideblock.com/blog/novo-visual-do-blogger-o-que-devemos.html" target="_blank">postado aqui no Inside Block</a> que o mesmo estava disponível apenas no <a href="https://draft.blogger.com/home" target="_blank" rel="noopener">Blogger in Draft</a>, a nova interface revelou algumas mudanças que atinge diretamente a página inicial do painel.
 
 <figure class="image">
-<img alt="Novo visual do Blogger" src="/static/blog/google-libera-novo-visual-do-blogger-e/new-blogger.jpg">
+<img alt="Novo visual do Blogger" src="/assets/blog/google-libera-novo-visual-do-blogger-e/new-blogger.jpg">
 <figcaption>Novo visual do Blogger. (Imagem: Inside Block)</figcaption>
 </figure>
 

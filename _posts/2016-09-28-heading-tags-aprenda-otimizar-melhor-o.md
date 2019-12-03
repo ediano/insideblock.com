@@ -4,7 +4,7 @@ title: Heading tags aprenda a otimizar melhor o Blogger
 datePublished: "2016-09-28 23:15:00"
 tags: [blogger, seo, otimização]
 category: dev
-image: /static/blog/heading-tags-aprenda-otimizar-melhor-o/heading-tags-aprenda-otimizar-melhor-o.jpg
+image: /assets/blog/heading-tags-aprenda-otimizar-melhor-o/heading-tags-aprenda-otimizar-melhor-o.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -21,7 +21,7 @@ Os buscadores usa as heading tags para otimizar os assuntos mais importantes, se
 A tag H1 pode ser adiciona apenas uma vez por página, e como o seu blog tem um nome seria muito interessante guarda a tag H1 para destacar o cabeçalho do mesmo.A tag H2 e as demais pode ser repetida várias vezes em um página, mas reserve a H2 para título de post e páginas, se tiver um gadget na lateral do blog use ela para destacar o título do gadget também. A H3 pode ser usada para destacar subtítulos dentro do conteúdo, porém se quiser usar à H2 não tem problema. Para as demais tags, de H4 à H6 elas podem ser usada para destacar títulos de comentários, ou em marcação simples entre outros.
 
 <figure class="image">
-<img alt="Heading Tags H1 a H6" src="/static/blog/heading-tags-aprenda-otimizar-melhor-o/heading.jpg">
+<img alt="Heading Tags H1 a H6" src="/assets/blog/heading-tags-aprenda-otimizar-melhor-o/heading.jpg">
 <figcaption>Heading Tags H1 a H6. (Imagem: Inside Block)</figcaption>
 </figure>
 

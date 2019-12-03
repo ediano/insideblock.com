@@ -4,7 +4,7 @@ title: Como fazer ligação privada do iPhone
 datePublished: "2016-07-21 21:05:00"
 tags: [mobile, tutorial, ios]
 category: misc
-image: /static/blog/como-fazer-ligacao-privada-do-iphone/como-fazer-ligacao-privada-do-iphone.jpg
+image: /assets/blog/como-fazer-ligacao-privada-do-iphone/como-fazer-ligacao-privada-do-iphone.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -20,7 +20,7 @@ Este recurso é nativa do iOS, é você não precisa instalar qualquer aplicativ
 2. Desmarque a opção, "*Mostrar Meu Número*".
 
 <figure class="image">
-<img alt="Ajuste de ligação do Iphone" src="/static/blog/como-fazer-ligacao-privada-do-iphone/ligacao-iphone.jpg">
+<img alt="Ajuste de ligação do Iphone" src="/assets/blog/como-fazer-ligacao-privada-do-iphone/ligacao-iphone.jpg">
 <figcaption>Ajuste de ligação do Iphone. (Imagem: Inside Block)</figcaption>
 </figure>
 

@@ -4,7 +4,7 @@ title: Como ativar ou desativar o UAC - Controle da Conta de Usuário
 datePublished: "2016-07-21 10:40:00"
 tags: [windows, tutorial, segurança]
 category: misc
-image: /static/blog/como-ativar-ou-desativar-o-uac-controle/como-ativar-ou-desativar-o-uac-controle.jpg
+image: /assets/blog/como-ativar-ou-desativar-o-uac-controle/como-ativar-ou-desativar-o-uac-controle.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -22,14 +22,14 @@ Para abrir Configurações de Controle de Conta de Usuário, clique no botão In
 Para desativar o UAC, mova o controle deslizante para a posição Nunca notificar e clique em OK. Se você for solicitado a informar uma senha de administrador ou sua confirmação, digite a senha ou forneça a confirmação. Você precisará reiniciar o computador para que o UAC seja desativado.
 
 <figure class="image">
-<img alt="Configurações de conta de usuário, nível baixo" src="/static/blog/como-ativar-ou-desativar-o-uac-controle/configuracao-conta-usuario-baixo.jpg">
+<img alt="Configurações de conta de usuário, nível baixo" src="/assets/blog/como-ativar-ou-desativar-o-uac-controle/configuracao-conta-usuario-baixo.jpg">
 <figcaption>Configurações de conta de usuário, nível baixo. (Imagem: Inside Block)</figcaption>
 </figure>
 
 Para ativar o UAC, mova o controle deslizante para escolher quando deseja ser notificado e clique em OK. Se você for solicitado a informar uma senha de administrador ou sua confirmação, digite a senha ou forneça a confirmação.
 
 <figure class="image">
-<img alt="Configurações de conta de usuário, nível recomendado" src="/static/blog/como-ativar-ou-desativar-o-uac-controle/configuracao-conta-usuario-recomendado.jpg">
+<img alt="Configurações de conta de usuário, nível recomendado" src="/assets/blog/como-ativar-ou-desativar-o-uac-controle/configuracao-conta-usuario-recomendado.jpg">
 <figcaption>Configurações de conta de usuário, nível recomendado. (Imagem: Inside Block)</figcaption>
 </figure>
 

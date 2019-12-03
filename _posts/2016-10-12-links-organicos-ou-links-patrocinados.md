@@ -4,7 +4,7 @@ title: "Links organicos ou links patrocinados"
 datePublished: "2016-10-12 00:19:00"
 tags: [seo, dicas, otimização]
 category: misc
-image: /static/blog/links-organicos-ou-links-patrocinados/links-organicos-ou-links-patrocinados.jpg
+image: /assets/blog/links-organicos-ou-links-patrocinados/links-organicos-ou-links-patrocinados.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -24,7 +24,7 @@ Não importa como chegou a este resultado, mas importa que você nos encontrou e
 Os Links patrocinados são links pagos, geralmente contratado por empresas para anunciar produtos ou marca, esses links não tem muita relevância porém você pode encontrar eles ao fazer uma pesquisa na web. Quando você pesquisa pela palavra “domínio” no Google vários resultados são encontrados, mas o que poucas pessoas percebem é que ele também traz resultados patrocinados, veja a imagem.
 
 <figure class="image">
-<img alt="Demostração de pesquisa com a plavra domínio" src="/static/blog/links-organicos-ou-links-patrocinados/palavra-dominio.jpg">
+<img alt="Demostração de pesquisa com a plavra domínio" src="/assets/blog/links-organicos-ou-links-patrocinados/palavra-dominio.jpg">
 <figcaption>Demostração de pesquisa com a plavra domínio. (Imagem: Inside Block)</figcaption>
 </figure>
 

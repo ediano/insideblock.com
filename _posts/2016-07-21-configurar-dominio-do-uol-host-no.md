@@ -4,7 +4,7 @@ title: Configurar domínio do Uol Host no Blogger sem www
 datePublished: "2016-07-21 10:03:00"
 tags: [seo, blogger, tutorial]
 category: dev
-image: /static/blog/configurar-dominio-do-uol-host-no.jpg
+image: /assets/blog/configurar-dominio-do-uol-host-no.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

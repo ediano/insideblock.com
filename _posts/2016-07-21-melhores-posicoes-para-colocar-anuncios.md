@@ -4,7 +4,7 @@ title: Melhores posições para colocar anúncios no blog
 datePublished: "2016-07-21 13:00:00"
 tags: [seo, dicas, otimização, monetização]
 category: misc
-image: /static/blog/melhores-posicoes-para-colocar-anuncios.jpg
+image: /assets/blog/melhores-posicoes-para-colocar-anuncios.jpg
 image_source: Google Imagens
 author: Ediano Silva Santos
 comments: true

@@ -4,7 +4,7 @@ title: Ativar a porcentagem de bateria do Android 6
 datePublished: "2016-07-21 23:29:00"
 tags: [mobile, android, dicas, tutorial]
 category: misc
-image: /static/blog/ativar-porcentagem-de-bateria-do/ativar-porcentagem-de-bateria-do.jpg
+image: /assets/blog/ativar-porcentagem-de-bateria-do/ativar-porcentagem-de-bateria-do.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -18,21 +18,21 @@ Como nas versões anterior do Android o Marshmallow vem com algumas funções oc
 * Posicione seu dedo no topo da tela e deslize de cima para baixa para acessar o ajustes rápido. Pressione sobre o ícone que da acessoa as configurações do celular por 5 (cinco) segundos ou mais.
 
 <figure class="image">
-<img alt="Botão de ajustes rápido do Android 6" src="/static/blog/ativar-porcentagem-de-bateria-do/botao-configuracao.jpg">
+<img alt="Botão de ajustes rápido do Android 6" src="/assets/blog/ativar-porcentagem-de-bateria-do/botao-configuracao.jpg">
 <figcaption>Botão de ajustes rápido. (Imagem: Inside Block)</figcaption>
 </figure>
 
 * Ao soltar o ícone de configurações você sera levado ate as configurações e a seguinte mensagem vai aparecer por alguns segundos, (Parabéns! O sintonizador System UI foi adiciona às configurações). Deslize ate o final da tela e acesse (Sintonizador System UI).
 
 <figure class="image">
-<img alt="Sintonizador System UI do Andriod 6" src="/static/blog/ativar-porcentagem-de-bateria-do/menu.jpg">
+<img alt="Sintonizador System UI do Andriod 6" src="/assets/blog/ativar-porcentagem-de-bateria-do/menu.jpg">
 <figcaption>Sintonizador System UI. (Imagem: Inside Block)</figcaption>
 </figure>
 
 * Dentro da configuração (Sintonizador Sytem UI), habilite a opção (Mostrar porcentagem de bateria inc…), o normal é que a porcentagem de bateria comece a aparecer no mesmo momento que você habilitar, caso isso não aconteça desligue e ligue o seu aparelho.
 
 <figure class="image">
-<img alt="Mostrar porcentagem de bateria Android 6" src="/static/blog/ativar-porcentagem-de-bateria-do/menu-sintonizado-system-ui.jpg">
+<img alt="Mostrar porcentagem de bateria Android 6" src="/assets/blog/ativar-porcentagem-de-bateria-do/menu-sintonizado-system-ui.jpg">
 <figcaption>Mostrar porcentagem de bateria. (Imagem: Inside Block)</figcaption>
 </figure>
 

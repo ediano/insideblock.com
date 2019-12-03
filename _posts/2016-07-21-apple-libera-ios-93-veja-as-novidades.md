@@ -4,7 +4,7 @@ title: Apple libera iOS 9.3 - Veja as novidades
 datePublished: "2016-07-21 14:05:00"
 tags: [mobile, ios, dicas]
 category: misc
-image: /static/blog/apple-libera-ios-93-veja-as-novidades/apple-libera-ios-93-veja-as-novidades.jpg
+image: /assets/blog/apple-libera-ios-93-veja-as-novidades/apple-libera-ios-93-veja-as-novidades.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
@@ -19,7 +19,7 @@ O novo update traz correção de hardware, melhorias de segurança e desempenho 
 O Night Shift tem a função de diminuir o brilho da tela para a parte mais quente do espectro de cores, todos os dia ao por do sol, com tom de vermelho com laranja, caso você não queira que ele inicie automaticamente ao por do sol, você pode agendar um horário para ele comece e terminar, ou se você preferir, você pode ativar e desativar no menu de acesso rápida do iOS.
 
 <figure class="image">
-<img alt="Função Night Shift" src="/static/blog/apple-libera-ios-93-veja-as-novidades/night-shift.jpg">
+<img alt="Função Night Shift" src="/assets/blog/apple-libera-ios-93-veja-as-novidades/night-shift.jpg">
 <figcaption>Função Night Shift. (Imagem: Inside Block)</figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ O Night Shift tem a função de diminuir o brilho da tela para a parte mais quen
 O Notas do iOS esta mais seguro com a nova função, agora é possível definir uma senha para cada nota (“Google Keep que se cuide”), esta nova função esta dando o que falar, muntos usuários já deixarão de usar notas de terceiros que fazia a mesma função, (não é o caso do Google Keep), esta segurança veio no hora certa, desde o caso Apple e FBI cada vez mais usuários vem se preocupando com a privacidade de seus dispositivos, não sabemos lhe afirma, se Aplle já vinha pensando nessa ideias antes do caso, só sei que foi bem aceita por todos os apaixonados da maça mordida.
 
 <figure class="image">
-<img alt="Bloco de notas" src="/static/blog/apple-libera-ios-93-veja-as-novidades/notas.jpg">
+<img alt="Bloco de notas" src="/assets/blog/apple-libera-ios-93-veja-as-novidades/notas.jpg">
 <figcaption>Bloco de notas. (Imagem: Inside Block)</figcaption>
 </figure>
 

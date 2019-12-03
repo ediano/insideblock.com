@@ -11,7 +11,7 @@ tags:
   - dicas
   - front-end
 category: dev
-image: /static/blog/os-melhores-frameworks-front-end-para.jpg
+image: /assets/blog/os-melhores-frameworks-front-end-para.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 coauthor: Luciana Fabiano

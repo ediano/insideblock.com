@@ -4,7 +4,7 @@ title: Melhor serviço de registro de domínio
 datePublished: "2016-07-21 14:06:00"
 tags: [dicas]
 category: dev
-image: /static/blog/melhor-servico-de-registro-de-dominio.jpg
+image: /assets/blog/melhor-servico-de-registro-de-dominio.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

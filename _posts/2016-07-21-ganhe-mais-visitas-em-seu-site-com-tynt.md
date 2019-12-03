@@ -8,7 +8,7 @@ tags:
   - otimização
   - tynt
 category: misc
-image: /static/blog/ganhe-mais-visitas-em-seu-site-com-tynt.jpg
+image: /assets/blog/ganhe-mais-visitas-em-seu-site-com-tynt.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

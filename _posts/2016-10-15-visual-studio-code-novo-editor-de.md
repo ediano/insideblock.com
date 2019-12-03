@@ -6,7 +6,7 @@ tags:
   - dicas
   - apps
 category: misc
-image: /static/blog/visual-studio-code-novo-editor-de.jpg
+image: /assets/blog/visual-studio-code-novo-editor-de.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

@@ -4,7 +4,7 @@ title: Ganhe dinheiro com seu blog exibindo anúncios
 datePublished: "2016-09-25 22:41:00"
 tags: [dicas, otimização, adsense]
 category: misc
-image: /static/blog/ganhe-dinheiro-com-seu-blog-exibindo.jpg
+image: /assets/blog/ganhe-dinheiro-com-seu-blog-exibindo.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
