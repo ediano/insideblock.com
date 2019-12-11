@@ -20,3 +20,4 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
 <link rel="alternate" type="application/rss+xml"  href="{{ site.url }}/feed.xml" title="{{ site.title }}"/>
 <link rel="icon" type="image/x-icon" sizes="128x128" href="{{ site.favicon | append: site.baseurl | prepend: site.url }}" />
+<link rel="apple-touch-icon" href="{{ site.favicon | append: site.baseurl | prepend: site.url }}" />
