@@ -13,7 +13,7 @@ ads: true
 
 Você não consegue ouvir nada no alto-falante do iPhone, iPad ou iPod? Talvez você consegue ouvir, mas o som esteja distorcido, abafado e intermitente. Também é possível que você esteja ouvindo um som estático ou ruídos de estalo. Fique sabendo que isso pode acontecer de um hora para outra e se explicação, e que existe algumas maneiras de resolver o problema, sem a necessidade de algum suporte técnico.
 
-Esta falha pode acontecer ao fazer ou receber uma ligação, ouvir musicas ou assistir vídeos, alerta de notificações e outros motivos como voz do GPS de algum app especifico. Leia também <a href="http://www.insideblock.com/blog/porque-funciona-um-alto-falante-do.html" target="_blank">Porque funciona um alto-falante do iPhone?</a>.
+Esta falha pode acontecer ao fazer ou receber uma ligação, ouvir musicas ou assistir vídeos, alerta de notificações e outros motivos como voz do GPS de algum app especifico. Leia também <a href="http://www.insideblock.com/blog/porque-funciona-um-alto-falante-do.html" target="_blank" rel="noopener">Porque funciona um alto-falante do iPhone?</a>.
 
 * Siga esta etapa caso o problema esteja relacionado ao fazer ou receber uma ligação, ou alertas de notificação. Vá até Ajustes\Sons e arraste o controle deslizante de Toque e Alertas para aumentar o volume. Se for possível ouvir som, então ele já esta funcionando.
 

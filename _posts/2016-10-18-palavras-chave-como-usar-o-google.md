@@ -15,7 +15,7 @@ O Google AdWords é uma ferramenta desenvolvida para empresas que querem anuncia
 
 Escolher palavras-chave não resume apenas em escolher um nicho, você pode usá-las para criar um artigo, definir como metas descrição para facilitar o rastreamento dos mecanismos de busca, conquistar boas posições no rank de pesquisa e um número considerável de público alvo.
 
-O AdWords é a ferramenta indicada e a mais completa para esse tipo de serviço, com ela é possível gerar relatório de palavras <a href="http://www.insideblock.com/blog/links-organicos-ou-links-patrocinados.html" target="_blank">orgânicas</a> e competitiva no mercado, neste artigo você vai aprender analisar todas as possibilidades para criar um nicho totalmente relevante e com um grande número de público alvo.
+O AdWords é a ferramenta indicada e a mais completa para esse tipo de serviço, com ela é possível gerar relatório de palavras <a href="http://www.insideblock.com/blog/links-organicos-ou-links-patrocinados.html" target="_blank" rel="noopener">orgânicas</a> e competitiva no mercado, neste artigo você vai aprender analisar todas as possibilidades para criar um nicho totalmente relevante e com um grande número de público alvo.
 
 ## Planejamento de palavras-chave
 O Planejamento de palavras-chave é uma ferramenta específica que pode ser usado tanto por empresas quanto por blogueiros, esta ferramenta tem a função de encontrar novas palavras chaves, ver dados de volume de pesquisa, planejar orçamento e receber previsões, porém iremos usar apenas a função mais importante e interessante para blogueiros. Siga as informações e confira as análise.

@@ -18,7 +18,7 @@ Todo mundo sabe que os celulares fazem ligações e enviam sms, isso é óbvio, 
 Para quebrar o gelo, irei mostrar neste artigo algumas funções do Android que talvez você já conheça e talvez não - detalhe, dependendo do fabricante e da versão do Android instalada no smartphone pode ser que algumas funções não estejam disponíveis. Todas as funções apresentadas aqui foram testadas com o Android puro a partir da versão 6.0.1 (Marshmallow).
 
 ## Sintonizador System UI
-O Sintonizador System UI é a função mais oculta dentro do Android, inclusive nós já fizemos aqui mesmo no Inside Block um artigo de como ele pode ser ativado e o que a ferramenta oferece de recurso. A ferramenta nasceu no Android 6 e tem a principal função de ativar a porcentagem de bateria, sem a necessidade do uso de apps de terceiros nos dispositivos com Android puro. Veja o artigo completo em “<a href="http://www.insideblock.com/blog/qual-funcao-do-sintonizador-system-ui.html" target="_blank">Qual a função do Sintonizador System UI do Android 6 Marshmallow?</a>”
+O Sintonizador System UI é a função mais oculta dentro do Android, inclusive nós já fizemos aqui mesmo no Inside Block um artigo de como ele pode ser ativado e o que a ferramenta oferece de recurso. A ferramenta nasceu no Android 6 e tem a principal função de ativar a porcentagem de bateria, sem a necessidade do uso de apps de terceiros nos dispositivos com Android puro. Veja o artigo completo em “<a href="http://www.insideblock.com/blog/qual-funcao-do-sintonizador-system-ui.html" target="_blank" rel="noopener">Qual a função do Sintonizador System UI do Android 6 Marshmallow?</a>”
 
 ## Criptografia de dados
 A criptografia de dados não fica oculta no Android, porém ela fica um pouco difícil de ser encontrada e poucos usuários sabem para que ela realmente funciona. Ela tem a função de codificar suas contas, configurações, apps, dados baixados, mídias e outros. Isso faz com que o usuário se sinta mais seguro, obrigado a digitar a senha de descriptografia toda vez que o dispositivo for desligado e ligado.
@@ -40,7 +40,7 @@ Após a ativação do novo recurso é hora de fazer um teste. Bloqueie a tela do
 ## Fixação de tela
 A fixação de tela do Android é um tipo de congelamento de tela, você pode travar a tela do celular e impedir que outros usuários mecham em apps ou funções sem sua permissão.
 
-Digamos que um amigo peça o celular emprestado para enviar uma mensagem, você pode congelar o app mensageiro, impedindo que ele use qualquer outro recurso do Android, obrigando-o a digitar uma senha para sair do app congelado. Para saber como ativar este recurso veja o artigo completo em “<a href="http://www.insideblock.com/blog/acesso-guiado-vs-fixacao-de-tela-quem.html" target="_blank">Acesso Guiado vs Fixação de Tela quem copiou a ideia?</a>”
+Digamos que um amigo peça o celular emprestado para enviar uma mensagem, você pode congelar o app mensageiro, impedindo que ele use qualquer outro recurso do Android, obrigando-o a digitar uma senha para sair do app congelado. Para saber como ativar este recurso veja o artigo completo em “<a href="http://www.insideblock.com/blog/acesso-guiado-vs-fixacao-de-tela-quem.html" target="_blank" rel="noopener">Acesso Guiado vs Fixação de Tela quem copiou a ideia?</a>”
 
 ## Identificador de música
 Você já chegou a ouvir uma música que gosta muito, mas não sabe qual é a banda ou qual o nome da música? Eu acredito que sim, e acredito também que você já chegou a usar algum app para reconhecer tais músicas, como o Shazam ou outro app similar.

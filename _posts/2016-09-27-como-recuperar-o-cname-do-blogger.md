@@ -11,7 +11,7 @@ comments: true
 ads: true
 ---
 
-Ao adicionar um <a href="http://www.insideblock.com/blog/como-colocar-dominio-no-blogspot.html" target="_blank">domínio personalizado no Blogger</a> pela primeira vez é gerado um CNAME, entretanto caso o usuário escolha mudar de domínio ou removeu o mesmo e tente adicionar novamente, o Blogger não mostrar na segunda vez as informações de apontamento de DNS que deve ser adicionada ao serviço de registro.
+Ao adicionar um <a href="http://www.insideblock.com/blog/como-colocar-dominio-no-blogspot.html" target="_blank" rel="noopener">domínio personalizado no Blogger</a> pela primeira vez é gerado um CNAME, entretanto caso o usuário escolha mudar de domínio ou removeu o mesmo e tente adicionar novamente, o Blogger não mostrar na segunda vez as informações de apontamento de DNS que deve ser adicionada ao serviço de registro.
 
 Porém é possível fazer a recuperação dos apontamentos de DNS com a ajuda do Google Webmaster. Acesse o página do <a href="https://www.google.com/webmasters/tools/home?hl=pt-BR" target="_blank" rel="noopener">Webmaster</a>, faça login com uma conta do Google, caso não tenha crie uma.
 

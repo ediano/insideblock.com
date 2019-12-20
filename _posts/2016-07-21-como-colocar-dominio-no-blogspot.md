@@ -15,7 +15,7 @@ Toda vez quando criamos um blog com hospedagem grátis, além de escolhermos um 
 
 Logo depois vem a pergunta se eu adquirir um domínio personalizado, como faço para configurar em meu blog, bom isso é bem simples no caso do "blogspot.com", nos temos aqui um tutorial completo para qualquer domínio de nível superior "www.example.com".
 
-Se por acaso você ainda não adquirir nem um domínio, recomendamos que usem o Google Domains, pois o domínio "<a href="//www.insideblock.com">insideblock.com</a>" é registrado no próprio, temos também um outro tutorial passo a passo como configurar domínio do Uol Host no Blogger.
+Se por acaso você ainda não adquirir nem um domínio, recomendamos que usem o Google Domains, pois o domínio "<a href="//www.insideblock.com" rel="noopener">insideblock.com</a>" é registrado no próprio, temos também um outro tutorial passo a passo como configurar domínio do Uol Host no Blogger.
 
 OBS: Este tutorial não é valido para o Google Domains, pois o serviço já se integra automaticamente ao Blogger.
 
@@ -27,7 +27,7 @@ Depois de comprar um domínio personalizado siga as instruções.
 
 3. Agora verá um erro e dois CNAMEs listados abaixo. Cada CNAME é formado por duas partes: Nome, Marcador ou Hoste Destino, Alvo ou Direcionar para. O primeiro é igual para todos: Nome sendo "www", destino como "ghs.google.com". O segundo CNAME é único é específico para o seu blog e sua conta no Google, é portanto diferente para cada pessoa.
 
-NOTA: Se o seu CNAME não aparecer no painel do Blogger, veja este artigo de <a href="http://www.insideblock.com/blog/como-recuperar-o-cname-do-blogger.html" target="_blank">Como recuperar o CNAME do Blogger</a>
+NOTA: Se o seu CNAME não aparecer no painel do Blogger, veja este artigo de <a href="http://www.insideblock.com/blog/como-recuperar-o-cname-do-blogger.html" target="_blank" rel="noopener">Como recuperar o CNAME do Blogger</a>
 
 {:start="4"}
 4. Acesse o site do seu serviço de registro de domínio e encontre as configurações "DNS" (*Sistema de Nome de Domínio*) no painel de controle.

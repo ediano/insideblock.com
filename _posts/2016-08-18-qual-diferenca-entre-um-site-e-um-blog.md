@@ -40,6 +40,6 @@ Já o blog é como se fosse o seu amigo que gosta de compartilhar coisas, que qu
 ## Desenvolvimento
 **Blog:** Para desenvolver um blog é muito simples, hoje existe centenas de plataforma que oferece serviços gratuitos assim como Blogger e WordPress, essas duas ferramentas são as mais populares do mundo, e todas elas vem com ferramentas de edição para pessoas que não sabe editar em html e css.
 
-**Site** Geralmente é mais complicado pois envolve muitas pessoas, assim como profissionais na área de TI ou agências especializadas em desenvolvimento de website, para fazer implantações de sistema de <a href="http://www.insideblock.com/blog/help-desk-software-solucao-para-sua.html" target="_blank">Help desk</a> caso necessário.
+**Site** Geralmente é mais complicado pois envolve muitas pessoas, assim como profissionais na área de TI ou agências especializadas em desenvolvimento de website, para fazer implantações de sistema de <a href="http://www.insideblock.com/blog/help-desk-software-solucao-para-sua.html" target="_blank" rel="noopener">Help desk</a> caso necessário.
 
 Agora que você já sabe qual a diferença de um site e um blog, você já está pronto para começar o seu próprio negócio na internet, aproveite o seu conhecimento e faça dela uma oportunidade de sucesso.

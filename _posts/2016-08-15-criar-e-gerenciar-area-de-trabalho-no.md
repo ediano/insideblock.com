@@ -15,7 +15,7 @@ O Windows 10 é o sistema operacional mais completo em comparação com as vers�
 
 Um desses recursos é a possibilidade de criar multiplas áreas de trabalho que facilita o uso de vários aplicativos e janelas ao mesmo tempo, sem ter que ficar minimizando ou fechando para usar outro.
 
-O recurso apresentado nesse artigo faz parte de uma ferramenta operacional que está disponível apenas para o Windows 10, caso você ainda não tenha instalado no seu computador leia o artigo <a href="http://www.insideblock.com/blog/como-formatar-seu-computador-com.html" target="_blank">como formatar o seu computador com Windows 10</a>.
+O recurso apresentado nesse artigo faz parte de uma ferramenta operacional que está disponível apenas para o Windows 10, caso você ainda não tenha instalado no seu computador leia o artigo <a href="http://www.insideblock.com/blog/como-formatar-seu-computador-com.html" target="_blank" rel="noopener">como formatar o seu computador com Windows 10</a>.
 
 Para iniciarmos recomendo que você abra qualquer arquivo ou aplicativo, se preferir você pode usar o navegador que está lendo este artigo caso esteja usando Windows 10.
 
