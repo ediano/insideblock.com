@@ -15,7 +15,7 @@ Nenhum sistema operacional está livre de bugs, o sistema da Microsoft entretant
 
 Mas o problema nem sempre se trata de um bug no sistema, mas sim um problema de desempenho do próprio hardware, para saber se o problema e o sistema ou o hardware prossiga com as seguintes instruções.
 
-* **Primeiro:** Sistema recém instalado, só assim teremos uma maior garantia que o problema será resolvido, pois a <a href="http://www.insideblock.com/blog/como-formatar-seu-computador-com.html" target="_blank" rel="noopener">formatação</a> remove vírus onde o mesmo faz o uso constante do disco rígido, memória e processador.
+* **Primeiro:** Sistema recém instalado, só assim teremos uma maior garantia que o problema será resolvido, pois a <a href="https://www.insideblock.com/blog/como-formatar-seu-computador-com.html" target="_blank" rel="noopener">formatação</a> remove vírus onde o mesmo faz o uso constante do disco rígido, memória e processador.
 
 * **Segundo:** Verifique os aplicativos que fica sendo executado em segundo plano, cheque a quantia da velocidade dos hardware que eles estão consumindo como os antivírus, aplicativos de sincronização em nuvem entre outros.
 
@@ -51,4 +51,4 @@ Ao completar o escâner de 100% digite este segundo comando para recuperar os se
 Dism /Online /Cleanup-Image /RestoreHealth
 ```
 
-Caso nem dos procedimentos acima resolver o problema, <a href="http://www.insideblock.com/blog/como-formatar-seu-computador-com.html" target="_blank" rel="noopener">recomendo que formate o PC</a> caso ainda não tenha feito isso, e novamente faça as verificações desde o inícios após a formatação, durante a instalação de softwares e drives se o disco vai entrar em consumo máximo novamente, caso isso ocorra só temos a levar em consideração que o seu hardware está com problema, ou que o mesmo não tem suporte suficiente para ser usado no sistema operacional atual.
+Caso nem dos procedimentos acima resolver o problema, <a href="https://www.insideblock.com/blog/como-formatar-seu-computador-com.html" target="_blank" rel="noopener">recomendo que formate o PC</a> caso ainda não tenha feito isso, e novamente faça as verificações desde o inícios após a formatação, durante a instalação de softwares e drives se o disco vai entrar em consumo máximo novamente, caso isso ocorra só temos a levar em consideração que o seu hardware está com problema, ou que o mesmo não tem suporte suficiente para ser usado no sistema operacional atual.

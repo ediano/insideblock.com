@@ -11,9 +11,9 @@ comments: true
 ads: true
 ---
 
-Ao adicionar um <a href="http://www.insideblock.com/blog/como-colocar-dominio-no-blogspot.html" target="_blank" rel="noopener">domínio personalizado no Blogger</a> pela primeira vez é gerado um CNAME, entretanto caso o usuário escolha mudar de domínio ou removeu o mesmo e tente adicionar novamente, o Blogger não mostrar na segunda vez as informações de apontamento de DNS que deve ser adicionada ao serviço de registro.
+Ao adicionar um <a href="https://www.insideblock.com/blog/como-colocar-dominio-no-blogspot.html" target="_blank" rel="noopener">domínio personalizado no Blogger</a> pela primeira vez é gerado um CNAME, entretanto caso o usuário escolha mudar de domínio ou removeu o mesmo e tente adicionar novamente, o Blogger não mostrar na segunda vez as informações de apontamento de DNS que deve ser adicionada ao serviço de registro.
 
-Porém é possível fazer a recuperação dos apontamentos de DNS com a ajuda do Google Webmaster. Acesse o página do <a href="https://www.google.com/webmasters/tools/home?hl=pt-BR" target="_blank" rel="noopener">Webmaster</a>, faça login com uma conta do Google, caso não tenha crie uma.
+Porém é possível fazer a recuperação dos apontamentos de DNS com a ajuda do Google Webmaster. Acesse o página do <a href="https://www.google.com/webmasters/tools/home?hl=pt-BR" target="_blank" rel="nofollow noopener noreferrer">Webmaster</a>, faça login com uma conta do Google, caso não tenha crie uma.
 
 ## Adicionar propriedade
 Na primeira página após fazer o login, o Google Webmaster vai exibir todos os sites listados, caso o seu site não esteja listado no mesmo clique em “*Adicione uma propriedade*”, digite o endereço do domínio registrado do tipo “www.example.com”, confirme em *Adicionar*.

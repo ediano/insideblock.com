@@ -13,7 +13,7 @@ comments: true
 ads: true
 ---
 
-O Google liberou para todos os usuários o novo visual do Blogger, alguns minutos depois de termos <a href="http://www.insideblock.com/blog/novo-visual-do-blogger-o-que-devemos.html" target="_blank" rel="noopener">postado aqui no Inside Block</a> que o mesmo estava disponível apenas no <a href="https://draft.blogger.com/home" target="_blank" rel="noopener">Blogger in Draft</a>, a nova interface revelou algumas mudanças que atinge diretamente a página inicial do painel.
+O Google liberou para todos os usuários o novo visual do Blogger, alguns minutos depois de termos <a href="https://www.insideblock.com/blog/novo-visual-do-blogger-o-que-devemos.html" target="_blank" rel="noopener">postado aqui no Inside Block</a> que o mesmo estava disponível apenas no <a href="https://draft.blogger.com/home" target="_blank" rel="noopener">Blogger in Draft</a>, a nova interface revelou algumas mudanças que atinge diretamente a página inicial do painel.
 
 <figure class="image">
 <img alt="Novo visual do Blogger" src="/assets/blog/google-libera-novo-visual-do-blogger-e/new-blogger.jpg">
@@ -45,4 +45,4 @@ Detalhe: Os blogs “excluídos permanentemente” não aparecerão na lista de 
 ## Lista de leitura
 Antes a lista de leitura ficava junto a lista de blogs, agora ela fica em uma página individual, onde se encontra o blog oficial do Blogger e os blogs que seguimos. A mesma pode ser facilmente acessada ao clicar no link "Lista de leitura", localizado no canto inferior esquerdo.
 
-Em uma publicação feita no blog oficial do Blogger, Guy Ronen, Gerente de Produto, fala sobre fazer alguns ajustes ao longo tempo e promete que mais novidades estão por vir. Apesar dessa nova versão estar bem recente, muitos usuários já deram seu feedback no <a href="https://blogger.googleblog.com/2016/11/a-first-few-tweaks-toward-better-blogger_22.html" target="_blank" rel="noopener">blog oficial</a>, confira você também e deixe um comentário.
+Em uma publicação feita no blog oficial do Blogger, Guy Ronen, Gerente de Produto, fala sobre fazer alguns ajustes ao longo tempo e promete que mais novidades estão por vir. Apesar dessa nova versão estar bem recente, muitos usuários já deram seu feedback no <a href="https://blogger.googleblog.com/2016/11/a-first-few-tweaks-toward-better-blogger_22.html" target="_blank" rel="nofollow noopener noreferrer">blog oficial</a>, confira você também e deixe um comentário.

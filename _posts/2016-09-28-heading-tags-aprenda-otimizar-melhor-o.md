@@ -78,4 +78,4 @@ Os templates do Blogger tem a tag H2 marcada para os títulos do Widget e data d
 }
 ```
 
-Existem várias técnicas para melhorar a otimização do blog para os motores de busca, uma delas é <a href="http://www.insideblock.com/blog/como-verificar-e-indexar-todas-as.html" target="_blank" rel="noopener">indexar as páginas do blog para o Google</a>, espero que este tutoria ajude suas páginas tanto para facilitar a leitura dos clientes leitores quanto para o as metas de SEO.
+Existem várias técnicas para melhorar a otimização do blog para os motores de busca, uma delas é <a href="https://www.insideblock.com/blog/como-verificar-e-indexar-todas-as.html" target="_blank" rel="noopener">indexar as páginas do blog para o Google</a>, espero que este tutoria ajude suas páginas tanto para facilitar a leitura dos clientes leitores quanto para o as metas de SEO.

@@ -23,7 +23,7 @@ As principais rede social possuem um condigo que qualquer administrador de site 
 
 ## Page Plugin do Facebook
 
-É praticamente quase que uma regra da internet, todos os site e blog usarem o Page Plugin na lateral de seus posts ou em qualquer outro lugar de fácil acesso dos visitantes. Para incorporar a caixa de fás do Facebook, clique no link de acesso a <a href="https://developers.facebook.com/docs/plugins/page-plugin" target="_blank" rel="noopener">página desenvolvedores do Facebook</a>. Em "Facebook Page URL" você deve inserir o URL de sua página. Agora você pode configurar o Page Plugin do seu gosto ou de acordo com o seu blog.
+É praticamente quase que uma regra da internet, todos os site e blog usarem o Page Plugin na lateral de seus posts ou em qualquer outro lugar de fácil acesso dos visitantes. Para incorporar a caixa de fás do Facebook, clique no link de acesso a <a href="https://developers.facebook.com/docs/plugins/page-plugin" target="_blank" rel="nofollow noopener noreferrer">página desenvolvedores do Facebook</a>. Em "Facebook Page URL" você deve inserir o URL de sua página. Agora você pode configurar o Page Plugin do seu gosto ou de acordo com o seu blog.
 
 Width (Largura), Height (Altura) e Hide Cover Photo (mostrar ou não foto da capa).
 
@@ -38,7 +38,7 @@ No WordPress, Abra o Menu do WordPress\Aparência\Widgets, e selecione o campo d
 
 ## Widget Timeline do Twitter
 
-Para incorporar o Timeline do Twitter, faça login no seu perfil do Twitter e <a href="https://twitter.com/login?redirect_after_login=%2Fsettings%2Fwidgets" target="_blank" rel="noopener">acesse esta página</a>, Agora clique em "Criar Novo", selecione a opção e personalização de sua preferencia, clique em "Criar Widget" para gera o código e incorporar no seu blog.
+Para incorporar o Timeline do Twitter, faça login no seu perfil do Twitter e <a href="https://twitter.com/login?redirect_after_login=%2Fsettings%2Fwidgets" target="_blank" rel="nofollow noopener noreferrer">acesse esta página</a>, Agora clique em "Criar Novo", selecione a opção e personalização de sua preferencia, clique em "Criar Widget" para gera o código e incorporar no seu blog.
 
 Para incorporar o código no Blogger ou WordPress, basta repetir o mesmo processo como descrito para incorporar o código do Link Box do Facebook.
 

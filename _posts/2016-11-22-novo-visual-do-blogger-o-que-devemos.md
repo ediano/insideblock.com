@@ -25,7 +25,7 @@ Olá usuários da plataforma Blogger, o Google e sua equipe de engenheiros estã
 <figcaption>Novo visual do Blogger. (Imagem: Inside Block)</figcaption>
 </figure>
 
-Sou apaixonado pelos produtos do Google, por isso sou colaborador do Fórum de Ajuda do Blogger. Até o momento o Blogger não fez nenhuma divulgação oficial do novo modelo, porém ele pode ser acessado por qualquer pessoa através do <a href="https://draft.blogger.com/home" target="_blank" rel="noopener">Blogger in Draft</a>. Eu sou o tipo de pessoa que sempre procura novidades, principalmente quando fazem parte do meu trabalho. O Inside Block, por exemplo, é 100% Blogger e não queremos mudar, somos fã de carteirinha.
+Sou apaixonado pelos produtos do Google, por isso sou colaborador do Fórum de Ajuda do Blogger. Até o momento o Blogger não fez nenhuma divulgação oficial do novo modelo, porém ele pode ser acessado por qualquer pessoa através do <a href="https://draft.blogger.com/home" target="_blank" rel="nofollow noopener noreferrer">Blogger in Draft</a>. Eu sou o tipo de pessoa que sempre procura novidades, principalmente quando fazem parte do meu trabalho. O Inside Block, por exemplo, é 100% Blogger e não queremos mudar, somos fã de carteirinha.
 
 Se você for usuário do Blogger, sugiro que comece a testar o novo modelo de configurações e publicações. Eu acessei todas as áreas da novidade e tenho a declarar que até o momento mudou o modo como se vê o painel, mudou o modo como seleciona o blog para fazer a manutenção e a lista de leitura dos blogs que seguimos; enquanto as demais configurações continuam exatamente como antes.
 

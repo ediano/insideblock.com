@@ -19,7 +19,7 @@ Até pouco tempo a Microsoft estava liberando a atualização gratuita do Window
 
 * Uma conta de e-mail da Microsoft (outlook ou hotmail), se você ainda não tem uma conta, crie uma nesse link.
 
-* Se os pré-requisitos estive como solicitado, vamos iniciar o processo de vincular a licença a sua conta da Microsoft. Leia também <a href="http://www.insideblock.com/blog/como-formatar-seu-computador-com.html" target="_blank" rel="noopener">Como formatar seu computador com Windows 10?</a>
+* Se os pré-requisitos estive como solicitado, vamos iniciar o processo de vincular a licença a sua conta da Microsoft. Leia também <a href="https://www.insideblock.com/blog/como-formatar-seu-computador-com.html" target="_blank" rel="noopener">Como formatar seu computador com Windows 10?</a>
 
 1. Abra as Configurações do Windows ícone de roda dentada.
 

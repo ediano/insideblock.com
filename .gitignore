@@ -5,3 +5,4 @@ raft
 node_modules
 .vscode
 .formatter
+.netlify

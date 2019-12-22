@@ -11,7 +11,7 @@ comments: true
 ads: true
 ---
 
-Ter todas as paginas do blog indexadas no Google pode ajudar a gerar mais visitas por isso vale a pena verificar se o seu blog está indexado corretamente no Google. Isso é simples de fazer e você pode usar as ferramentas para <a href="http://www.google.com/webmasters" target="_blank" rel="noopener">Webmasters</a> do Google para enviar seus sitemaps e melhorar sua posição nos resultados das buscas do Google.
+Ter todas as paginas do blog indexadas no Google pode ajudar a gerar mais visitas por isso vale a pena verificar se o seu blog está indexado corretamente no Google. Isso é simples de fazer e você pode usar as ferramentas para <a href="http://www.google.com/webmasters" target="_blank" rel="nofollow noopener noreferrer">Webmasters</a> do Google para enviar seus sitemaps e melhorar sua posição nos resultados das buscas do Google.
 
 ## Verificar Indexação do Blog no Google
 Saber se o seu blog ou site aparece nos resultados do Google é muito simples você só precisa colocar a tag site: antes do endereço do seu blog, isto faz o Google procurar somente dentro do seu blog, por exemplo: *site: google.com*, veja o resultado na imagem acima.

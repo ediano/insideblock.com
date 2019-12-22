@@ -15,7 +15,7 @@ O setor TI é um dos setores mais importante dentro de uma empresa, mas quem rea
 
 Fazer o monitoramento de rede sem as ferramentas necessárias, pode fazer com que o analista perca muito tempo tornando o trabalho estressante e desgastante.
 
-O monitoramento e o gerenciamento de rede via sistema pode facilitar a vida do analista. Este sistema é responsável por identificar possíveis erros relacionado ao setor de TI, e até corrigir problemas simples como reiniciar um equipamento no horário agendado. Leia também <a href="http://www.insideblock.com/blog/help-desk-software-solucao-para-sua.html" target="_blank" rel="noopener">Help desk software a solução para a sua empresa</a>.
+O monitoramento e o gerenciamento de rede via sistema pode facilitar a vida do analista. Este sistema é responsável por identificar possíveis erros relacionado ao setor de TI, e até corrigir problemas simples como reiniciar um equipamento no horário agendado. Leia também <a href="https://www.insideblock.com/blog/help-desk-software-solucao-para-sua.html" target="_blank" rel="noopener">Help desk software a solução para a sua empresa</a>.
 
 Mas o que realmente o monitoramento de redes faz? Ele faz o monitoramento de toda a rede, desde o link do provedor de internet ao controle de usuários, o quanto de banda larga está sendo consumido. Faz monitoramento de disco, memória e processador no caso dos servidores. Equipamentos como computadores, switches, roteadores, impressoras e qualquer outro aparelho que esteja conectado a rede.
 

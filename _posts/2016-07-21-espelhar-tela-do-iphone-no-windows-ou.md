@@ -17,7 +17,7 @@ O LonelyScreen permite que você espelhe seu dispositivo para o Windows e Mac OS
 
 O aplicativo tem varias funções, como reproduzir o áudio no computador que esta tocando no dispositivo e espelhar e grava a tela espelhada, que possibilita a criação de tutoriais.
 
-* Acesse <a href="http://www.lonelyscreen.com/download.html" target="_blank" rel="noopener">esse link</a> baixe e instale o aplicativo.
+* Acesse <a href="http://www.lonelyscreen.com/download.html" target="_blank" rel="nofollow noopener noreferrer">esse link</a> baixe e instale o aplicativo.
 
 * Apos ter instalado em seu computador abra o “LonelyScreen”.
 

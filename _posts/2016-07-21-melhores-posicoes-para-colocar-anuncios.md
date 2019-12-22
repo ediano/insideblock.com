@@ -41,7 +41,7 @@ Os Widget são os locais mais procurados por blogueiros para por seus anúncios,
 * Widget com anúncios abaixo do post - Com este bloco de anúncios, tenho pouco a dizer, já que encontramos uma taxa bem variável de rejeição e otimização da posição do anuncio, pois 50% dos visitantes chegam ao final da postagem (esta % varia de blog para blog).
 
 ## Anúncios dentro das postagens (posts) do seu blog
-Como você pode ter percebido, nos temos vários <a href="http://www.insideblock.com/blog/inserir-anuncios-no-meio-dos-artigos-do.html" target="_blank" rel="noopener">anúncios dentro do nosso post</a> inclusive este aqui, por isso deixamos o melhor assunto por ultimo, tenho certeza que agora vem a sua pergunta, porque? É aqui que esta o segredo para você ganhar mais dinheiro e ajudar seus visitante aterem uma segunda opção do que procuram, camuflando seu anúncios, com seus artigos publicado em seu blog.
+Como você pode ter percebido, nos temos vários <a href="https://www.insideblock.com/blog/inserir-anuncios-no-meio-dos-artigos-do.html" target="_blank" rel="noopener">anúncios dentro do nosso post</a> inclusive este aqui, por isso deixamos o melhor assunto por ultimo, tenho certeza que agora vem a sua pergunta, porque? É aqui que esta o segredo para você ganhar mais dinheiro e ajudar seus visitante aterem uma segunda opção do que procuram, camuflando seu anúncios, com seus artigos publicado em seu blog.
 
 * Anuncio abaixo do titulo do post - Se levamos na teoria à posição deste anuncio, não muda nada com um anuncio localizado acima do titulo do post com um Widget, bom ainda bem que é só teoria, pois ela pode aumente em ate 10% a mais suas taxas de ganhos e de otimização do anuncio.
 

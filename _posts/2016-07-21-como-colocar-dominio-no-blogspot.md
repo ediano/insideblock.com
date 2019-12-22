@@ -27,7 +27,7 @@ Depois de comprar um domínio personalizado siga as instruções.
 
 3. Agora verá um erro e dois CNAMEs listados abaixo. Cada CNAME é formado por duas partes: Nome, Marcador ou Hoste Destino, Alvo ou Direcionar para. O primeiro é igual para todos: Nome sendo "www", destino como "ghs.google.com". O segundo CNAME é único é específico para o seu blog e sua conta no Google, é portanto diferente para cada pessoa.
 
-NOTA: Se o seu CNAME não aparecer no painel do Blogger, veja este artigo de <a href="http://www.insideblock.com/blog/como-recuperar-o-cname-do-blogger.html" target="_blank" rel="noopener">Como recuperar o CNAME do Blogger</a>
+NOTA: Se o seu CNAME não aparecer no painel do Blogger, veja este artigo de <a href="https://www.insideblock.com/blog/como-recuperar-o-cname-do-blogger.html" target="_blank" rel="noopener">Como recuperar o CNAME do Blogger</a>
 
 {:start="4"}
 4. Acesse o site do seu serviço de registro de domínio e encontre as configurações "DNS" (*Sistema de Nome de Domínio*) no painel de controle.

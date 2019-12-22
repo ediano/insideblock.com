@@ -19,7 +19,7 @@ Desde sua criação o Facebook vem cada vez mais crescendo e deixando para traz 
 
 No Brasil a cada 5 brasileiros 4 tem cadastro no Facebook, com este grande numero o Facebook se torna realmente um grande aliado para todos nos, por isso neste tutorial lhe mostrarei como você pode usar uma ótima ferramenta do Facebook pra sua empresa, site e blog totalmente gratuita.
 
-1. Faça <a href="https://www.facebook.com/" target="_blank" rel="noopener">login no Facebook</a> se você ainda não tem conta <a href="https://www.facebook.com/r.php?locale=pt_BR" target="_blank" rel="noopener">clique aqui</a> para criar sua conta, preencha o formulário e clique em "Cadastre-se".
+1. Faça <a href="https://www.facebook.com/" target="_blank" rel="nofollow noopener noreferrer">login no Facebook</a> se você ainda não tem conta <a href="https://www.facebook.com/r.php?locale=pt_BR" target="_blank" rel="nofollow noopener noreferrer">clique aqui</a> para criar sua conta, preencha o formulário e clique em "Cadastre-se".
 
 2. Ao entra no Facebook clique em "Mais opções" na seta no canto superior direito da tela do lado do ícone de cadeado clique em "Criar página".
 

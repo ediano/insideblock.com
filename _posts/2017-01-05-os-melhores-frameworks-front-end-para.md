@@ -31,17 +31,17 @@ Neste artigo apresento os três melhores e mais populares frameworks. Todos eles
 Eu como administrador do Inside Block, considero o Materializecss o melhor frameworks para se desenvolver quaisquer projetos web, e o considero por dois motivos:
 
 * **Primeiro** - Foi com este material design que eu aprendi muito sobre CSS e HTML, muitos de meus projetos antigos eram desenvolvidos por terceiros, com a ajuda de amigos, ou eu encontrava códigos distribuídos na internet. Hoje sou capaz de desenvolver meu próprio website (layout), com ou sem o framework.
-* **Segundo** - ~~O <a href="http://www.insideblock.com/">Inside Block</a> atualmente foi desenvolvido com o material design do Materializecss~~, eu cheguei a testar mais de 5 frameworks, mas o único que mais correspondeu foi este por apresentar uma performance intuitiva, de fácil aplicação.
+* **Segundo** - ~~O <a href="https://www.insideblock.com/" rel="noopener">Inside Block</a> atualmente foi desenvolvido com o material design do Materializecss~~, eu cheguei a testar mais de 5 frameworks, mas o único que mais correspondeu foi este por apresentar uma performance intuitiva, de fácil aplicação.
 
 O Materializecss foi desenvolvido por uma equipe de quatro estudantes da Universidade Carnegie Mellon, todo o material foi reescrito do zero, seguindo exemplos do Bootstrap, porém muito leve e com alguns componentes a mais, o material é compatível com os navegadores mais populares do mercado atual, incluindo a compatibilidade para diversas plataformas como Windows, MacOS, Linux, Android, iOS e outros. O framework pode ser usado tanto para o desenvolvimento de sites quanto para o desenvolvimento de aplicativos.
 
-Site oficial: <a href="http://materializecss.com/" target="_blank" rel="noopener">Materializecss</a>
+Site oficial: <a href="http://materializecss.com/" target="_blank" rel="nofollow noopener noreferrer">Materializecss</a>
 
 ## Bootstrap
 
 O Bootstrap é o framework mais popular entre os desenvolvedores. Desenvolvido pelo Twitter foi um dos primeiros materiais design criado para seguir o conceito de sites que se adaptam em telas pequenas, sem a necessidade de desenvolver quaisquer aplicativos para dispositivo em específico. Com o Bootsrap é possível criar de tudo, desde website a aplicativos para dispositivos móveis e desktop, o mesmo é compatível com várias plataformas e navegadores.
 
-Site oficial: <a href="http://getbootstrap.com.br/" target="_blank" rel="noopener">Bootstrap</a>
+Site oficial: <a href="http://getbootstrap.com.br/" target="_blank" rel="nofollow noopener noreferrer">Bootstrap</a>
 
 ## Google Design
 
@@ -49,7 +49,7 @@ O Material Design é um sistema unificado que combina teoria, recursos e ferrame
 
 O material design do Google tem um grande conjunto de ferramentas e documentações que facilitam o desenvolvimento de qualquer projeto digital, como o Google Fonts, Matéria Icons, Tabela de cores, Polymer, entre outros.
 
-Site oficial: <a href="https://design.google.com/" target="_blank" rel="noopener">Google Design</a>
+Site oficial: <a href="https://design.google.com/" target="_blank" rel="nofollow noopener noreferrer">Google Design</a>
 
 ## Files .min e Sass
 

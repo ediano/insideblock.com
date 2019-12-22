@@ -13,7 +13,7 @@ ads: true
 
 Você não consegue ouvir nada no alto-falante do iPhone, iPad ou iPod? Talvez você consegue ouvir, mas o som esteja distorcido, abafado e intermitente. Também é possível que você esteja ouvindo um som estático ou ruídos de estalo. Fique sabendo que isso pode acontecer de um hora para outra e se explicação, e que existe algumas maneiras de resolver o problema, sem a necessidade de algum suporte técnico.
 
-Esta falha pode acontecer ao fazer ou receber uma ligação, ouvir musicas ou assistir vídeos, alerta de notificações e outros motivos como voz do GPS de algum app especifico. Leia também <a href="http://www.insideblock.com/blog/porque-funciona-um-alto-falante-do.html" target="_blank" rel="noopener">Porque funciona um alto-falante do iPhone?</a>.
+Esta falha pode acontecer ao fazer ou receber uma ligação, ouvir musicas ou assistir vídeos, alerta de notificações e outros motivos como voz do GPS de algum app especifico. Leia também <a href="https://www.insideblock.com/blog/porque-funciona-um-alto-falante-do.html" target="_blank" rel="noopener">Porque funciona um alto-falante do iPhone?</a>.
 
 * Siga esta etapa caso o problema esteja relacionado ao fazer ou receber uma ligação, ou alertas de notificação. Vá até Ajustes\Sons e arraste o controle deslizante de Toque e Alertas para aumentar o volume. Se for possível ouvir som, então ele já esta funcionando.
 
@@ -38,7 +38,7 @@ Se não for possível ouvir som ou se ele não estiver claro, prossiga para pró
 
 * Se o dispositivo estiver com uma capa, verifique se ela não está bloqueando o alto-falante.
 
-Se você seguiu essas etapas e ainda não é possível ouvir som ou ouve um som distorcido, <a href="https://support.apple.com/pt-br/contact" target="_blank" rel="noopener">entre em contato com a Apple</a>.
+Se você seguiu essas etapas e ainda não é possível ouvir som ou ouve um som distorcido, <a href="https://support.apple.com/pt-br/contact" target="_blank" rel="nofollow noopener noreferrer">entre em contato com a Apple</a>.
 
 O problema que pode afetar o som do iPhone, iPad ou iPhod pode variar, cada caso é um caso e nem sempre se trata do mesmo problema. O motivos pode ser por falha do sistema ou aquecimento de hardware, deixar cair ou molhar entre outros.
 
