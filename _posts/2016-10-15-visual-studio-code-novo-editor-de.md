@@ -2,6 +2,7 @@
 layout: post
 title: 'Visual Studio Code: Novo editor de códigos da Microsoft'
 datePublished: '2016-10-15 02:00:00'
+dateModified: '2019-12-23 01:18:38'
 tags:
   - dicas
   - apps
@@ -36,17 +37,13 @@ Pensando nisso a microsoft criou uma área de extensão, onde você pode baixar 
 4. JS-CSS-HTML Formatter - lonefy
 5. minify - HookyQR
 6. Raindow Brackets - 2gua
-7. One Dark Theme - Joshua Azemoh
-8. Material icon theme - Philipp Kief
-9. C/C++ - Microsoft
-10. Format HTML in PHP - rifi2k
-11. Visual Studio IntelliCode - Microsoft
-12. Lorem ipsum - Daniel Imms
-13. Watch in Chrome - Sneezry
-14. open in browser - TechER
-15. Debugger for Chrome - Microsoft
-16. Document This - Joel Day
-17. Reactjs code snippets - charalampos karypidis
+7. indent-rainbow - oderwat
+8. One Dark Theme - Joshua Azemoh
+9. Material icon theme - Philipp Kief
+10. C/C++ - Microsoft
+11. Format HTML in PHP - rifi2k
+12. Visual Studio IntelliCode - Microsoft
+13. Lorem ipsum - Daniel Imms
 
 ## Configurações do IDE
 
