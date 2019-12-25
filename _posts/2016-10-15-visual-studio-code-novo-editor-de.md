@@ -31,19 +31,19 @@ Pensando nisso a microsoft criou uma área de extensão, onde você pode baixar 
 
 ### Extensões:
 
-1. Auto Close Tag - Jun Han
-2. Auto Rename Tag - Jun Han
-3. TCC compile/run - TuyMove
-4. JS-CSS-HTML Formatter - lonefy
-5. minify - HookyQR
-6. Raindow Brackets - 2gua
-7. indent-rainbow - oderwat
-8. One Dark Theme - Joshua Azemoh
-9. Material icon theme - Philipp Kief
-10. C/C++ - Microsoft
-11. Format HTML in PHP - rifi2k
-12. Visual Studio IntelliCode - Microsoft
-13. Lorem ipsum - Daniel Imms
+1. [Auto Close Tag - Jun Han](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag){:rel="nofollow noopener noreferrer"}
+2. [Auto Rename Tag - Jun Han](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag){:rel="nofollow noopener noreferrer"}
+3. [TCC compile/run - TuyMove](https://marketplace.visualstudio.com/items?itemName=TuyMove.tcc-compiler){:rel="nofollow noopener noreferrer"}
+4. [JS-CSS-HTML Formatter - lonefy](https://marketplace.visualstudio.com/items?itemName=lonefy.vscode-JS-CSS-HTML-formatter){:rel="nofollow noopener noreferrer"}
+5. [minify - HookyQR](https://marketplace.visualstudio.com/items?itemName=HookyQR.minify){:rel="nofollow noopener noreferrer"}
+6. [Raindow Brackets - 2gua](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets){:rel="nofollow noopener noreferrer"}
+7. [indent-rainbow - oderwat](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow){:rel="nofollow noopener noreferrer"}
+8. [One Dark Theme - Joshua Azemoh](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai){:rel="nofollow noopener noreferrer"}
+9. [Material icon theme - Philipp Kief](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme){:rel="nofollow noopener noreferrer"}
+10. [C/C++ - Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools){:rel="nofollow noopener noreferrer"}
+11. [Format HTML in PHP - rifi2k](https://marketplace.visualstudio.com/items?itemName=rifi2k.format-html-in-php){:rel="nofollow noopener noreferrer"}
+12. [Visual Studio IntelliCode - Microsoft](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode){:rel="nofollow noopener noreferrer"}
+13. [Lorem ipsum - Daniel Imms](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum){:rel="nofollow noopener noreferrer"}
 
 ## Configurações do IDE
 
