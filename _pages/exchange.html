@@ -1,0 +1,53 @@
+---
+layout: compress
+title: Exchange
+sitemap: false
+---
+
+<html>
+
+<head>
+    {% include head-start %}
+
+    <style>
+        body {
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f6f4f8;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+        }
+        .content {
+            width: 80%;
+            max-width: 800px;
+            min-height: 100vh;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: center
+        }
+        h1 {
+            width: 100%
+        }
+        
+        iframe {
+            width: 478px;
+            height: 280px;
+            margin: 0 auto
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h1>{{ page.title }}</h1>
+    
+        <script type="text/javascript" src="https://changenow.io/dist/popup-widget.v1.js"></script>
+        <iframe src="https://changenow.io/embeds/exchange-widget/v1?amount=0.01&from=btc&link_id=9f50d5b539b6a2&to=usdterc20" frameborder="0" scrolling="no" style="overflow-y: hidden;">
+            Can't load widget
+        </iframe>
+    </div>
+</body>
+
+</html>
