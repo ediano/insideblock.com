@@ -3,14 +3,25 @@
     let seconds = new Date();
     if (typeof adverts == 'undefined') { /* AdBlock Enabler */
         for (let i = 0; i < ads.length; i++) {
-            ads[i].innerHTML = `
-                <div class="brave">
-                    <a href="http://bit.ly/2DqwRrS" target="_black">
-                        <img src="{{ site.url }}/assets/img/minicards/brave150px.png" alt="Brave Browser">
-                        Experimente o novo Brave Browser. Navegue com mais privacidade e sem anúncios!
-                    </a>
-                </div>
-            `;
+            if(seconds.getSeconds() % 2 == 0){
+                ads[i].innerHTML = `
+                    <div class="brave">
+                        <a href="http://bit.ly/2DqwRrS" target="_black">
+                            <img src="{{ site.url }}/assets/img/minicards/brave150px.png" alt="Brave Browser">
+                            Experimente o novo Brave Browser. Navegue com mais privacidade e sem anúncios!
+                        </a>
+                    </div>
+                `;
+            } else {
+                ads[i].innerHTML = `
+                    <div class="brave">
+                        <a href="http://bit.ly/35jYNcF" target="_black">
+                            <img src="{{ site.url }}/assets/img/minicards/atomicwallet150px.png" alt="Atomic Wallet">
+                            Carteira Universal de Criptomoeda!<br/>Mais de 300 criptomoedas e tokens em uma única interface.
+                        </a>
+                    </div>
+                `;
+            }
         }
     }
 
