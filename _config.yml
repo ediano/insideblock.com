@@ -63,9 +63,9 @@ compress_html:
 include: ['_redirects','_headers']
 
 # Verification
-g_analytics: UA-81236717-1
-g_tagmanager: GTM-NHBPTTD
-g_optimize: GTM-TH6M3G8
+g_analytics: 'UA-81236717-1'
+g_tagmanager: 'GTM-NHBPTTD'
+g_optimize: 'GTM-TH6M3G8'
 
 # Remove pagination from sitemap
 defaults:
