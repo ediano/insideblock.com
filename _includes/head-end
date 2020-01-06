@@ -12,3 +12,5 @@
 </script>
 
 {% include seo/webpage.html %}
+
+{% include seo/onesignal.html %}
