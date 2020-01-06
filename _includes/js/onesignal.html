@@ -1,0 +1,18 @@
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "29568b5d-c80d-4a72-8ed5-aa2b923a8057",
+      notifyButton: {
+        enable: true,
+      },
+    });
+  });
+  
+  const scriptOneSignal = document.createElement('script');
+  scriptOneSignal.setAttribute('async', '');
+  scriptOneSignal.setAttribute('src', 'https://cdn.onesignal.com/sdks/OneSignalSDK.js');
+  setTimeout(function() {
+    document.head.appendChild(scriptOneSignal);
+  }, 3000);
+</script>
