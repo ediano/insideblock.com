@@ -13,4 +13,4 @@
 
 {% include seo/webpage.html %}
 
-{% include js/onesignal.html %}
+<!-- {% include js/onesignal.html %} -->
