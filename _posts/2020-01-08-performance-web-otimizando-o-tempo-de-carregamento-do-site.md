@@ -13,7 +13,7 @@ tags:
   - dicas
   - performance web
 category: dev
-image: /assets/blog/Performance web  Otimizando o tempo de carregamento do site.jpg
+image: /assets/blog/performance-web-otimizando-o-tempo-de-carregamento-do-site.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true
@@ -139,7 +139,8 @@ this.addEventListener('scroll', function() {
             img();
         }, 1000);
 });
-``````js
+```
+```js
 // Elemento (tag img src)
 const articleImg = document.querySelectorAll('img');
  
@@ -182,7 +183,8 @@ if (articleImg[i].getBoundingClientRect().top < window.innerHeight && (typeof fl
 
 Essa condição tem a função de verificar as coordenadas das imagens dentro da página, em seguida ela verifica se a coordenada da imagem é menor que a altura da quebra de página, ela também verifica se a imagem não foi carregada antes, se todas as verificações forem verdadeiras, então o script insere o endereço da imagem que deve ser carregada na exata coordenada em que o visitante está rolando a página.
 
-Essa prática é necessária, pois como tínhamos citado antes, não faz sentido carregar uma imagem que o visitante ainda não requisitou de alguma forma, essa prática com certeza é a que dá mais eficiência no carregamento da página, principalmente em sites que tem muitas imagens.Se você for uma pessoa que já tem um pouco de experiência com JavaScript, esse código não vai ser muito difícil de se entendido, praticamente todas as linhas estão comentadas exceto pela condição a seguir.
+Essa prática é necessária, pois como tínhamos citado antes, não faz sentido carregar uma imagem que o visitante ainda não requisitou de alguma forma, essa prática com certeza é a que dá mais eficiência no carregamento da página, principalmente em sites que tem muitas imagens.
+Se você for uma pessoa que já tem um pouco de experiência com JavaScript, esse código não vai ser muito difícil de se entendido, praticamente todas as linhas estão comentadas exceto pela condição a seguir.
 
 ```js
 if (articleImg[i].getBoundingClientRect().top < window.innerHeight && (typeof flow[i] == 'undefined')) { ... }
@@ -192,7 +194,8 @@ Essa condição tem a função de verificar as coordenadas das imagens dentro da
 
 Essa prática é necessária, pois como tínhamos citado antes, não faz sentido carregar uma imagem que o visitante ainda não requisitou de alguma forma, essa prática com certeza é a que dá mais eficiência no carregamento da página, principalmente em sites que tem muitas imagens.
 
-[Software para compactar imagens](https://www.faststone.org/FSResizerDetail.htm){:rel="nofollow noopener noreferrer"}{:target="_blank"}{:rel="nofollow noopener noreferrer"}{:target="_blank"}
+[Software para compactar imagens](https://www.faststone.org/FSResizerDetail.htm
+){:rel="nofollow noopener noreferrer"}{:target="_blank"}{:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
 [Site online para compactar imagens](https://www.iloveimg.com/pt/comprimir-imagem){:rel="nofollow noopener noreferrer"}{:target="_blank"}{:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
@@ -246,7 +249,8 @@ Bom, eu espero que todos tenham gostado desse artigo, pois ele foi construído c
 
 Infelizmente como nem tudo são flores, alguns desenvolvedores menos experiente pode sentir um pouco de dificuldade ao colocar, alguns de nossos tópicos em produção.
 
-Eu agradeço por ter nos visitados e até logo.Plugs de terceiros
+Eu agradeço por ter nos visitados e até logo.
+Plugs de terceiros
 Outro ponto importante é em relação ao atraso do carregamento dos arquivos scripts do tipo src, para este tópico iremos usar o plugin do Google Analytics, inclusive nós mesmo do Inside Block usamos este plugin para gerenciar o fluxo de visitas que recebemos diariamente.
 
 Como é de se esperar fizemos algumas alterações no código oficial para melhorar o carregamento das nossas páginas, nesse momento iremos apresentar o código original e o “código melhorado que usamos em nosso site”.
