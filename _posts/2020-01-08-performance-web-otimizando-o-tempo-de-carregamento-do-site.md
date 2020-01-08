@@ -39,7 +39,7 @@ Este tipo de prática, garante que o conteúdo não seja carregado sem que o usu
 
 Para facilitar o entendimento, iremos dividir este tópico em três partes, a primeira se trata sobre a minificação de códigos; a segunda na compactação e no atraso no carregamento das imagens e a terceira parte iremos citar o Google Analytics como plugin de terceiros.
 
-Veja a velocidade da nossa página - <http://bit.ly/ib-pagespeedhttp://bit.ly/ib-pagespeed>{:rel="nofollow noopener noreferrer"}{:target="_blank"}
+Veja a velocidade da nossa página - [http://bit.ly/ib-pagespeed](http://bit.ly/ib-pagespeed){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
 ## HTML, CSS e JS minificado
 
@@ -93,7 +93,9 @@ Exemplo: Código CSS compactado
 
 Se repararmos os códigos, ambos têm a mesma funcionalidade, apesar deles serem muito pequenos para fazermos um teste, o código compactado será carregado muito mais rápido que o código identado, geralmente esse teste pode ser facilmente percebido quando realizamos em códigos que possui centenas de linhas, entretanto é recomendado que qualquer código em produção seja compactado.
 
-Site para compactar CSS e JS: https://www.websiteplanet.com/pt-br/webtools/jscssminifier/Se repararmos os códigos, ambos têm a mesma funcionalidade, apesar deles serem muito pequenos para fazermos um teste, o código compactado será carregado muito mais rápido que o código identado, geralmente esse teste pode ser facilmente percebido quando realizamos em códigos que possui centenas de linhas, entretanto é recomendado que qualquer código em produção seja compactado.
+[Site para compactar CSS e JS](https://www.websiteplanet.com/pt-br/webtools/jscssminifier/){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+
+Se repararmos os códigos, ambos têm a mesma funcionalidade, apesar deles serem muito pequenos para fazermos um teste, o código compactado será carregado muito mais rápido que o código identado, geralmente esse teste pode ser facilmente percebido quando realizamos em códigos que possui centenas de linhas, entretanto é recomendado que qualquer código em produção seja compactado.
 
 [Site para compactar CSS e JS](https://www.websiteplanet.com/pt-br/webtools/jscssminifier/https://www.websiteplanet.com/pt-br/webtools/jscssminifier/){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
@@ -194,10 +196,9 @@ Essa condição tem a função de verificar as coordenadas das imagens dentro da
 
 Essa prática é necessária, pois como tínhamos citado antes, não faz sentido carregar uma imagem que o visitante ainda não requisitou de alguma forma, essa prática com certeza é a que dá mais eficiência no carregamento da página, principalmente em sites que tem muitas imagens.
 
-[Software para compactar imagens](https://www.faststone.org/FSResizerDetail.htm
-){:rel="nofollow noopener noreferrer"}{:target="_blank"}{:rel="nofollow noopener noreferrer"}{:target="_blank"}
+[Software para compactar imagens](https://www.faststone.org/FSResizerDetail.html){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
-[Site online para compactar imagens](https://www.iloveimg.com/pt/comprimir-imagem){:rel="nofollow noopener noreferrer"}{:target="_blank"}{:rel="nofollow noopener noreferrer"}{:target="_blank"}
+[Site online para compactar imagens](https://www.iloveimg.com/pt/comprimir-imagem){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
 ## Plugs de terceiros
 
