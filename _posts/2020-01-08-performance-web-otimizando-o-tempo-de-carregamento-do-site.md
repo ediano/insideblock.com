@@ -54,7 +54,7 @@ Existe uma dúvida muito grande entre os desenvolvedores iniciantes em relação
 
 Definindo essas características, podemos perceber que deixar o código do site em produção indentado não faz muito sentido, por este motivo após o desenvolvimento de todo o código fonte, costumamos compacta-lo de forma que ele fique em uma única linha, tirando todas as tags e espaços de indentação, esse tipo de prática não faz com que o código original ou a indentação original se perca, pois geralmente na hora da compactação o código origem não é modificado.
 
-Exemplo: Código CSS indentado
+#### Exemplo: Código CSS indentado
 
 ```css
 .identified-minified {
@@ -66,7 +66,7 @@ Exemplo: Código CSS indentado
 }
 ```
 
-Exemplo: Código CSS compactado
+#### Exemplo: Código CSS compactado
 
 ```css
 .identified-minified{background-color:rgba(0,0,0,.5);padding:10px;margin:10px;width:300px;height:300px}
@@ -137,7 +137,7 @@ Outro ponto importante é em relação ao atraso do carregamento dos arquivos sc
 
 Como é de se esperar fizemos algumas alterações no código oficial para melhorar o carregamento das nossas páginas, nesse momento iremos apresentar o código original e o “código melhorado que usamos em nosso site”.
 
-Exemplo: Código oficial
+#### Exemplo: Código oficial
 ```html
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-0000000-1"></script>
@@ -149,7 +149,7 @@ Exemplo: Código oficial
 </script>
 ```
 
-Exemplo: Código melhorado que usamos
+#### Exemplo: Código melhorado que usamos
 ```html
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script>
