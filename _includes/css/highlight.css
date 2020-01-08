@@ -8,7 +8,8 @@ pre {
     padding: 10px;
     border-radius: 5px;
     overflow: auto;
-    font-size: 1.6rem
+    font-size: 1.6rem;
+    margin-bottom: 50px
 }
 
 code {
