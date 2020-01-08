@@ -84,7 +84,7 @@ Alternativas como o redimensionamento de imagem, compactação de peso e formato
 // Elemento (tag img src)
 const articleImg = document.querySelectorAll('img');
  
-// URL das imagens (não carregadas)
+// URL de todas as imagens
 const src = [];
  
 // Controle do fluxo (abrir site e scroll)
@@ -141,7 +141,6 @@ Exemplo: Código oficial
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
- 
   gtag('config', 'UA-0000000-1');
 </script>
 ```
@@ -151,12 +150,8 @@ Exemplo: Código melhorado que usamos
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script>
     window.dataLayer = window.dataLayer || [];
- 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
+    function gtag() {dataLayer.push(arguments);}
     gtag('js', new Date());
- 
     gtag('config', 'UA-0000000-1');
  
     // A partir daqui criamos nossa função melhorada.
