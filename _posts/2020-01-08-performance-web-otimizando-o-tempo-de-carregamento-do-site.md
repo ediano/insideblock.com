@@ -129,6 +129,8 @@ Essa prática é necessária, pois como tínhamos citado antes, não faz sentido
 
 [Software para compactar imagens](https://www.faststone.org/FSResizerDetail.html){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
+[Site online para compactar imagens](https://www.iloveimg.com/pt/comprimir-imagem){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+
 ## Plugs de terceiros
 
 Outro ponto importante é em relação ao atraso do carregamento dos arquivos scripts do tipo src, para este tópico iremos usar o plugin do Google Analytics, inclusive nós mesmo do Inside Block usamos este plugin para gerenciar o fluxo de visitas que recebemos diariamente.
