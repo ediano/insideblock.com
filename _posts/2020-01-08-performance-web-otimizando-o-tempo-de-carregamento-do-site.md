@@ -32,7 +32,9 @@ Para entender melhor como podemos melhorar o carregamento de uma página web, pr
 
 Vamos criar um cenário de um site que tenha centenas de imagens. Quando o usuário acessa esse site, por padrão todas as imagens que tiver na página serão carregadas ao mesmo tempo, esse tipo de requisição por parte do navegador, faz com que a navegação se inicie lenta e o tempo de carregamento da página seja ainda maior.
 
-Sabendo disso podemos criar algumas regras dentro do nosso site, uma delas é evitar que todas as imagens seja carregada ao mesmo tempo. Imagine uma coisa, você acabou de acessar o site, o primeiro quadro que aparece no seu monitor é chamado de "primeira quebra de página", se esta primeira quebra de página é o seu campo de visão inicial do conteúdo, não faz sentido permitir que as demais quebras de páginas, carregue as imagens, pois de certa forma o usuário não sabe o que ainda tem para baixo. Dentro desse campo de visão, podemos programar em nosso site, que as demais imagens sejam carregadas somente quando o usuário fizer a requisição através do navegador, essa requisição pode ser definida quando o usuário rolar a barra lateral do site para ir para próxima quebra de página.
+Sabendo disso podemos criar algumas regras dentro do nosso site, uma delas é evitar que todas as imagens seja carregada ao mesmo tempo. Imagine uma coisa, você acabou de acessar o site, o primeiro quadro que aparece no seu monitor é chamado de "primeira quebra de página", se esta primeira quebra de página é o seu campo de visão inicial do conteúdo, não faz sentido permitir que as demais quebras de páginas, carregue as imagens, pois de certa forma o usuário não sabe o que ainda tem para baixo.
+
+Dentro desse campo de visão, podemos programar em nosso site, que as demais imagens sejam carregadas somente quando o usuário fizer a requisição através do navegador, essa requisição pode ser definida quando o usuário rolar a barra lateral do site para ir para próxima quebra de página.
 
 Este tipo de prática, garante que o conteúdo não seja carregado sem que o usuário precise dele, garantido que a página carregue mais rápido em internet ruim evitando gargalos de navegação.
 
@@ -52,7 +54,7 @@ Existe uma dúvida muito grande entre os desenvolvedores iniciantes em relação
 
 Definindo essas características, podemos perceber que deixar o código do site em produção indentado não faz muito sentido, por este motivo após o desenvolvimento de todo o código fonte, costumamos compacta-lo de forma que ele fique em uma única linha, tirando todas as tags e espaços de indentação, esse tipo de prática não faz com que o código original ou a indentação original se perca, pois geralmente na hora da compactação o código origem não é modificado.
 
-Exemplo: Código CSS identado
+Exemplo: Código CSS indentado
 
 ```css
 .identified-minified {
@@ -70,7 +72,7 @@ Exemplo: Código CSS compactado
 .identified-minified{background-color:rgba(0,0,0,.5);padding:10px;margin:10px;width:300px;height:300px}
 ```
 
-Se repararmos os códigos, ambos têm a mesma funcionalidade, apesar deles serem muito pequenos para fazermos um teste, o código compactado será carregado muito mais rápido que o código identado, geralmente esse teste pode ser facilmente percebido quando realizamos em códigos que possui centenas de linhas, entretanto é recomendado que qualquer código em produção seja compactado.
+Se repararmos os códigos, ambos têm a mesma funcionalidade, apesar deles serem muito pequenos para fazermos um teste, o código compactado será carregado muito mais rápido que o código indentado, geralmente esse teste pode ser facilmente percebido quando realizamos em códigos que possui centenas de linhas, entretanto é recomendado que qualquer código em produção seja compactado.
 
 [Site para compactar CSS e JS](https://www.websiteplanet.com/pt-br/webtools/jscssminifier/https://www.websiteplanet.com/pt-br/webtools/jscssminifier/){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
