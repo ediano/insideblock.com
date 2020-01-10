@@ -74,7 +74,7 @@ Definindo essas características, podemos perceber que deixar o código do site 
 
 Se repararmos os códigos, ambos têm a mesma funcionalidade, apesar deles serem muito pequenos para fazermos um teste, o código compactado será carregado muito mais rápido que o código indentado, geralmente esse teste pode ser facilmente percebido quando realizamos em códigos que possui centenas de linhas, entretanto é recomendado que qualquer código em produção seja compactado.
 
-[Site para compactar CSS e JS](https://www.websiteplanet.com/pt-br/webtools/jscssminifier/https://www.websiteplanet.com/pt-br/webtools/jscssminifier/){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+[Site para compactar CSS e JS](https://www.websiteplanet.com/webtools/jscssminifier/){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
 ## Imagens compactas
 
@@ -127,9 +127,9 @@ Essa condição tem a função de verificar as coordenadas das imagens dentro da
 
 Essa prática é necessária, pois como tínhamos citado antes, não faz sentido carregar uma imagem que o visitante ainda não requisitou de alguma forma, essa prática com certeza é a que dá mais eficiência no carregamento da página, principalmente em sites que tem muitas imagens.
 
-[Software para compactar imagens](https://www.faststone.org/FSResizerDetail.html){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+[Software para compactar imagens](https://www.faststone.org/FSResizerDetail.htm){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
-[Site online para compactar imagens](https://www.iloveimg.com/pt/comprimir-imagem){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+[Site online para compactar imagens](https://www.websiteplanet.com/webtools/imagecompressor/){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
 ## Plugs de terceiros
 
