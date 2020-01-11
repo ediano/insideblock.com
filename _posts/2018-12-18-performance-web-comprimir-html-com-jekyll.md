@@ -41,13 +41,11 @@ Posteriormente, para parametrizar todas as regras de compilação vamos criar um
 
 Para concluir a aplicação, ainda dentro do diretório **_layouts**, você deve atribuir o `Front Matter` no arquivo **default.html** para apontar para o nosso arquivo **compress.html**.
 
-{% raw %}
 ```md
 ---
 layout: compress
 ---
 ```
-{% endraw %}
 
 Podemos observar que o apontamento feito através do `Front Matter` é bem simples, entretanto, é importante levar em consideração  que todos os arquivo que estiverem atribuídos ao **default.html**, através do `Front Matter`, serão automaticamente compilados, caso existam  arquivos que não estejam atribuídos e você deseja compila-los é só adicionar o `Front Matter` apontando diretamente para **compress.html**.
 
