@@ -24,7 +24,6 @@ A soluções é bem simples de aplicar, no entanto para que tudo ocorra como esp
 
 Primeiro passo dentro de seu arquivo **_config.yml**, adicione as seguintes linhas.
 
-{% raw %}
 ```yml
 # Compress HTML
 compress_html:
@@ -33,7 +32,6 @@ compress_html:
   endings: []
   profile: false
 ```
-{% endraw %}
 
 Note que as linhas fazem menção à compressão HTML, todavia depois de pronta a aplicação pode compilar quase todos os tipo linguagem, incluído CSS e JS. 
 
