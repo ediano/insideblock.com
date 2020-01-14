@@ -26,7 +26,7 @@ pagination:
                     {{ post.datePublished | date_to_xmlschema}}
                 {% endif %}
             ">
-                {% if post.dateModified %}
+                {% if post.dateModified and post.dateModified != post.datePublished %}
                     Update: {% include post/date.html date=post.dateModified %}
                 {% else %}
                     {% include post/date.html date=post.datePublished %}
