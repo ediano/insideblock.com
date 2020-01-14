@@ -31,7 +31,7 @@ Alguns de nossos conteúdos não serão mais encontrados no URL original de publ
 
 ## Ferramentas
 
-A equipe do <a href="http://multicamada.com" target="_blank" rel="nofollow noopener noreferrer">Grupo Multicamada</a>, pensou em muitas melhorias, estamos em processo de desenvolvimento de novas ferramentas como: entrega de conteúdo pelas redes sociais, área de interação de usuários com os membros da equipe (por enquanto apenas comentários em nossos posts), ferramenta de enquetes, denúncias de conteúdo, entre outras ferramentas.
+Pensamos em muitas melhorias, estamos em processo de desenvolvimento de novas ferramentas como: entrega de conteúdo pelas redes sociais, área de interação de usuários com os membros da equipe (por enquanto apenas comentários em nossos posts), ferramenta de enquetes, denúncias de conteúdo, entre outras ferramentas.
 
 Estamos desenvolvendo também um ambiente de cursos online, com principal foco no desenvolvimento de Front-End e templates para o GitHub Pages construído com Jekyll.
 
