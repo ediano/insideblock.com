@@ -35,8 +35,18 @@ pagination:
                     <span class="time col">
                         <svg><use xlink:href="#icon-time"></use></svg>     
                         <span datetime="
-                            {% if page.dateModified %}{{ page.dateModified | date_to_xmlschema}}{% else %}{{ page.datePublished | date_to_xmlschema}}{% endif %}
-                        ">{% include post/date.html date=page.date %}</span>
+                            {% if page.dateModified %}
+                                {{ page.dateModified | date_to_xmlschema}}
+                            {% else %}
+                                {{ page.datePublished | date_to_xmlschema}}
+                            {% endif %}
+                        ">
+                            {% if page.dateModified %}
+                                {% include post/date.html date=page.dateModified %}
+                            {% else %}
+                                {% include post/date.html date=page.datePublished %}
+                            {% endif %}
+                        </span>
                     </span>
 
                     <span class="comment col">
