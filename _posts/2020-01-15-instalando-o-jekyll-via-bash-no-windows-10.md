@@ -119,4 +119,4 @@ Agora acesse o endereço [http://localhost:4000](http://localhost:4000){:rel="no
 ## Conclusão
 Bom pessoal, por enquanto foi isso. Não se preocupe com a quantidade de informações que você acabou de ver, nos próximos artigos irei mostrar como funciona a estrutura do Jekyll. Para acelerar o desenvolvimento do nosso projeto, nosso repositório será hospedado no GitHub Pages.
 
-Este foi só o primeiro de muitos, em breve mais disponível.
+Este foi o primeiro de muitos, em breve mais disponível.
