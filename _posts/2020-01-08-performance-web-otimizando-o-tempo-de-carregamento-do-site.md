@@ -44,6 +44,8 @@ Para facilitar o entendimento, iremos dividir este tópico em três partes, a pr
 
 Veja a velocidade da nossa página - [http://bit.ly/ib-pagespeed](http://bit.ly/ib-pagespeed){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
+Veja também [Performance web: Comprimir HTML com Jekyll](https://insideblock.com/blog/performance-web-comprimir-html-com-jekyll/){:rel="noopener"}{:target="_blank"}
+
 ## HTML, CSS e JS minificado
 
 Existe uma dúvida muito grande entre os desenvolvedores iniciantes em relação a compactação de códigos, pois muitos acreditam que ao compactando código a legibilidade do mesmo se torna impossível, que fato isto é realmente verdade, entretanto vamos entender o por que um desenvolvedor mais experiente compacta seus códigos.
