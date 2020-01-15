@@ -19,7 +19,7 @@ comments: true
 ads: true
 ---
 
-Olá, caros leitores! Este é mais um artigo sobre Jekyll. Já postamos aqui, anteriormente sobre “Performance web: Comprimir HTML com Jekyll e Desativar links automáticos do Markdown com Jekyll”. A partir de agora, iremos aprender uma pouco mais sobre essa tecnologia incrível. Mas dessa vez iremos partir do início, instalando e configurando o nosso servidor.
+Olá, caros leitores! Este é mais um artigo sobre Jekyll. Já postamos aqui, anteriormente sobre “[Performance web: Comprimir HTML com Jekyll](https://insideblock.com/blog/performance-web-comprimir-html-com-jekyll/){:rel="noopener"}{:target="_blank"} e [Desativar links automáticos do Markdown com Jekyll](https://insideblock.com/blog/desativar-links-automaticos-do-markdown-com-jekyll/){:rel="noopener"}{:target="_blank"}”. A partir de agora, iremos aprender uma pouco mais sobre essa tecnologia incrível. Mas dessa vez iremos partir do início, instalando e configurando o nosso servidor.
 
 Como sistema operacional para rodar o nosso servidor Jekyll, iremos usar o subsistema do Ubuntu no Windows 10. Se você é um usuário iniciante, sem muita experiência com a tecnologia, não se preocupe, iremos fazer o passo a passo completo de todas as instalações para que você não se perca durante o procedimento.
 
