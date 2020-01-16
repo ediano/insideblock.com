@@ -98,7 +98,8 @@ bundle exec jekyll serve
 
 Agora abra o navegador de sua preferência e digite o seguinte endereço [http://localhost:4000](http://localhost:4000){:rel="nofollow noopener noreferrer"}{:target="_blank"}.
 
-Caso algo dê errado durante inicialização do servidor, tente atualizar o arquivo “Gemfile e Gemfile.lock” do projeto, execute o próximo comando.
+## Repositório clonado
+Caso você inicie o servidor de um repositório clonado e o mesmo apresente erros, sugerimos que respeita os seguintes comandos de dentro do repositório para instalar as dependências e atualizar os arquivos Gemfile e Gemfile.lock.
 
 ```bash
 sudo gem install bundler && sudo bundle install
