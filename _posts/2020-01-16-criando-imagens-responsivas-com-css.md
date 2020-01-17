@@ -19,7 +19,7 @@ ads: true
 
 Olá pessoa, certamente você já deve ter tentado por diversas vezes criar imagens que se adapta ao layout do blog. Mas veja bem, se as imagens têm valor fixo, como é possível criar um redimensionamento automático?
 
-Bom, uma imagem pode ser facilmente redimensionada com o CSS, não importa se ela tem 50px ou 400px, se eu declarar na folha de estilo que a imagem vai ter mais de 50px ou mais 400px, ela com certeza vai seguir a regra do valor declarado, porém uma simples declaração no CSS não garante a qualidade das imagens e isso de fato dificulta um pouco as coisas.
+Bom, uma imagem pode ser facilmente redimensionada com o CSS, não importa se ela tem 50px ou 400px, se declararmos na folha de estilo que a imagem vai ter mais de 50px ou mais 400px, ela com certeza vai seguir a regra do valor declarado, porém uma simples declaração no CSS não garante a qualidade das imagens e isso de fato dificulta um pouco as coisas.
 
 ```css
 img {
