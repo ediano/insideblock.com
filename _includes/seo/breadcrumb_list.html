@@ -1,22 +1,21 @@
-<ol class="item-list-element col">
-    <li>
-        <a class="cat" alt="{{ page.categories }}" href="{{ site.url }}/{{ page.categories }}">
-            {{ page.categories }}
-        </a>
-    </li>
-</ol>
+<div class="item-list-element col">
+    {% for label in page.category %}
+    <a class="cat" alt="{{ label }}" href="{{ site.url }}/{{ label }}">
+        {{ label }}
+    </a> {% endfor %}
+</div>
 
 <script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BreadcrumbList",
-        "itemListElement": [{
+        "itemListElement": [
+        {% for label in page.category %} {
             "@type": "ListItem",
-            "position": 1,
             "item": {
-                "@id": "{{ site.url }}/{{ page.categories }}",
-                "name": "{{ page.categories }}"
+                "@id": "{{ site.url }}/{{ label }}",
+                "name": "{{ label }}"
             }
-        }]
+        }, {% endfor %}]
     }
 </script>

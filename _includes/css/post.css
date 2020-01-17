@@ -60,20 +60,14 @@
     text-align: center
 }
 
-.item-list-element li,
-.item-list-element span {
-    display: inline-block
-}
-
-.item-list-element li {
-    padding: 0 5px
-}
-
-.item-list-element li a {
-    padding: 0 5px;
+.item-list-element a {
+    padding: 0 7.5px;
+    margin: .5px;
     text-transform: uppercase;
     font-weight: 500;
-    color: #ccc
+    color: #444;
+    background-color: #fff;
+    border-radius: 25px;
 }
 
 .header-post h1 {
