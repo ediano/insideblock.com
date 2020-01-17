@@ -40,7 +40,7 @@ Agora acesse sua conta do GitHub, abra as configurações do repositório que va
 
 Volte para a seção “**GitHub Pages**”, marque a opção “**Enforce HTTPS**”, caso o DNS ainda tenha se propagado esta opção vai ficar disponivel porem não vai ser possível selecioná-la para ativação.
 
-<del>OBS: Se o seu domínio for do tipo “.com.br”, o HTTPS só funciona se tiver a entrada de subdomínio com “www”.</del>
+~~OBS: Se o seu domínio for do tipo “.com.br”, o HTTPS só funciona se tiver a entrada de subdomínio com “www”.~~
 
 Exemplo: www.example.com.br
 
