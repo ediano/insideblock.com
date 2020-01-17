@@ -41,7 +41,7 @@ Em configurações de DNS, procure por “**Servidores de nome**” ou algo pare
 Agora vamos definir o tipo de criptografia que iremos usar, na guia “**Crypto**” na seção “**SSL**”, selecione o opção “**Flexible**”, assim podemos garantir a entrega do protocolo HTTPS para todos os usuários.
 
 ## Page Rule
-Sugerimos que aguarde de 10 a 15 minutos para prosseguirmos com o próximo passo. Caso você já tenha esperado por este intervalo, acesse a guia “**Page Rule**” para definirmos as regras das páginas, agora clique em “**Buy More Page Rules**” adicione o endereço do seu site como na imagem a seguir.
+Sugerimos que aguarde de 10 a 15 minutos para prosseguirmos com o próximo passo. Caso você já tenha esperado por este intervalo, acesse a guia “**Page Rule**” para definirmos as regras das páginas, agora clique em “**Buy More Page Rules**” adicione o endereço do seu site.
 
 Repare que na imagem existe uma opção chamada “**Always Use HTTPS**” selecionada, caso você tenha sido um pouco apressado e não esperou o tempo como indicamos, a opção ainda não vai está disponível, só depois de algum tempo ela vai começar aparecer, neste caso é só aguardar mais um pouco.
 
