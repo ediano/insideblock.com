@@ -17,7 +17,7 @@ comments: true
 ads: true
 ---
 
-Em 2016 o GitHub Pages anunciou a liberação do protocolo HTTPS para blog que usam .github.io; infelizmente para os desenvolvedores que usam “custom domains” em suas páginas a novidade ainda <del>não está disponível</del>. Entretanto é possível fazermos a aplicação do HTTPS usando um serviços secundário.
+Em 2016 o GitHub Pages anunciou a liberação do protocolo HTTPS para blog que usam .github.io; infelizmente para os desenvolvedores que usam “custom domains” em suas páginas a novidade ainda ~~não está disponível~~. Entretanto é possível fazermos a aplicação do HTTPS usando um serviços secundário.
 
 O CloudFlare oferece alguns serviços gratuitos e com está incluso o protocolo HTTPS. De acordo com a empresa o serviço gratuito é compartilhado entre vários usuários, porém a navegação do site ainda se torna muito mais rápido que usar o protocolo de autenticação padrão HTTP.
 
