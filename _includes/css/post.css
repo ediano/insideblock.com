@@ -60,6 +60,10 @@
     text-align: center
 }
 
+.item-list-element li {
+    display: inline-block
+}
+
 .item-list-element a {
     padding: 0 7.5px;
     margin: .5px;
