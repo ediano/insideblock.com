@@ -63,8 +63,31 @@ article.grid-flex {
     color: #fff;
     padding: 0 5px;
     margin: 0 5px 0 0;
-    border-radius: 3px;
-    background-color: #444
+    border-radius: 3px
+}
+
+.card .content .label.comunicado {
+    background: #303c42
+}
+
+.card .content .label.css {
+    background: #2cb5e8
+}
+
+.card .content .label.dev {
+    background: #808080
+}
+
+.card .content .label.jekyll {
+    background: #c00
+}
+
+.card .content .label.js {
+    background: #ffcc00
+}
+
+.card .content .label.misc {
+    background: #00cc66
 }
 
 .card .content .time {
