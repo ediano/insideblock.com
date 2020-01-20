@@ -35,7 +35,6 @@ Este método é tão simples que nem precisamos instalar novos plugins no reposi
                {% if post.category == page.category %}
                    <li>
                        <a href="{{ post.url }}">
-                           <svg><use xlink:href="#icon-magnet"></use></svg>
                            {{ post.title }}
                        </a>
                    </li>
@@ -118,15 +117,6 @@ section.related ul li:hover {
 section.related ul a {
    color: #2da0c3;
    display: block
-}
-
-section.related ul svg {
-   height: 20px;
-   width: 20px;
-   position: relative;
-   top: 5px;
-   margin-right: 5px;
-   fill: #2da0c3
 }
 ```
 
