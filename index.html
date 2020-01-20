@@ -17,7 +17,9 @@ pagination:
         {% endif %}
 
         <div class="content">
-            <a href="/{{ post.category }}" class="label">{{ post.category }}</a>
+            {% for label in post.category %}
+                <a href="/{{ label }}" class="label">{{ label }}</a>
+            {% endfor %}
 
             <time aria-label="Data e ou hora de publicação" class="time" datetime="
                 {% if post.dateModified %}
