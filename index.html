@@ -18,7 +18,7 @@ pagination:
 
         <div class="content">
             {% for label in post.category %}
-                <a href="/{{ label }}" class="label">{{ label }}</a>
+            <a href="/{{ label }}" class="label {{ label }}">{{ label }}</a>
             {% endfor %}
 
             <time aria-label="Data e ou hora de publicação" class="time" datetime="
