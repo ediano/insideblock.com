@@ -157,6 +157,7 @@ article h2,
 article h3,
 article h4 {
     display: block;
+    text-align: left;
     margin: 25px 0 0 0
 }
 
