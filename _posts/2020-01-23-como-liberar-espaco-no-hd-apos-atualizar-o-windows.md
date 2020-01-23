@@ -3,8 +3,8 @@ layout: post
 title: 'Como liberar espaço no HD após atualizar o Windows'
 description: >-
   Sei que você deve estar desesperado agora, não se preocupe, vamos te ajudar a ganhar mais espaço no HD.
-datePublished: '2020-01-24 07:00:00'
-dateModified: '2020-01-24 07:00:00'
+datePublished: '2020-01-23 19:00:00'
+dateModified: '2020-01-23 19:00:00'
 tags:
   - misc
   - windows
