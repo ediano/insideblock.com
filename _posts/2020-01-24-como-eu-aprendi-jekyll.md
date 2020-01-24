@@ -48,7 +48,7 @@ Entretanto, apesar da explicação perfeita de Willian, eu vi a necessidade de r
 Depois do blog está quase 100% pronto, faltou apenas colocá-lo no ar, para este processo funcionar perfeitamente, criei todos os apontamento de DNS necessários para o GitHub e só depois enviei o repositório para a nossa conta, algum tempo depois o Inside Block estava novamente acessível por todos os usuários.
 
 ## Conclusão
-Ao todo foram 26 dias até a migração completa do Inside Block, 12 dias para o desenvolvimento do template e 2 dias para entender sintaxe básicas do Jekyll. Durante este período aprendemos mais sobre a nova plataforma.
+Ao todo foram 26 dias até a migração completa do Inside Block, 12 dias para o desenvolvimento do template e 2 dias para entender a sintaxe básicas do Jekyll. Durante este período aprendemos mais sobre a nova plataforma.
 
 Desde a migração, começamos a criar nosso modelos para não perder a prática, e assim disponibilizar alguns deles para os nossos visitantes.
 
