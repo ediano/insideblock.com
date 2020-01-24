@@ -2,8 +2,7 @@
 layout: post
 title: 'Como eu aprendi Jekyll'
 description: >-
-  Com o passar do tempo fui aperfeiçoando técnicas de desenvolvimento web, nem tudo eu aprendi sozinho, em quase tudo precisei de foco,
-  dedicação e muita vontade de aprender.
+  Com o passar do tempo fui aperfeiçoando técnicas de desenvolvimento web, nem tudo eu aprendi sozinho, em quase tudo precisei de foco, dedicação e muita vontade de aprender.
 datePublished: '2020-01-24 07:00:00'
 dateModified: '2020-01-24 07:00:00'
 tags:
