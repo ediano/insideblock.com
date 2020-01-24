@@ -191,6 +191,15 @@ article ul li {
     margin-bottom: 20px
 }
 
+article blockquote {
+    text-align: center;
+    border-left: 3px solid;
+    width: 90%;
+    padding: 10px;
+    margin: 25px auto;
+    overflow-x: auto
+}
+
 article figure.image {
     text-align: center
 }
