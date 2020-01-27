@@ -33,9 +33,7 @@ Este método não desativa o Windows Defender, mas impede que ele se inicie com 
 ## Passo 2 - Editor de Políticas de Grupos Local
 Inicie o “**Editor de políticas de grupos local**”, pressione as teclas “**Windows+R**” digite **gpedit.msc** e tecle Enter.
 
-Em “**Configurações do Computador**” acesse a pasta no seguinte caminho
-
-> Componentes do Windows\Modelos Administrativos\Windows Defender Antivírus
+Em “**Configurações do Computador**” acesse a pasta no seguinte caminho **Componentes do Windows\Modelos Administrativos\Windows Defender Antivírus**.
 
 Abra o arquivo “**Desativar o Windows Defender Antivírus**”, marque a opção “**Habilitado**” clique em OK.
 
