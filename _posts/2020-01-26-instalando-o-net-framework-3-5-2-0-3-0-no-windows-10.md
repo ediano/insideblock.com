@@ -49,7 +49,7 @@ Substitua o ponto de “**?**”, pela letra da unidade do CD/DVD ou ISO de repr
 ## Método alternativo: Baixar pasta SXS
 Caso você não tenha um CD/DVD ou ISO de instalação do Windows, ou de alguma forma não têm acesso direto a internet, você pode optar por baixar apenas os arquivos da pasta SXS. para consumir menos dados.
 
-Download SXS x32x64: [SourceForge](https://sourceforge.net/projects/insideblock/files/Windows/Windows%2010/NET%20Framework/sxs.NETFramework.2.0.3.0.3.5.win10.zip/download){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+Download SXS x32x64: [SourceForge](https://sourceforge.net/projects/insideblock/files/Windows/Windows%2010/NET%20Framework/sxs.NETFramework.2.0.3.0.3.5.win10.zip.zip/download){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
 Em seguida a instalação pode ser feira pelo “**Prompt de comando do windows iniciado como administrador**”.
 
