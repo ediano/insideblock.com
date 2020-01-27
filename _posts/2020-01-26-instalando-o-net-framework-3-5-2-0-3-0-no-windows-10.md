@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Instalar .NET Framework 3.5 (inclui .NET 2.0 e 3.0) no Windows 10'
+title: 'Instalando o .NET Framework 3.5 (inclui .NET 2.0 e 3.0) no Windows 10'
 description: >-
   A instalação do .NET Framework 3.5, sempre foi um pouco chata de fazer nos sistema operacionais mais atuais, mas hoje você vai ficar por dentro de como fazer este procedimento de forma simples e clara.
 datePublished: '2020-01-26 07:00:00'
@@ -11,7 +11,7 @@ tags:
   - dicas
 category:
   - misc
-image: /assets/blog/instalar-net-framework-3-5-2-0-3-0-no-windows-10.jpg
+image: /assets/blog/instalando-o-net-framework-3-5-2-0-3-0-no-windows-10.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true
