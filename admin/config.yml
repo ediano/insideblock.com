@@ -1,12 +1,11 @@
 backend:
-  name: github
-  repo: ediano/insideblock.com
+  name: gitlab
+  repo: insideblock/insideblock.com
   branch: master
-  site_domain: www.insideblock.com
+  site_domain: insideblock.com
 
 logo_url: /assets/logo/logo.png
 media_folder: "assets/blog"
-publish_mode: editorial_workflow
 
 slug:
   encoding: "ascii"
