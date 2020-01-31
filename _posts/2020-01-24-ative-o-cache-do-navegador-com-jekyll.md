@@ -40,6 +40,7 @@ if ("serviceWorker" in navigator) {
 
 Note que o nosso serviço está chamando um arquivo `/offline.js`, agora você deve criar um novo arquivo com o mesmo nome dentro do diretório raiz, em seguida adicione o código JS a seguir e salve a modificação.
 
+{% raw %}
 ```js
 ---
 layout: null
@@ -85,6 +86,7 @@ this.addEventListener('activate', event => {
  );
 });
 ```
+{% endraw %}
 
 Este novo arquivo está iniciando um novo evento chamado `cache-website-{{ mais-data-atual }}`, em seguida ele está criando cache de todas as páginas, os 10 posts mais atuais e alguns arquivos de asset.
 
@@ -93,7 +95,7 @@ Note que dentro desse mesmo arquivo temos dois eventos, um para instalar o cache
 Página de aviso (sem acesso a internet)
 Além do usuário conseguir navegar entre alguns posts e outros, também é possível criar um arquivo de aviso para alertá-lo que ele está sem internet, ou caso o blog fique fora do ar por alguns instantes.
 
-Inclua as linha a seguir dentro no arquivo “_config.yml”.
+Inclua as linha a seguir dentro no arquivo “**_config.yml**”.
 
 {% raw %}
 ```yml
