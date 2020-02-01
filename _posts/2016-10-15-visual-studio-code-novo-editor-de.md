@@ -34,7 +34,7 @@ Pensando nisso a microsoft criou uma área de extensão, onde você pode baixar 
 1. [Auto Close Tag - Jun Han](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 2. [Auto Rename Tag - Jun Han](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 3. [TCC compile/run - TuyMove](https://marketplace.visualstudio.com/items?itemName=TuyMove.tcc-compiler){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-4. [JS-CSS-HTML Formatter - lonefy](https://marketplace.visualstudio.com/items?itemName=lonefy.vscode-JS-CSS-HTML-formatter){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+4. [Prettier - Code formatter - Simon Siefke](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.prettier-vscode){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 5. [minify - HookyQR](https://marketplace.visualstudio.com/items?itemName=HookyQR.minify){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 6. [Raindow Brackets - 2gua](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 7. [indent-rainbow - oderwat](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow){:rel="nofollow noopener noreferrer"}{:target="_blank"}
