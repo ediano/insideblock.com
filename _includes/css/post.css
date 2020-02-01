@@ -192,11 +192,11 @@ article ul li {
 }
 
 article blockquote {
-    text-align: center;
-    border-left: 3px solid;
-    width: 90%;
+    font-style: italic;
+    font-weight: 500;
     padding: 10px;
-    margin: 25px auto;
+    border-left: 3px solid;
+    margin: 25px;
     overflow-x: auto
 }
 
