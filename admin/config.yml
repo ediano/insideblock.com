@@ -25,14 +25,8 @@ collections:
       - {label: "Date Publish", name: "datePublished", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
       - {label: "Date Modified", name: "dateModified", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Category", name: "category", widget: "select", options: 
-          - { label: "Comunicado", value: "comunicado" }
-          - { label: "CSS", value: "css" }
-          - { label: "DEV", value: "dev" }
-          - { label: "JS", value: "js" }
-          - { label: "Jekyll", value: "jekyll" }
-          - { label: "Misc", value: "misc" }
-          - { label: "Sponsorship", value: "sponsorship" } , required: false}
+      - {label: "Category", name: "category", widget: "select", options:
+          ["comunicado", "css", "dev", "js", "jekyll", "misc", "sponsorship"], required: false}
       
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Image Source", name: "image_source", widget: "select", options: 
