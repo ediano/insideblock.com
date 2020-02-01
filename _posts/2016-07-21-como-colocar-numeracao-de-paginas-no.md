@@ -2,6 +2,7 @@
 layout: post
 title: Como colocar numeração de páginas no Blogger
 datePublished: "2016-07-21 16:39:00"
+dateModified: '2020-01-31 23:40:00'
 tags: [blogger, seo, tutorial]
 category: dev
 image: /assets/blog/como-colocar-numeracao-de-paginas-no.jpg
@@ -88,7 +89,7 @@ Prepare as tags script para receber o .js. Procure por `</body>`, adicone o cód
     var home_page = "/";
 </script>
 
-<script type="text/javascript" src="https://open-source.multicamada.com/JavaScript/PaginationForBlogger.js"></script>
+<script type="text/javascript" src="https://insideblock.github.io/open-code/js/blogger/pagination.js"></script>
 ```
 
 ## Alteração do código

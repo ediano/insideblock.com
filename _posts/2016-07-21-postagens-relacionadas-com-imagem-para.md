@@ -2,6 +2,7 @@
 layout: post
 title: Postagens relacionadas com imagem para Blogger
 datePublished: "2016-07-21 09:22:00"
+dateModified: '2020-01-31 23:40:00'
 tags: [seo, blogger, otimização]
 category: dev
 image: /assets/blog/postagens-relacionadas-com-imagem-para.jpg
@@ -39,7 +40,7 @@ Adicione o código js a seguir acima do código encontrado (`</head>`).
     removeRelatedDuplicates_thumbs();
     printRelatedLabels_thumbs();
 </script>
-<script src="https://open-source.multicamada.com/JavaScript/RelatedPostsForBlogger.js"></script>
+<script src="https://insideblock.github.io/open-code/js/blogger/related-post.js"></script>
 ```
 
 ## Segundo código
