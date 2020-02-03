@@ -1,12 +1,24 @@
-image: ruby:2.3
+image: ruby:2.6
 
-variables:
-  JEKYLL_ENV: production
-  LC_ALL: C.UTF-8
+pages:
+  script:
+  - gem install jekyll
+  - jekyll build -d public/
+  artifacts:
+    paths:
+    - public
+  only:
+  - pages
 
-before_script:
-  - gem install bundler
-  - bundle install
+# image: ruby:2.3
+
+# variables:
+#   JEKYLL_ENV: production
+#   LC_ALL: C.UTF-8
+
+# before_script:
+#   - gem install bundler
+#   - bundle install
 
 # test:
 #   stage: test
@@ -18,12 +30,12 @@ before_script:
 #   except:
 #   - master
 
-pages:
-  stage: deploy
-  script:
-  - bundle exec jekyll build -d public
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
+# pages:
+#   stage: deploy
+#   script:
+#   - bundle exec jekyll build -d public
+#   artifacts:
+#     paths:
+#     - public
+#   only:
+#   - master
