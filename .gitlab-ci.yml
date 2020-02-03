@@ -1,5 +1,9 @@
 image: ruby:2.6
 
+variables:
+  JEKYLL_ENV: production
+  LC_ALL: C.UTF-8
+
 pages:
   script:
   - gem install jekyll
