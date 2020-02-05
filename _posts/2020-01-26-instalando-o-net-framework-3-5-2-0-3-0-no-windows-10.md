@@ -34,7 +34,7 @@ Marque a opção “**.NET Framework 3.5 (inclui .NET 2.0 e 3.0**”, clique em 
 ## Offline: Com CD/DVD ou ISO do Windows
 Outro método muito usado que funciona muito bem, é usando o próprio CD/DVD ou ISO de instalação do Windows 10, dentro da imagem do Windows existe recursos próprios que pode ser instalados através do comando DISM, a vantagem em usar este método é que o computador não precisa esta ligado na internet.
 
-Inicie o “**Prompt de comando do windows como Administrador”, em seguida digite ou cole a seguinte linha de códigos.
+Inicie o “**Prompt de comando do windows como Administrador***”, em seguida digite ou cole a seguinte linha de códigos.
 
 > DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:?:\sources\sxs 
 
