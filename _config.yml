@@ -67,7 +67,6 @@ g_optimize: 'GTM-TH6M3G8'
 # Jekyll admin
 jekyll_admin:
   hidden_links:
-    - posts
     - pages
     - staticfiles
     - datafiles
