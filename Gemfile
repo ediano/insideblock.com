@@ -9,6 +9,9 @@ group :jekyll_plugins do
   gem "jekyll-admin"
 end
 
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
+  gem "tzinfo"
+  gem "tzinfo-data"
+end
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem "wdm", :install_if => Gem.win_platform?

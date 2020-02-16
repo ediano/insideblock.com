@@ -1,4 +1,5 @@
 _site
+.jekyll-cache
 raft
 .sass-cache
 .git
