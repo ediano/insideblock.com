@@ -19,7 +19,7 @@ comments: true
 ads: true
 ---
 
-Acredito que todos os nossos leitores já saibam que o Inside Block não usa mais a plataforma Blogger, inclusive publicamos um artigo onde falamos sobre a nossa migração, apesar de termos confirmado que tinhamos migrado para o GitHub ~~Pages, hoje estamos hospedado no GitLab, implementado com Netlify~~ e construído pelo gerador de sites estáticos Jekyll. Para que a migração fosse bem sucedida, antes tivemos que preparar o novo terreno, entender como ele funciona, desenvolver um novo template e programar nossas próprias regras de negócio.
+Acredito que todos os nossos leitores já saibam que o Inside Block não usa mais a plataforma Blogger, inclusive publicamos um artigo onde falamos sobre a nossa migração, apesar de termos confirmado que tinhamos migrado para o ~~GitHub Pages, hoje estamos hospedado no GitLab, implementado com Netlify~~ e construído pelo gerador de sites estáticos Jekyll. Para que a migração fosse bem sucedida, antes tivemos que preparar o novo terreno, entender como ele funciona, desenvolver um novo template e programar nossas próprias regras de negócio.
 
 Criamo este artigo para você entender melhor como fizemos uma migração perfeita em tão pouco tempo, e como foi feito o nosso planejamento passo a passo.
 
