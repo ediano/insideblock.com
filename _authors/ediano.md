@@ -37,4 +37,4 @@ social:
     type: LinkedIn
 ---
 
-Fundador do Inside Block; Administrador Geral; Desenvolvedor Web e Criador de Conteúdos. Apaixonado por tecnologia Criador dos projetos <a href="https://multicamada.com/" target="_black">multicamada.com</a>, <a href="https://insideblock.com" target="_black">insideblock.com</a> e desenvolvedor de Front-End.
+Fundador do Inside Block; Administrador geral; Desenvolvedor web e criador de conteúdos. Apaixonado por tecnologia e criador dos projetos <a href="https://multicamada.com/" target="_black">multicamada.com</a>, <a href="https://insideblock.com" target="_black">insideblock.com</a> e proprietario de <a href="https://alitaquantum.com" target="_black">alitaquantum.com</a>.
