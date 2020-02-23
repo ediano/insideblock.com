@@ -30,11 +30,11 @@ social:
     rel: noopener
     type: Instagram
 
-  - profile: 'https://www.linkedin.com/in/edianosilvasantos'
+  - profile: 'https://www.linkedin.com/in/ediano'
     icon: icon-linkedin
     target: _black
     rel: noopener
     type: LinkedIn
 ---
 
-Fundador do Inside Block; Administrador Geral; Desenvolvedor Web e Criador de Conteúdos. Apaixonado por tecnologia Criador dos projetos <a href="https://multicamada.com/" target="_black">multicamada.com</a>, <a href="https://www.insideblock.com" target="_black">insideblock.com</a> e desenvolvedor de Front-End.
+Fundador do Inside Block; Administrador Geral; Desenvolvedor Web e Criador de Conteúdos. Apaixonado por tecnologia Criador dos projetos <a href="https://multicamada.com/" target="_black">multicamada.com</a>, <a href="https://insideblock.com" target="_black">insideblock.com</a> e desenvolvedor de Front-End.
