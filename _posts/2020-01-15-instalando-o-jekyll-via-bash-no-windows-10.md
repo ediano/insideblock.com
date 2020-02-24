@@ -96,7 +96,7 @@ Depois de criar o projeto, podemos iniciar o mesmo de forma offline com o “Bun
 bundle exec jekyll serve
 ```
 
-Agora abra o navegador de sua preferência e digite o seguinte endereço [http://localhost:4000](http://localhost:4000){:rel="nofollow noopener noreferrer"}{:target="_blank"}.
+Agora abra o navegador de sua preferência e digite o seguinte endereço **http://localhost:4000**.
 
 ## Repositório clonado
 Caso você inicie o servidor de um repositório clonado e o mesmo apresente erros, sugerimos que respeita os seguintes comandos de dentro do repositório para instalar as dependências e atualizar os arquivos Gemfile e Gemfile.lock.
@@ -115,7 +115,7 @@ Ao concluir, novamente execute o comando para iniciar o servidor.
 bundle exec jekyll serve
 ```
 
-Agora acesse o endereço [http://localhost:4000](http://localhost:4000){:rel="nofollow noopener noreferrer"}{:target="_blank"} do seu navegador.
+Agora acesse o endereço **http://localhost:4000** do seu navegador.
 
 ## Conclusão
 Bom pessoal, por enquanto foi isso. Não se preocupe com a quantidade de informações que você acabou de ver, nos próximos artigos irei mostrar como funciona a estrutura do Jekyll. Para acelerar o desenvolvimento do nosso projeto, nosso repositório será hospedado no GitHub Pages.
