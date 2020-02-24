@@ -82,3 +82,4 @@ defaults:
     values:
       sitemap: false
       title: 'Página :num'
+      
