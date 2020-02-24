@@ -37,6 +37,8 @@ Note que as linhas fazem menção à compressão HTML, todavia depois de pronta 
 
 Posteriormente, para parametrizar todas as regras de compilação vamos criar um novo arquivo, dentro do diretório **_layouts**, com o nome **compress.html**, em seguida acesse <a href="https://raw.githubusercontent.com/ediano/my-testing-lab/master/code/jekyll/compress-html/compress.html" target="_blank" rel="nofollow noopener noreferrer">esta página</a>, adicione todas as linhas de código da página dentro do novo arquivo.
 
+Créditos para <a href="http://jch.penibelst.de/" target="_blank" rel="nofollow noopener noreferrer">jch.penibelst.de</a>.
+
 Para concluir a aplicação, ainda dentro do diretório **_layouts**, você deve atribuir o `Front Matter` no arquivo **default.html** para apontar para o nosso arquivo **compress.html**.
 
 ```md
