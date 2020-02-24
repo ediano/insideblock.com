@@ -11,7 +11,7 @@ tags:
   - md
   - markdown
 category: dev
-image: /assets/blog/tudo-sobre-listas-de-itens-com-md.jpg
+image: /tudo-sobre-listas-de-itens-com-md.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

@@ -4,7 +4,7 @@ title: Erros que eu cometi ao criar o meu primeiro blog
 datePublished: "2016-09-16 18:39:00"
 tags: [dicas]
 category: misc
-image: /assets/blog/erros-que-eu-cometi-ao-criar-o-meu.jpg
+image: /erros-que-eu-cometi-ao-criar-o-meu.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

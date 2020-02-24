@@ -4,7 +4,7 @@ title: Como desativar a seleção de texto no Blogger
 datePublished: "2016-07-21 14:05:00"
 tags: [blogger, segurança]
 category: js
-image: /assets/blog/como-desativar-selecao-de-texto-no.jpg
+image: /como-desativar-selecao-de-texto-no.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

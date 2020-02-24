@@ -11,7 +11,7 @@ tags:
   - dicas
 category:
   - misc
-image: /assets/blog/instalando-o-net-framework-3-5-2-0-3-0-no-windows-10.jpg
+image: /instalando-o-net-framework-3-5-2-0-3-0-no-windows-10.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

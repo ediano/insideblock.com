@@ -4,7 +4,7 @@ title: Como criar uma página Fan Page no Facebook
 datePublished: "2016-07-21 13:30:00"
 tags: [seo, redes sociais]
 category: misc
-image: /assets/blog/como-criar-uma-pagina-page-no-facebook.jpg
+image: /como-criar-uma-pagina-page-no-facebook.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

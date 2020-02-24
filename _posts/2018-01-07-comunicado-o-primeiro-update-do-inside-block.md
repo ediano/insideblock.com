@@ -10,7 +10,7 @@ dateModified: '2020-01-14 12:00:00'
 tags:
   - notícias
 category: comunicado
-image: /assets/blog/comunicado-o-primeiro-update-do-inside-block.jpg
+image: /comunicado-o-primeiro-update-do-inside-block.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 coauthor: Luciana Fabiano

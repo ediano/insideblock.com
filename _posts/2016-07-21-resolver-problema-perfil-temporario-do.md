@@ -4,7 +4,7 @@ title: "Resolver problema: Perfil temporário do Windows"
 datePublished: "2016-07-21 14:08:00"
 tags: [windows, tutorial]
 category: misc
-image: /assets/blog/resolver-problema-perfil-temporario-do/resolver-problema-perfil-temporario-do.jpg
+image: /resolver-problema-perfil-temporario-do/resolver-problema-perfil-temporario-do.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

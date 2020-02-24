@@ -10,7 +10,7 @@ tags:
   - dev
   - dicas
 category: css
-image: /assets/blog/criando-imagens-responsivas-com-css.jpg
+image: /criando-imagens-responsivas-com-css.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

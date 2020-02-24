@@ -4,7 +4,7 @@ title: Como aproveitar-se dos plagiadores para ganhar mais visitas em seu blog
 datePublished: "2016-07-21 14:52:00"
 tags: [seo, otimização, tynt]
 category: misc
-image: /assets/blog/como-aproveitar-se-dos-plagiadores-para.jpg
+image: /como-aproveitar-se-dos-plagiadores-para.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

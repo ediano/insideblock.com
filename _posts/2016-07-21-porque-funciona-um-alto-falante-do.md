@@ -4,7 +4,7 @@ title: Porque funciona um alto-falante do iPhone?
 datePublished: "2016-07-21 22:19:00"
 tags: [mobile, ios]
 category: misc
-image: /assets/blog/porque-funciona-um-alto-falante-do/porque-funciona-um-alto-falante-do.jpg
+image: /porque-funciona-um-alto-falante-do/porque-funciona-um-alto-falante-do.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

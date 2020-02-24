@@ -4,7 +4,7 @@ title: Deixe uma guia sem som no Google Chrome
 datePublished: "2016-07-21 06:35:00"
 tags: [dicas, apps, tutorial]
 category: misc
-image: /assets/blog/deixe-uma-guia-sem-som-no-google-chrome/deixe-uma-guia-sem-som-no-google-chrome.jpg
+image: /deixe-uma-guia-sem-som-no-google-chrome/deixe-uma-guia-sem-som-no-google-chrome.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

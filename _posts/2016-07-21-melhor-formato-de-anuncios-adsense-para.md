@@ -4,7 +4,7 @@ title: Melhor formato de anúncios Adsense para sites e blogs
 datePublished: "2016-07-21 12:59:00"
 tags: [dicas, seo, monetização, adsense]
 category: misc
-image: /assets/blog/melhor-formato-de-anuncios-adsense-para.jpg
+image: /melhor-formato-de-anuncios-adsense-para.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

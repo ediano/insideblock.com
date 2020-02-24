@@ -13,7 +13,7 @@ tags:
   - tutorial
 category:
   - jekyll
-image: /assets/blog/ative-o-cache-do-navegador-com-jekyll.jpg
+image: /ative-o-cache-do-navegador-com-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

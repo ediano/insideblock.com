@@ -6,7 +6,7 @@ tags:
   - dicas
   - adwords
 category: misc
-image: /assets/blog/como-funciona-o-adwords-anuncios-do.jpg
+image: /como-funciona-o-adwords-anuncios-do.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

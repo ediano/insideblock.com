@@ -5,7 +5,7 @@ description: "Não importa o quanto você gosta de uma plataforma, querendo ou n
 datePublished: "2016-11-05 18:59:00"
 tags: [blogger, wordpress, tutorial]
 category: misc
-image: /assets/blog/como-migrar-conteudos-do-blogger-para-o.jpg
+image: /como-migrar-conteudos-do-blogger-para-o.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 coauthor: Luciana Fabiano

@@ -12,7 +12,7 @@ tags:
   - segurança
 category:
   - misc
-image: /assets/blog/desativando-o-windows-defender-no-windows-10.jpg
+image: /desativando-o-windows-defender-no-windows-10.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

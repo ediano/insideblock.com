@@ -11,7 +11,7 @@ tags:
   - dev
 category:
   - jekyll
-image: /assets/blog/date-language-em-portugues-com-jekyll.jpg
+image: /date-language-em-portugues-com-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

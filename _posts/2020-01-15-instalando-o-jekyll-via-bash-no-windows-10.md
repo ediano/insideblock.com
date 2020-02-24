@@ -12,7 +12,7 @@ tags:
   - windows
   - jekyll
 category: jekyll
-image: /assets/blog/instalando-o-jekyll-via-bash-no-windows-10.jpg
+image: /instalando-o-jekyll-via-bash-no-windows-10.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

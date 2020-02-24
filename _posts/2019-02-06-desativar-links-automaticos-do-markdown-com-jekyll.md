@@ -13,7 +13,7 @@ tags:
   - disqus
   - jekyll
 category: dev
-image: /assets/blog/desativar-links-automaticos-do-markdown-com-jekyll.jpg
+image: /desativar-links-automaticos-do-markdown-com-jekyll.jpg
 image_source: Dillinger
 author: Ediano Silva Santos
 coauthor: Luciana Fabiano

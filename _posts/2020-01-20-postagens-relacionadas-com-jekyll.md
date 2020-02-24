@@ -12,7 +12,7 @@ tags:
 category:
   - jekyll
   - dev
-image: /assets/blog/postagens-relacionadas-com-jekyll.jpg
+image: /postagens-relacionadas-com-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

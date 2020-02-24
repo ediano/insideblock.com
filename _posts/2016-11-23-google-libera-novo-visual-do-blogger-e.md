@@ -5,7 +5,7 @@ description: "Todos acharão que o Blogger estava esquecido pelo Google, felizme
 datePublished: "2016-11-23 01:06:00"
 tags: [dicas, blogger]
 category: misc
-image: /assets/blog/google-libera-novo-visual-do-blogger-e/google-libera-novo-visual-do-blogger-e.jpg
+image: /google-libera-novo-visual-do-blogger-e/google-libera-novo-visual-do-blogger-e.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 coauthor: Luciana Fabiano

@@ -5,7 +5,7 @@ datePublished: "2016-07-21 09:22:00"
 dateModified: '2020-01-31 23:40:00'
 tags: [seo, blogger, otimização]
 category: dev
-image: /assets/blog/postagens-relacionadas-com-imagem-para.jpg
+image: /postagens-relacionadas-com-imagem-para.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

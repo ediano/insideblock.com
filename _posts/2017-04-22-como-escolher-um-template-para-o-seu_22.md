@@ -11,7 +11,7 @@ tags:
   - seo
   - dicas
 category: dev
-image: /assets/blog/como-escolher-um-template-para-o-seu_22.jpg
+image: /como-escolher-um-template-para-o-seu_22.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 coauthor: Luciana Fabiano

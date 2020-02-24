@@ -10,7 +10,7 @@ tags:
   - seo
   - dicas
 category: dev
-image: /assets/blog/cloudflare-https-no-github-pages-com-dominio-personalizado.jpg
+image: /cloudflare-https-no-github-pages-com-dominio-personalizado.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

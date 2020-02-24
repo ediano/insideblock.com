@@ -11,7 +11,7 @@ tags:
   - dev
 category:
   - jekyll
-image: /assets/blog/processamento-de-condicional-com-jekyll.jpg
+image: /processamento-de-condicional-com-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

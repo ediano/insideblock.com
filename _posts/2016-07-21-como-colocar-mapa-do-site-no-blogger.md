@@ -4,7 +4,7 @@ title: Como colocar Mapa do Site no Blogger
 datePublished: "2016-07-21 12:04:00"
 tags: [seo, blogger, tutorial]
 category: dev
-image: /assets/blog/como-colocar-mapa-do-site-no-blogger.jpg
+image: /como-colocar-mapa-do-site-no-blogger.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

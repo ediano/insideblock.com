@@ -4,7 +4,7 @@ title: O que fazer quando iPhone, iPad ou iPod está sem som ou com ruidos
 datePublished: "2016-07-27 11:44:00"
 tags: [mobile, ios, tutorial]
 category: misc
-image: /assets/blog/o-que-fazer-quando-iphone-ipad-ou-ipod/o-que-fazer-quando-iphone-ipad-ou-ipod.jpg
+image: /o-que-fazer-quando-iphone-ipad-ou-ipod/o-que-fazer-quando-iphone-ipad-ou-ipod.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

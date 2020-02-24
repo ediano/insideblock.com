@@ -10,8 +10,7 @@ tags:
   - dicas
   - blogger
 category: misc
-image: >-
-  /assets/blog/novo-visual-do-blogger-o-que-devemos/novo-visual-do-blogger-o-que-devemos.jpg
+image: /novo-visual-do-blogger-o-que-devemos/novo-visual-do-blogger-o-que-devemos.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 coauthor: Luciana Fabiano

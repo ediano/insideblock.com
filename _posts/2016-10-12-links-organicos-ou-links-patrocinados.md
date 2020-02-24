@@ -4,7 +4,7 @@ title: "Links organicos ou links patrocinados"
 datePublished: "2016-10-12 00:19:00"
 tags: [seo, dicas, otimização]
 category: misc
-image: /assets/blog/links-organicos-ou-links-patrocinados/links-organicos-ou-links-patrocinados.jpg
+image: /links-organicos-ou-links-patrocinados/links-organicos-ou-links-patrocinados.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true

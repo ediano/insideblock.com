@@ -12,7 +12,7 @@ tags:
 category:
   - misc
   - jekyll
-image: /assets/blog/como-eu-aprendi-jekyll.jpg
+image: /como-eu-aprendi-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

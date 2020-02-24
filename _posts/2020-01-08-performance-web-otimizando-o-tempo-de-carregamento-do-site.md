@@ -15,7 +15,7 @@ tags:
 category:
   - dev
   - js
-image: /assets/blog/performance-web-otimizando-o-tempo-de-carregamento-do-site.jpg
+image: /performance-web-otimizando-o-tempo-de-carregamento-do-site.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

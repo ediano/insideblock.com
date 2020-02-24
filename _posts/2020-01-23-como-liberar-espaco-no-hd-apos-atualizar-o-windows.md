@@ -10,7 +10,7 @@ tags:
   - windows
 category:
   - misc
-image: /assets/blog/como-liberar-espaco-no-hd-apos-atualizar-o-windows.jpg
+image: /como-liberar-espaco-no-hd-apos-atualizar-o-windows.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

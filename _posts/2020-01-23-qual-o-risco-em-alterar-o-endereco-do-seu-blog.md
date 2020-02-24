@@ -13,7 +13,7 @@ tags:
 category:
   - misc
   - js
-image: /assets/blog/qual-o-risco-em-alterar-o-endereco-do-seu-blog.jpg
+image: /qual-o-risco-em-alterar-o-endereco-do-seu-blog.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true

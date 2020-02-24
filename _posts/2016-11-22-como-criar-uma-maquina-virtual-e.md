@@ -5,7 +5,7 @@ description: "Você sabia que é possível instalar vários sistemas operacionai
 datePublished: "2016-11-22 21:21:00"
 tags: [windows, dicas, tutorial]
 category: misc
-image: /assets/blog/como-criar-uma-maquina-virtual-e.jpg
+image: /como-criar-uma-maquina-virtual-e.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 coauthor: Luciana Fabiano

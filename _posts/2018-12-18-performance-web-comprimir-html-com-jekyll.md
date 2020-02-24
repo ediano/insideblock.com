@@ -9,7 +9,7 @@ tags:
   - dev
   - css
 category: jekyll
-image: /assets/blog/performance-web-comprimir-html-com-jekyll.jpg
+image: /performance-web-comprimir-html-com-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 coauthor: Danielli Carvalho

@@ -5,7 +5,7 @@ datePublished: "2016-07-21 16:39:00"
 dateModified: '2020-01-31 23:40:00'
 tags: [blogger, seo, tutorial]
 category: dev
-image: /assets/blog/como-colocar-numeracao-de-paginas-no.jpg
+image: /como-colocar-numeracao-de-paginas-no.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
 comments: true
