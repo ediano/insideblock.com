@@ -41,9 +41,10 @@ Pensando nisso a microsoft criou uma área de extensão, onde você pode baixar 
 8. [One Dark Theme - Joshua Azemoh](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 9. [Material icon theme - Philipp Kief](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 10. [C/C++ - Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-11. [Format HTML in PHP - rifi2k](https://marketplace.visualstudio.com/items?itemName=rifi2k.format-html-in-php){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+11. [PHP Intelephense - Ben Mewburn](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 12. [Visual Studio IntelliCode - Microsoft](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 13. [Lorem ipsum - Daniel Imms](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+14. [markdownlint - David Anson](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
 ## Configurações do IDE
 
