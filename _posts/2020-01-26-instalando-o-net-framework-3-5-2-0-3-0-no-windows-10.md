@@ -42,9 +42,9 @@ Substitua o ponto de “**?**”, pela letra da unidade do CD/DVD ou ISO de repr
 
 **OBS:** Se o CD/DVD ou ISO tiver suporte para o arquitetura “x32 e x64”, você terá que especificar o caminho da mesmo.
 
-**x32:** DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:?:\32\sources\sxs
+> **x32:** DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:?:\32\sources\sxs
 
-**x64:** DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:?:\64\sources\sxs
+> **x64:** DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:?:\64\sources\sxs
 
 ## Método alternativo: Baixar pasta SXS
 Caso você não tenha um CD/DVD ou ISO de instalação do Windows, ou de alguma forma não têm acesso direto a internet, você pode optar por baixar apenas os arquivos da pasta SXS. para consumir menos dados.
