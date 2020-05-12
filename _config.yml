@@ -1,3 +1,7 @@
+# Serving
+port                : 4000
+host                : 0.0.0.0
+
 # Info Blog
 title: Inside Block
 call: "Os códigos estão dentro do bloco"
