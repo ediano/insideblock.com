@@ -13,17 +13,17 @@
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 150 | escape }}">
 {% if page.image %}
-<meta property="twitter:image:src" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}">
+<meta property="twitter:image:src" content="{{ site.url }}/assets/blog{{ page.image }}">
 {% else %}
 <meta property="twitter:image:src" content="{{ site.logo | prepend: site.baseurl | prepend: site.url }}">
-{% endif %}
+{% endif %} 
 
 <!-- Social: Facebook / Open Graph -->
 <meta property="fb:admins" content="161336387609325" />
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 {% if page.image %}
-<meta property="og:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:image" content="{{ site.url }}/assets/blog{{ page.image }}">
 {% else %}
 <meta property="og:image" content="{{ site.logo | prepend: site.baseurl | prepend: site.url }}">
 {% endif %}
@@ -34,7 +34,7 @@
 <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
 <meta itemprop="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 150 | escape }}">
 {% if page.image %}
-<meta itemprop="image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}"/>
+<meta itemprop="image" content="{{ site.url }}/assets/blog{{ page.image }}"/>
 {% else %}
 <meta itemprop="image" content="{{ site.logo | prepend: site.baseurl | prepend: site.url }}"/>
 {% endif %} 
