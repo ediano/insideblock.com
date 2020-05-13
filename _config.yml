@@ -33,7 +33,7 @@ pagination:
 # Jekyll Plugins and Tools
 markdown: kramdown
 highlighter: rouge
-plugins: ['jekyll-paginate-v2','jekyll-sitemap','jekyll-feed']
+plugins: ['jekyll-paginate-v2','jekyll-sitemap']
 
 # Include # Collections
 collections:
@@ -44,10 +44,6 @@ collections:
   category:
     output: true
     permalink: /:path
-
-# Feed    
-feed:
-  categories: [dev, css, comunicado, jekyll, js, misc]
 
 # Offline
 files_to_cache:

@@ -36,8 +36,6 @@ GEM
       jekyll (>= 3.7, < 5.0)
       sinatra (~> 1.4)
       sinatra-contrib (~> 1.4)
-    jekyll-feed (0.13.0)
-      jekyll (>= 3.7, < 5.0)
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-sass-converter (2.1.0)
@@ -68,7 +66,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.4)
-    rouge (3.18.0)
+    rouge (3.19.0)
     safe_yaml (1.0.5)
     sassc (2.3.0)
       ffi (~> 1.9)
@@ -103,7 +101,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-admin
-  jekyll-feed
   jekyll-paginate-v2
   jekyll-sitemap
   tzinfo (~> 1.2)
