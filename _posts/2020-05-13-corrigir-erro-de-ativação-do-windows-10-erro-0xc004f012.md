@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Corrigir erro de ativação Windows 10 (erro: 0xc004f012)'
+title: 'Corrigir erro de ativação do Windows 10 (erro: 0xc004f012)'
 description: >-
   Corrigindo erro de ativação do Windows, após perder o vínculo com uma licença digital.
 datePublished: '2020-05-13 07:00:00'
@@ -11,7 +11,7 @@ tags:
   - windows
 category:
   - misc
-image: /corrigir-erro-de-ativação-windows-10-erro-0xc004f012.jpg
+image: /corrigir-erro-de-ativação-do-windows-10-erro-0xc004f012.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true
