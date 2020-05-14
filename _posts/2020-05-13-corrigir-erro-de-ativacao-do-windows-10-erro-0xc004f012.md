@@ -11,7 +11,7 @@ tags:
   - windows
 category:
   - misc
-image: /corrigir-erro-de-ativação-do-windows-10-erro-0xc004f012.jpg
+image: /corrigir-erro-de-ativacao-do-windows-10-erro-0xc004f012.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
 comments: true
