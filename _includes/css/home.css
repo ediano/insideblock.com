@@ -91,6 +91,10 @@ article.grid-flex {
     background: #00cc66
 }
 
+.card .content .label.docker {
+    background: #2854a1
+}
+
 .card .content .time {
     color: #444;
     font-weight: 500;
