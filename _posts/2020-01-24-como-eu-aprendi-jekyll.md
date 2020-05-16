@@ -11,7 +11,6 @@ tags:
   - dev
 category:
   - misc
-  - jekyll
 image: /como-eu-aprendi-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
