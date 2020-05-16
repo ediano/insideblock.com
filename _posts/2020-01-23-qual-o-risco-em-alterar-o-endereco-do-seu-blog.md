@@ -9,9 +9,9 @@ tags:
   - misc
   - seo
   - dev
+  - js
   - otimização
 category:
-  - misc
   - js
 image: /qual-o-risco-em-alterar-o-endereco-do-seu-blog.jpg
 image_source: Inside Block
