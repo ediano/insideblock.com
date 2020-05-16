@@ -13,7 +13,6 @@ tags:
   - dicas
   - performance web
 category:
-  - dev
   - js
 image: /performance-web-otimizando-o-tempo-de-carregamento-do-site.jpg
 image_source: Inside Block
