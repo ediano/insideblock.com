@@ -116,6 +116,10 @@ main.home {
     background: #00cc66
 }
 
+.docker a {
+    background: #2854a1
+}
+
 svg {
     width: 32px;
     height: 32px;
