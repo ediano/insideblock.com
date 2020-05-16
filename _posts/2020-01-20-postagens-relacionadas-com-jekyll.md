@@ -11,7 +11,6 @@ tags:
   - dev
 category:
   - jekyll
-  - dev
 image: /postagens-relacionadas-com-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
