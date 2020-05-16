@@ -12,8 +12,7 @@ tags:
   - jekyll
   - docker
 category:
-  - misc
-  - dev
+  - docker
 image: /meu-primeiro-contato-com-docker.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
