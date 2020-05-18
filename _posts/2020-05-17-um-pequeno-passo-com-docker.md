@@ -35,9 +35,11 @@ Para simplificar de forma direta, imagine que você seja um usuário do Windows 
 Podemos ainda dizer que a partir do momento que uma imagem é construída, ela não poderá ser mudada, apesar disso não fazer muito sentido, para redefinir as configurações de uma imagem já existe, você deverá criar uma nova a partir daquele ponto já definido. 
 
 ## Container
-O conceito de container pode ser o mais complicado para se entender, mas veja bem, o container nasceu com a ideia de iniciar serviços, imagine que você tenha um site com NGINX e MySQL, podemos dizer que esse site precisa de dois serviços para se manter em execução, desta forma será necessário que dois container seja construídos, cada um com seu serviço (um com NGINX e outro com MySQL) para garantir o isolamento, desta forma podemos iniciar e parar cada um dos contêineres individualmente, sem que nenhum preciso do outro para ser inicializados.
+O conceito de container pode ser o mais complicado para se entender, pois ele é facilmente confundido com as imagens, na prática e na teoria, um contêiner só pode ser construído e inicializando a partir de uma imagem, entretanto, diferente das imagens, containers podem ser modificado durante o seu ciclo de construção e execução.
 
-Se consideradas máquinas virtuais no isolamento entre serviços, teríamos que usar duas delas, como citamos anteriormente, essa prática não nos traria vantagens, pois máquinas virtuais requer muitos recursos computacionais, apesar de ser serviços muito simples. Sem contar que containers podem ser iniciados e parados em questões de segundos.
+Containers nasceu com a ideia de iniciar serviços. Imagine que você tenha um site com NGINX e MySQL, podemos dizer que esse site precisa de dois serviços para se manter em execução, desta forma será necessário que dois container seja construídos a partir de duas imagens, cada um com seu respectivo serviço (um com NGINX e outro com MySQL).
+
+Dessa forma você pode executar os dois container simultaneamente, como também pode executar um de cada vez isoladamente. Mas é claro, como usamos o exemplo de um site que dependa de um servidor MySQL, o ideal aqui seria que os dois containers seja iniciados ao mesmo tempo, para garantir que a aplicação web consiga acessar os dados armazenados no banco.
 
 ## Conclusão
 Bom, eu espero que todos vocês tenham compreendido a proposta principal do Docker, apesar dele ser o único citado neste artigo, ele não é o único software de conteinerização disponível atualmente.

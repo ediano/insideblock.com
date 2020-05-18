@@ -24,12 +24,6 @@ social:
     rel: noopener
     type: GitHub
 
-  - profile: 'https://flipboard.com/@InsideBlock'
-    icon: icon-flipboard
-    target: _black
-    rel: noopener
-    type: Flipboard
-
   - profile: 'https://www.instagram.com/inside.block/'
     icon: icon-instagram
     target: _black
