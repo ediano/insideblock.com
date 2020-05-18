@@ -25,6 +25,8 @@ Bom, o Docker é um software de gerenciamento de containers, mas o que isso sign
 
 Para corrigir esse tipo de problema surgiu o Docker, um software que faz gerenciamento de container, que podemos definir como mini máquina virtual, porém muito potente e eficiente, que requer baixo consumo computacional, além de garantir uma maior segurança e instabilidade por manter cada um dos seus serviços isolado sem dependências um do outro.
 
+Leia também: [Meu primeiro contato com Docker](https://insideblock.com/blog/meu-primeiro-contato-com-docker/){:rel="noopener"}{:target="_blank"}
+
 ## Imagem
 Para um iniciante conseguir entender imagens Docker pode ser um pouco confuso. Para simplificar o entendimento de imagens vamos usar como exemplo um arquivo .ISO, suponhamos que você tenha um arquivo de instalação do Windows, MacOS ou uma distribuição Linux, não importante, esse arquivo em vez de chamar o de ISO iremos chamá-las de imagem, isso porque todas as imagens do Docker é a base de um container.
 
