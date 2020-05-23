@@ -2,7 +2,5 @@
 
 https://insideblock.com
 
-Administrador Geral:
+Made by:
 > https://github.com/ediano
-
-Made by <a href="http://multicamada.com">Multicamada</a>
