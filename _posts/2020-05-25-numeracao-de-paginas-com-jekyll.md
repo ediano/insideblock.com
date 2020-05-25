@@ -34,7 +34,7 @@ group :jekyll_plugins do
 end
 ```
 
-Em seguida deve executar o comando a seguir comando para instalar e atualizar as dependências do novos plugin.
+Em seguida deve executar o seguir comando para instalar e atualizar as dependências do novos plugin.
 
 ```
 bundle install
