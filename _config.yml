@@ -15,7 +15,7 @@ author: Inside Block
 web_designer: Ediano Silva Santos
 
 # URL Páginations
-url: 'https://insideblock.com'
+url: 'https://www.insideblock.com'
 baseurl: ''
 #paginate_path: '/page/:num/'
 permalink: '/blog/:title/'
