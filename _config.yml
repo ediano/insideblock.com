@@ -64,9 +64,6 @@ g_analytics: 'UA-81236717-1'
 g_tagmanager: 'GTM-NHBPTTD'
 g_optimize: 'GTM-TH6M3G8'
 
-# Netlify
-include: ['_redirects','_headers']
-
 # Jekyll admin
 jekyll_admin:
   hidden_links:
