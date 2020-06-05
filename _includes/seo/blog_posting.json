@@ -15,10 +15,7 @@
     },
     "author": {
         "@type": "Person",
-        "name": "
-        {% assign author = site.authors | where: 'title', page.author | first %}
-        {% if page.author %} {{ author.title }} {% endif %}
-        "},
+        "name": "{{ page.author }}"},
     "publisher": {
         "@type": "Organization",
         "name": "{{ site.title }}",
