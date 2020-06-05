@@ -11,7 +11,7 @@
     "description": "{{ content | strip_html | strip_newlines | truncate: 100 }}",
     "image": {
         "@type": "ImageObject",
-        "url": "{{ page.image | prepend: site.baseurl | prepend: site.url }}"
+        "url": "{{ site.url }}/assets/blog{{ page.image }}"
     },
     "author": {
         "@type": "Person",
