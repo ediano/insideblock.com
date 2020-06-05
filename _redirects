@@ -2,3 +2,4 @@
 
 # Redirect default Netlify subdomain to primary domain
 https://insideblock.netlify.app/* https://insideblock.com/:splat 301!
+https://insideblock.netlify.com/* https://insideblock.com/:splat 301!
