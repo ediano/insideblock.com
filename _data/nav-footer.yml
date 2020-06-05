@@ -7,7 +7,3 @@ list:
   - link: /support-us.html
     page: Apoie-nos
     type: list-link
-
-  - link: /pagespeed.html
-    page: Velocidade da página
-    type: list-link
