@@ -2,24 +2,26 @@
 layout: page
 ---
 
-<div class="categories row col">
-    {% for label in site.category %}
-    <div class="grid-flex col m4 {{ label.category }}">
-        <a class="shadow col" href="/{{ label.category | remove: 'hide' }}">
-            <h3>{{ label.title }}</h3>
-            <div class="desc">{{ label.content }}</div>
-        </a>
+<article class="grid row" role="main">
+    <div class="categories row col">
+        {% for label in site.category %}
+        <div class="grid-flex col m4 {{ label.category }}">
+            <a class="shadow col" href="/{{ label.category | remove: 'hide' }}">
+                <h3>{{ label.title }}</h3>
+                <div class="desc">{{ label.content }}</div>
+            </a>
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
-</div>
 
-<div class="category row col">
-{% for post in site.categories[page.category] %}
-    <div class="content grid-flex col s6 l4">
-        <a class="col shadow no-pd" href="{{ post.url | absolute_url }}">
-            <img src="/assets/blog-thumbnail{{ post.image }}" alt="{{ post.title }}"/>
-            <h3>{{ post.title }}</h3>
-        </a>
+    <div class="category row col">
+    {% for post in site.categories[page.category] %}
+        <div class="content grid-flex col s6 l4">
+            <a class="col shadow no-pd" href="{{ post.url | absolute_url }}">
+                <img src="/assets/blog-thumbnail{{ post.image }}" alt="{{ post.title }}"/>
+                <h3>{{ post.title }}</h3>
+            </a>
+        </div>
+    {% endfor %}
     </div>
-{% endfor %}
-</div>
+</article>

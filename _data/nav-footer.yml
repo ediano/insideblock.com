@@ -7,11 +7,7 @@ list:
   - link: /support-us
     page: Apoie-nos
     type: list-link
-    
-  - link: /convert-html
-    page: Converter HTML
-    type: list-link
-    
-  - link: /counter-factors
-    page: Contador de caracteres
+
+  - link: /pagespeed
+    page: Velocidade da página
     type: list-link

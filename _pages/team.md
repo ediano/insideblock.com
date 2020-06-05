@@ -4,6 +4,7 @@ title: Equipe
 description: Conheça um pouco sobre os integrantes por trás desse blog.
 ---
 
+<article class="grid row" role="main">
 {% for people in site.authors %}
     {% if people.title == "Ediano Silva Santos" %}
         <section class="author grid-flex col s6">
@@ -53,4 +54,4 @@ description: Conheça um pouco sobre os integrantes por trás desse blog.
         </section>
     {% endif %}
 {% endfor %}
-    
+</article>
