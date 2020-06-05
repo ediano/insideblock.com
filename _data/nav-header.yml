@@ -5,13 +5,13 @@ list:
    target:
     
  - page: Contato
-   link: /contact
+   link: /contact.html
    target:
 
  - page: Equipe
-   link: /team
+   link: /team.html
    target:
 
  - page: Categorias
-   link: /categories
+   link: /categories.html
    target:

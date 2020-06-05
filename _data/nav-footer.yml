@@ -4,10 +4,10 @@ list:
     page: Home
     type: list-link
     
-  - link: /support-us
+  - link: /support-us.html
     page: Apoie-nos
     type: list-link
 
-  - link: /pagespeed
+  - link: /pagespeed.html
     page: Velocidade da página
     type: list-link
