@@ -4,39 +4,38 @@ title: Contato
 ---
 <article class="grid row" role="main">
     <form class="contact" action="https://api.staticforms.xyz/submit" name="contact" autocomplete="off">
+        <input type="hidden" name="accessKey" value="2581d796-66b2-48ae-87ef-5d1d332927cb">
+        <input type="text" name="honeypot" style="display: none;">
+        
         <div class="name-last-name col">
             <div class="first-name col s6">
-                <input name="PrimeiroNome" type="text" placeholder="Primeiro nome" required="">
+                <input name="$PrimeiroNome" type="text" placeholder="Primeiro nome" required="">
             </div>
             <div class="last-name col s6">
-                <input type="text" name="Sobrenome" placeholder="Sobrenome" required="">
+                <input type="text" name="$Sobrenome" placeholder="Sobrenome" required="">
             </div>
         </div>
         <div class="mail-text-url col">
             <div class="mail col">
-                <input type="email" name="Email" placeholder="seu@email.com" required="">
+                <input type="email" name="$Email" placeholder="seu@email.com" required="">
             </div>
             <div class="text col s6">
-                <input type="text" name="Assunto" placeholder="Assunto" required="">
+                <input type="text" name="$Assunto" placeholder="Assunto" required="">
             </div>
             <div class="url col s6">
-                <input type="text" name="Site" placeholder="url do site [opcional]">
+                <input type="text" name="$Site" placeholder="url do site [opcional]">
             </div>
         </div>
         <div class="message col">
-            <textarea name="message" placeholder="Sua menssagem" required=""></textarea>
+            <textarea name="$message" placeholder="Sua menssagem" required=""></textarea>
         </div>
 
+        <input type="hidden" name="redirectTo" value="https://insideblock.com/success">
+        
         <div class="submit-recaptcha grid-flex col">
             <div class="submit grid-flex col">
                 <button class="btn" type="submit">Enviar</button>
             </div>
         </div>
-
-        <input type="text" name="honeypot" style="display:none">
-        <input type="hidden" name="accessKey" value="2581d796-66b2-48ae-87ef-5d1d332927cb">
-        <input type="hidden" name="subject" value="Contact us from - insideblock.com" />
-        <input type="hidden" name="replyTo" value="@">
-        <input type="hidden" name="redirectTo" value="https://insideblock.com/success.html">
     </form>
 </article>
