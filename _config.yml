@@ -24,7 +24,7 @@ pagination:
   per_page: 12
   permalink: '/blog/page/:num/'
   sort_reverse: true
-  sort_field: 'date'
+  sort_field: 'datePublished'
   title: 'Página :num'
   trail:
     before: 2
