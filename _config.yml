@@ -40,10 +40,10 @@ collections:
   authors:
   pages:
     output: true
-    permalink: /:path
+    permalink: '/:path/'
   category:
     output: true
-    permalink: /:path
+    permalink: '/:path/'
 
 # Offline
 files_to_cache:
