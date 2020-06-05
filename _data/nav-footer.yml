@@ -4,6 +4,6 @@ list:
     page: Home
     type: list-link
     
-  - link: /support-us.html
+  - link: /support-us
     page: Apoie-nos
     type: list-link
