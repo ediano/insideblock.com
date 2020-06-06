@@ -6,6 +6,8 @@ title: Contato
     <form class="contact" action="https://api.staticforms.xyz/submit" name="contact" autocomplete="off">
         <input type="hidden" name="accessKey" value="2581d796-66b2-48ae-87ef-5d1d332927cb">
         <input type="text" name="honeypot" style="display: none;">
+        <input type="hidden" name="subject" value="Test from jsfiddle">
+        <input type="hidden" name="redirectTo" value="https://insideblock.com/success">
         
         <div class="name-last-name col">
             <div class="first-name col s6">
@@ -27,10 +29,8 @@ title: Contato
             </div>
         </div>
         <div class="message col">
-            <textarea name="$message" placeholder="Sua menssagem" required=""></textarea>
+            <textarea name="$Message" placeholder="Sua menssagem" required=""></textarea>
         </div>
-
-        <input type="hidden" name="redirectTo" value="https://insideblock.com/success">
         
         <div class="submit-recaptcha grid-flex col">
             <div class="submit grid-flex col">
