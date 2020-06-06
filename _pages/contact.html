@@ -2,39 +2,38 @@
 layout: page
 title: Contato
 ---
+
 <article class="grid row" role="main">
-    <form class="contact" action="https://api.staticforms.xyz/submit" name="contact" autocomplete="off">
-        <input type="hidden" name="accessKey" value="2581d796-66b2-48ae-87ef-5d1d332927cb">
-        <input type="text" name="honeypot" style="display: none;">
-        <input type="hidden" name="subject" value="Test from jsfiddle">
-        <input type="hidden" name="redirectTo" value="https://insideblock.com/success">
-        
+    <form class="contact" action="/success/" name="contact" autocomplete="off" netlify-honeypot="bot-field" data-netlify="true">
+        <input class="hide" name="bot-field" />
         <div class="name-last-name col">
             <div class="first-name col s6">
-                <input name="$PrimeiroNome" type="text" placeholder="Primeiro nome" required="">
+                <input name="PrimeiroNome" type="text" placeholder="Primeiro nome" required="">
             </div>
             <div class="last-name col s6">
-                <input type="text" name="$Sobrenome" placeholder="Sobrenome" required="">
+                <input type="text" name="Sobrenome" placeholder="Sobrenome" required="">
             </div>
         </div>
         <div class="mail-text-url col">
             <div class="mail col">
-                <input type="email" name="$Email" placeholder="seu@email.com" required="">
+                <input type="email" name="Email" placeholder="seu@email.com" required="">
             </div>
             <div class="text col s6">
-                <input type="text" name="$Assunto" placeholder="Assunto" required="">
+                <input type="text" name="Assunto" placeholder="Assunto" required="">
             </div>
             <div class="url col s6">
-                <input type="text" name="$Site" placeholder="url do site [opcional]">
+                <input type="text" name="Site" placeholder="url do site [opcional]">
             </div>
         </div>
         <div class="message col">
-            <textarea name="$Message" placeholder="Sua menssagem" required=""></textarea>
+            <textarea name="message" placeholder="Sua menssagem" required=""></textarea>
         </div>
-        
         <div class="submit-recaptcha grid-flex col">
-            <div class="submit grid-flex col">
+            <div class="submit grid-flex col s3">
                 <button class="btn" type="submit">Enviar</button>
+            </div>
+            <div class="recaptcha grid-flex col s9">
+                <div data-netlify-recaptcha="true"></div>
             </div>
         </div>
     </form>
