@@ -31,20 +31,25 @@ Pensando nisso a microsoft criou uma área de extensão, onde você pode baixar 
 
 ### Extensões:
 
-1. [Auto Close Tag - Jun Han](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-2. [Auto Rename Tag - Jun Han](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-3. [TCC compile/run - TuyMove](https://marketplace.visualstudio.com/items?itemName=TuyMove.tcc-compiler){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-4. [Prettier - Code formatter - Simon Siefke](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.prettier-vscode){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-5. [minify - HookyQR](https://marketplace.visualstudio.com/items?itemName=HookyQR.minify){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-6. [Raindow Brackets - 2gua](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-7. [indent-rainbow - oderwat](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-8. [One Dark Theme - Joshua Azemoh](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-9. [Material icon theme - Philipp Kief](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-10. [C/C++ - Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-11. [PHP Intelephense - Ben Mewburn](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-12. [Visual Studio IntelliCode - Microsoft](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-13. [Lorem ipsum - Daniel Imms](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum){:rel="nofollow noopener noreferrer"}{:target="_blank"}
-14. [markdownlint - David Anson](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+1. [Rocketseat ReactJS - Rocketseat](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactJS){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+
+2. [Rocketseat React Native - Rocketseat](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactNative){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+
+3. [Omni - Rocketseat](https://marketplace.visualstudio.com/items?itemName=rocketseat.theme-omni){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+
+4. [Prettier - Code formatter - Esben Petersen](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+
+5. [Raindow Brackets - 2gua](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+
+6. [Material icon theme - Philipp Kief](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+
+7. [Visual Studio IntelliCode - Microsoft](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+
+8. [Lorem ipsum - Daniel Imms](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+
+9. [markdownlint - David Anson](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint){:rel="nofollow noopener noreferrer"}{:target="_blank"}
+
+10. [vscode-styled-components - Julien Poissonnier](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components){:rel="nofollow noopener noreferrer"}{:target="_blank"}
 
 ## Configurações do IDE
 
