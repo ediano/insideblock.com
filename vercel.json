@@ -1,11 +1,5 @@
 {
-  "routes": [{ "src": "/stats", "status": 404, "dest": "/404.html" }]
-}
-
-{
   "name": "insideblock",
   "version": 2,
-  "routes": [
-    { "_site": "/(.*)", "status": 404, "dest": "/404.html" }
-  ]
+  "routes": [{ "_site": "/(.*)", "status": 404, "dest": "/404.html" }]
 }
