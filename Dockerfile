@@ -1,8 +1,10 @@
-FROM node:lts-alpine
+FROM ruby:2.6-alpine
 
 WORKDIR /app
 
-RUN apk update && apk add git bash \
-    && npm i -g vercel
+RUN apk update \
+    && apk add build-base git \
+    && gem install bundler jekyll \
+    && bundle install
 
 EXPOSE 4000
