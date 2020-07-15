@@ -6,4 +6,5 @@ raft
 node_modules
 .vscode
 .formatter
-.netlify
+package-lock.json
+node_modules
