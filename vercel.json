@@ -1,5 +1,5 @@
 {
-  "name": "insideblock",
   "version": 2,
+  "name": "insideblock",
   "routes": [{ "_site": "/(.*)", "status": 404, "dest": "/404.html" }]
 }
