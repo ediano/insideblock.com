@@ -1,8 +1,4 @@
 {
-  "version": 2,
   "name": "insideblock",
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "status": 404, "dest": "/404.html" }
-  ]
+  "routes": [{ "src": "/stats", "status": 404, "dest": "/404.html" }]
 }
