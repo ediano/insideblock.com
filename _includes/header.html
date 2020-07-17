@@ -14,7 +14,7 @@
                 <ul class="slide-out">
                     {% for nav in site.data.nav-header.list %}
                     <li>
-                        <a href="{{ nav.link }}" class="{{ nav.page }}">{{ nav.page }}</a>
+                        <a href="{{ nav.link }}" class="{{ nav.page }}" target="{{ nav.target }}">{{ nav.page }}</a>
                     </li>
                     {% endfor %}
                 </ul>
