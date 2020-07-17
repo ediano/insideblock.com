@@ -13,5 +13,5 @@ list:
    target:
 
  - page: Contato
-   link: https://pforms.net/insideblock.id.blockstack/2c0f1f58-fa87-4443-9ea9-1e39f6b29d9d
-   target: black
+   link: /contact
+   target:
