@@ -3,10 +3,6 @@ list:
  - page: Home
    link: /
    target:
-    
- - page: Contato
-   link: /contact
-   target:
 
  - page: Equipe
    link: /team
@@ -15,3 +11,7 @@ list:
  - page: Categorias
    link: /categories
    target:
+
+ - page: Contato
+   link: https://pforms.net/insideblock.id.blockstack/2c0f1f58-fa87-4443-9ea9-1e39f6b29d9d
+   target: black
