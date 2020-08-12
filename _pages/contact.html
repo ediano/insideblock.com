@@ -125,12 +125,11 @@ title: Contato
     };
 
     async function sendData() {
-      const response = await axios.post(
-        "https://api.staticforms.xyz/submit",
-        inputs
-      );
-
-      console.log(response);
+      try {
+        await axios.post("https://api.staticforms.xyz/submit", inputs);
+      } catch (error) {
+        console.log(error);
+      }
     }
 
     sendData();
