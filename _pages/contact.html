@@ -4,37 +4,137 @@ title: Contato
 ---
 
 <article class="grid row" role="main">
-    <form class="contact" action="https://api.staticforms.xyz/submit" name="contact" method="POST">
-        <div class="name-last-name col">
-            <div class="first-name col s6">
-                <input name="name" type="text" placeholder="Nome completo" required="">
-            </div>
-            <div class="last-name col s6">
-                <input type="text" name="email" placeholder="seu@email.com" required="">
-            </div>
-        </div>
-        <div class="mail-text-url col">
-            <div class="text col s6">
-                <input type="text" name="$assunto" placeholder="Assunto" required="">
-            </div>
-            <div class="url col s6">
-                <input type="text" name="$site" placeholder="url do site [opcional]">
-            </div>
-        </div>
-        <div class="message col">
-            <textarea name="message" placeholder="Sua menssagem" required=""></textarea>
-        </div>
-        
-        <input type="text" name="honeypot" style="display:none !important">
-        <input type="hidden" name="accessKey" value="73e3f6da-9a2c-4540-aff9-5150e4c3de78">
-        <input type="hidden" name="subject" value="Contact - insideblock.com" />
-        <input type="hidden" name="replyTo" value="@">
-        <input type="hidden" name="redirectTo" value="https://insideblock.com/success">
-        
-        <div class="submit-recaptcha grid-flex col">
-            <div class="submit grid-flex col s3">
-                <button class="btn" type="submit">Enviar</button>
-            </div>
-        </div>
-    </form>
+  <form
+    class="contact"
+    name="contact"
+    action="https://api.staticforms.xyz/submit"
+    method="post"
+  >
+    <div class="name-last-name col">
+      <div class="first-name col s6">
+        <input
+          name="name"
+          class="name"
+          type="text"
+          placeholder="Nome completo"
+          required=""
+          onchange="handleOnChange(this)"
+        />
+      </div>
+      <div class="last-name col s6">
+        <input
+          type="text"
+          name="email"
+          class="email"
+          placeholder="seu@email.com"
+          required=""
+          onchange="handleOnChange(this)"
+        />
+      </div>
+    </div>
+    <div class="mail-text-url col">
+      <div class="text col s6">
+        <input
+          type="text"
+          name="subject"
+          class="subject"
+          placeholder="Assunto"
+          required=""
+          onchange="handleOnChange(this)"
+        />
+      </div>
+      <div class="url col s6">
+        <input
+          type="text"
+          name="site"
+          class="site"
+          placeholder="url do site [opcional]"
+          onchange="handleOnChange(this)"
+        />
+      </div>
+    </div>
+    <div class="message col">
+      <textarea
+        class="message"
+        name="message"
+        placeholder="Sua menssagem"
+        required=""
+        onchange="handleOnChange(this)"
+      ></textarea>
+    </div>
+
+    <input
+      type="text"
+      name="honeypot"
+      class="honeypot"
+      style="display: none;"
+      onchange="handleOnChange(this)"
+    />
+
+    <div class="submit-recaptcha grid-flex col">
+      <div class="submit grid-flex col s3">
+        <button class="btn" type="submit">
+          Enviar
+        </button>
+      </div>
+    </div>
+  </form>
 </article>
+
+<script src="/axios.min.js"></script>
+<script>
+  const button = document.querySelector("form.contact button.btn");
+
+  let data = {};
+
+  function handleOnChange(event) {
+    const { name, value } = event;
+
+    if (name === "honeypot") {
+      alert("I think you are a robot");
+      data = { ...data, [name]: value };
+    } else {
+      data = { ...data, [name]: value };
+    }
+  }
+
+  function handleSubmit() {
+    event.preventDefault();
+
+    if (data?.honeypot) {
+      return alert("I think you are a robot");
+    }
+
+    if (
+      data.name === "" ||
+      data.email === "" ||
+      data.subject === "" ||
+      data.message === ""
+    ) {
+      alert("Você não enviou algumas informação");
+    }
+
+    const inputs = {
+      honeypot: data.honeypot,
+      name: data.name,
+      email: data.email,
+      subject: data.subject,
+      ["$site"]: data.site,
+      message: data.message,
+      accessKey: "73e3f6da-9a2c-4540-aff9-5150e4c3de78",
+    };
+
+    async function sendData() {
+      const response = await axios.post(
+        "https://api.staticforms.xyz/submit",
+        inputs
+      );
+
+      console.log(response);
+    }
+
+    sendData();
+  }
+
+  button.addEventListener("click", handleSubmit);
+</script>
