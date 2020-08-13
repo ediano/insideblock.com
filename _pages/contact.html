@@ -9,7 +9,6 @@ title: Contato
       <div class="first-name col s6">
         <input
           name="name"
-          class="name"
           type="text"
           placeholder="Nome completo"
           required=""
@@ -20,7 +19,6 @@ title: Contato
         <input
           type="text"
           name="email"
-          class="email"
           placeholder="seu@email.com"
           required=""
           onchange="handleOnChange(this)"
@@ -28,20 +26,22 @@ title: Contato
       </div>
     </div>
     <div class="mail-text-url col">
-      <div class="text col">
+      <div class="text col s6">
         <input
           type="text"
-          name="subject"
-          class="subject"
+          name="$assunto"
+          class="assunto"
           placeholder="Assunto"
           required=""
           onchange="handleOnChange(this)"
         />
       </div>
+      <div class="url col s6">
+        <input type="text" name="$site" placeholder="url do site [opcional]" />
+      </div>
     </div>
     <div class="message col">
       <textarea
-        class="message"
         name="message"
         placeholder="Sua menssagem"
         required=""
@@ -52,71 +52,80 @@ title: Contato
     <input
       type="text"
       name="honeypot"
-      class="honeypot"
       style="display: none;"
+      onchange="handleOnChange(this)"
+    />
+    <input
+      type="hidden"
+      name="accessKey"
+      value="73e3f6da-9a2c-4540-aff9-5150e4c3de78"
+      onchange="handleOnChange(this)"
+    />
+    <input
+      type="hidden"
+      name="subject"
+      value="Contact - insideblock.com"
+      onchange="handleOnChange(this)"
+    />
+    <input
+      type="hidden"
+      name="replyTo"
+      value="@"
+      onchange="handleOnChange(this)"
+    />
+    <input
+      type="hidden"
+      name="redirectTo"
+      value="https://insideblock.com/success"
       onchange="handleOnChange(this)"
     />
 
     <div class="submit-recaptcha grid-flex col">
       <div class="submit grid-flex col s3">
-        <button class="btn" type="submit">
-          Enviar
-        </button>
+        <button class="btn" type="submit">Enviar</button>
       </div>
     </div>
   </form>
 </article>
 
-<script src="/axios.min.js"></script>
 <script>
-  const api = axios.create({
-    baseURL: "https://api.staticforms.xyz",
-  });
-
   const form = document.querySelector("form.contact");
 
-  form.onsubmit = handleSubmit;
+  const name = document.querySelector("form.contact input[name]");
+  const email = document.querySelector("form.contact input[email]");
+  const assunto = document.querySelector("form.contact input.assunto");
+  const message = document.querySelector("form.contact textarea[message]");
+  const honeypot = document.querySelector("form.contact input[honeypot]");
 
-  let data = {};
+  let data = {
+    name: "",
+    email: "",
+    $assunto: "",
+    message: "",
+    honeypot: undefined,
+  };
 
   function handleOnChange(event) {
     const { name, value } = event;
 
     if (name === "honeypot") {
-      alert("I think you are a robot");
       data = { ...data, [name]: value };
+      form.removeAttribute("method");
+      form.removeAttribute("action");
+      return;
     } else {
       data = { ...data, [name]: value };
     }
-  }
-
-  function handleSubmit(event) {
-    event.preventDefault();
-
-    if (data?.honeypot) {
-      return alert("I think you are a robot");
-    }
 
     if (
-      data.name === "" ||
-      data.email === "" ||
-      data.subject === "" ||
-      data.message === ""
+      data.name !== "" &&
+      data.email !== "" &&
+      data.$assunto !== "" &&
+      data.message !== "" &&
+      data.honeypot === undefined
     ) {
-      alert("Você não enviou algumas informação");
+      form.setAttribute("method", "POST");
+      form.setAttribute("action", "https://api.staticforms.xyz/submit");
     }
-
-    const inputs = {
-      honeypot: data.honeypot,
-      name: data.name,
-      email: data.email,
-      subject: data.subject,
-      message: data.message,
-      accessKey: "73e3f6da-9a2c-4540-aff9-5150e4c3de78",
-    };
-
-    (async () => {
-      return await api.post("/submit", inputs);
-    })();
   }
 </script>
