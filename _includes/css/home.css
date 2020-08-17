@@ -1,146 +1,152 @@
 @media (max-width: 575px) {
-    main.home.container {
-        width: 90%
-    }
+  main.home.container {
+    width: 90%;
+  }
 }
 
 article.grid-flex {
-    margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 .card {
-    border-radius: 0 0 10px 10px
+  border-radius: 0 0 10px 10px;
 }
 
 .card .card-img {
-    position: relative;
-    display: flex;
-    align-items: center
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .card .card-img::after {
-    content: "";
-    background: rgba(51, 51, 51, .75);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0
+  content: "";
+  background: rgba(51, 51, 51, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .card .card-img:hover::after {
-    background: rgba(51, 51, 51, .50);
+  background: rgba(51, 51, 51, 0.5);
 }
 
 .card .card-img img {
-    width: 100%
+  width: 100%;
 }
 
 .card .card-img h2 {
-    position: absolute;
-    right: 0;
-    left: 0;
-    width: 100%;
-    padding: 0 15px;
-    color: #fff;
-    text-align: center;
-    font-size: 2rem;
-    z-index: 5
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 15px;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  z-index: 5;
 }
 
 .card .content {
-    display: block;
-    padding: 15px 15px 50px 15px
+  display: block;
+  padding: 15px 15px 50px 15px;
 }
 
 .card .content .label,
 .card .content .time,
 .car .content .card-content {
-    display: inline-block
+  display: inline-block;
 }
 
 .card .content .label {
-    color: #fff;
-    padding: 0 5px;
-    margin: 0 5px 0 0;
-    border-radius: 3px
+  color: #fff;
+  padding: 0 5px;
+  margin: 0 5px 0 0;
+  border-radius: 3px;
 }
 
 .card .content .label.comunicado {
-    background: #303c42
+  background: #303c42;
 }
 
 .card .content .label.css {
-    background: #2cb5e8
+  background: #2cb5e8;
 }
 
 .card .content .label.dev {
-    background: #808080
+  background: #808080;
 }
 
 .card .content .label.jekyll {
-    background: #c00
+  background: #c00;
 }
 
 .card .content .label.js {
-    color: #444;
-    background: #ffcc00
+  color: #444;
+  background: #ffcc00;
 }
 
 .card .content .label.misc {
-    background: #00cc66
+  background: #00cc66;
 }
 
 .card .content .label.docker {
-    background: #2854a1
+  background: #2854a1;
+}
+
+.card .content .label.reactjs,
+.card .content .label.react-native {
+  color: #444;
+  background: #61dafb;
 }
 
 .card .content .time {
-    color: #444;
-    font-weight: 500;
-    margin: 0 7.5px 0 0
+  color: #444;
+  font-weight: 500;
+  margin: 0 7.5px 0 0;
 }
 
 .card .content p.description {
-    margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .card .content .readmore {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    text-align: right;
-    color: #444;
-    font-weight: 500
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  text-align: right;
+  color: #444;
+  font-weight: 500;
 }
 
 .card .content .readmore:hover {
-    color: #696969
+  color: #696969;
 }
 
 .pagination {
-    width: 100%;
-    text-align: center;
-    padding: 10px
+  width: 100%;
+  text-align: center;
+  padding: 10px;
 }
 
 .pagination li {
-    display: inline-block
+  display: inline-block;
 }
 
 .pagination a {
-    display: block;
-    color: #696969;
-    margin: 0 5px;
-    padding: 2.5px 7.5px;
-    border: 1px solid;
-    border-radius: 5px
+  display: block;
+  color: #696969;
+  margin: 0 5px;
+  padding: 2.5px 7.5px;
+  border: 1px solid;
+  border-radius: 5px;
 }
 
 .pagination li.selected a {
-    background: #696969
+  background: #696969;
 }
 
 .pagination li.selected a {
-    color: #fff
+  color: #fff;
 }
