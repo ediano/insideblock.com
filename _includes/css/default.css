@@ -122,7 +122,10 @@ main.home {
   background: #2854a1;
 }
 
-.reactjs a,
+.reactjs a {
+  background: #007092;
+}
+
 .react-native a {
   background: #61dafb;
 }

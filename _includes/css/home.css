@@ -95,7 +95,11 @@ article.grid-flex {
   background: #2854a1;
 }
 
-.card .content .label.reactjs,
+.card .content .label.reactjs {
+  color: #f0f0f0;
+  background: #007092;
+}
+
 .card .content .label.react-native {
   color: #444;
   background: #61dafb;

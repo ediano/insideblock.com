@@ -15,17 +15,17 @@ author: Inside Block
 web_designer: Ediano Silva Santos
 
 # URL Páginations
-url: 'https://insideblock.com'
-baseurl: ''
+url: "https://insideblock.com"
+baseurl: ""
 #paginate_path: '/page/:num/'
-permalink: '/blog/:title/'
+permalink: "/blog/:title/"
 pagination:
   enabled: true
   per_page: 12
-  permalink: '/blog/page/:num/'
+  permalink: "/blog/page/:num/"
   sort_reverse: true
-  sort_field: 'datePublished'
-  title: 'Página :num'
+  sort_field: "datePublished"
+  title: "Página :num"
   trail:
     before: 2
     after: 2
@@ -33,24 +33,24 @@ pagination:
 # Jekyll Plugins and Tools
 markdown: kramdown
 highlighter: rouge
-plugins: ['jekyll-paginate-v2','jekyll-sitemap']
+plugins: ["jekyll-paginate-v2", "jekyll-sitemap"]
 
 # Include # Collections
 collections:
   authors:
   pages:
     output: true
-    permalink: '/:path/'
+    permalink: "/:path/"
   category:
     output: true
-    permalink: '/:path/'
+    permalink: "/:path/"
 
 # Offline
 files_to_cache:
-  - '/assets/logo/favicon.png'
+  - "/assets/logo/favicon.png"
 
 pages_to_cache:
-  - '/offline'
+  - "/offline"
 
 # Compress HTML
 compress_html:
@@ -60,9 +60,9 @@ compress_html:
   profile: false
 
 # Verification
-g_analytics: 'UA-81236717-1'
-g_tagmanager: 'GTM-NHBPTTD'
-g_optimize: 'GTM-TH6M3G8'
+g_analytics: "UA-81236717-1"
+g_tagmanager: "GTM-NHBPTTD"
+g_optimize: "GTM-TH6M3G8"
 
 # Jekyll admin
 jekyll_admin:
@@ -75,8 +75,7 @@ jekyll_admin:
 # Remove pagination from sitemap
 defaults:
   - scope:
-      path: '/blog/page/'
+      path: "/blog/page/"
     values:
       sitemap: false
-      title: 'Página :num'
-      
+      title: "Página :num"
