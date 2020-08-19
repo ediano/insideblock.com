@@ -23,22 +23,4 @@ social:
     target: _black
     rel: noopener
     type: GitHub
-
-  - profile: 'https://www.instagram.com/inside.block/'
-    icon: icon-instagram
-    target: _black
-    rel: noopener
-    type: Instagram
-
-  - profile: 'https://g.page/insideblock/'
-    icon: icon-googleb
-    target: _black
-    rel: noopener
-    type: Google-Business
-
-  - profile: 'https://www.linkedin.com/company/insideblock'
-    icon: icon-linkedin
-    target: _black
-    rel: noopener
-    type: LinkedIn
 ---
