@@ -25,7 +25,7 @@ Falando sério, eu nunca tinha parado para observar e notar que eu não tinha fo
 
 ## Empurrãozinho
 
-Porém esta questão mudou de forma inesperada depois de ter acompanhado um dos eventos da [Rocketseat](https://rocketseat.com.br/){:rel="nofollow noopener noreferrer"} (OmniStack 10). Até então eu nunca tinha me focado exatamente em uma tecnologia específica, pela falta de experiência, conhecimento ou pelas vagas de empregos disponíveis para desenvolvedores.
+Porém esta questão mudou de forma inesperada depois de ter acompanhado um dos eventos da [Rocketseat](https://rocketseat.com.br/){:target="_blank" :rel="nofollow noopener noreferrer"} (OmniStack 10). Até então eu nunca tinha me focado exatamente em uma tecnologia específica, pela falta de experiência, conhecimento ou pelas vagas de empregos disponíveis para desenvolvedores.
 
 Antes disso eu estava testando stacks para o desenvolvimento de front-end com Ruby e PHP. Depois do evento da Rocketseat eu me identifiquei muito com a tecnologia apresentada, que no caso foi ReactJS e React Native no front-end e NodeJS com Express no back-end, foi a partir deste momento que eu comecei a me dedicar um pouco mais e ter foco no que eu realmente quero.
 
@@ -33,7 +33,7 @@ Antes disso eu estava testando stacks para o desenvolvimento de front-end com Ru
 
 A ideia deste evento, era criar uma interface que conecta desenvolvedores com os clientes a partir da geolocalização, eu nunca tinha visto nada aparecida anteriormente, toda minha experiência na parte do ReactJS, React Native e NodeJS, veio praticamente do zero, pois eu tinha um pequeno conhecimento com JavaScript puro, mesmo o evento sendo totalmente gratuito eu achei muito interessante quando eles apresentaram o React Native, tendo em vista que mesmo em alguns eventos ou cursos pagos, dificilmente você consegue ver esse tipo de abordagem.
 
-Foi então a partir daí que comecei a ver o desenvolvimento com outros olhos, desde então participei da Next Level Week 1 e 2, ambos os eventos o [Diego Fernandes](https://github.com/diego3g){:rel="nofollow noopener noreferrer"} junto a equipe da Rocketseat, acrescentaram o TypeScript, tanto no desenvolvimento do back-end quanto no front-end, que foi extremamente importante, depois de ter visto o primeiro evento, eu sabia que o próximo passo era procurar entender os fundamentos do TypeScript, então a NLW 1, veio como uma luva, encaixou certinho como meu novo objetivo de conhecimento.
+Foi então a partir daí que comecei a ver o desenvolvimento com outros olhos, desde então participei da Next Level Week 1 e 2, ambos os eventos o [Diego Fernandes](https://github.com/diego3g){:target="_blank"}{:rel="nofollow noopener noreferrer"} junto a equipe da Rocketseat, acrescentaram o TypeScript, tanto no desenvolvimento do back-end quanto no front-end, que foi extremamente importante, depois de ter visto o primeiro evento, eu sabia que o próximo passo era procurar entender os fundamentos do TypeScript, então a NLW 1, veio como uma luva, encaixou certinho como meu novo objetivo de conhecimento.
 
 ## Foco
 
