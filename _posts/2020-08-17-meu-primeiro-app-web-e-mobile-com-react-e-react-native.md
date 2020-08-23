@@ -7,7 +7,7 @@ datePublished: "2020-08-17 07:00:00"
 dateModified: "2020-08-17 07:00:00"
 tags:
   - reactjs
-  - react native
+  - react-native
   - javascript
   - html
   - css
