@@ -2,7 +2,7 @@
     {% for label in site.category %}
     {% if page.category contains label.category %}
     <li>
-        <a class="cat" alt="{{ label.title }}" href="{{ site.url }}/{{ label.label }}"> {{ label.title }}</a>
+        <a class="cat" alt="{{ label.title }}" href="{{ site.url }}/{{ label.category }}"> {{ label.title }}</a>
     </li>
     {% endif %}
     {% endfor %}
