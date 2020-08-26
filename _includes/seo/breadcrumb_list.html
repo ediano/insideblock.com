@@ -1,7 +1,9 @@
 <ol class="item-list-element col">
-    {% for label in page.category %}
+    {% for label in site.category %}
+    {% if page.category contains label.category %}
     <li>
-        <a class="cat" alt="{{ label }}" href="{{ site.url }}/{{ label }}"> {{ label }}</a>
+        <a class="cat" alt="{{ label.title }}" href="{{ site.url }}/{{ label.label }}"> {{ label.title }}</a>
     </li>
+    {% endif %}
     {% endfor %}
 </ol>
