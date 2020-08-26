@@ -1,6 +1,6 @@
 ---
 layout: category
-title: JS
+title: JavaScript
 category: js
 ---
 
