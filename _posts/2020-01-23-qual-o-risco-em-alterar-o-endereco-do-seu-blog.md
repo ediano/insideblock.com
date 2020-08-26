@@ -12,7 +12,7 @@ tags:
   - js
   - otimização
 category:
-  - js
+  - misc
 image: /qual-o-risco-em-alterar-o-endereco-do-seu-blog.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
