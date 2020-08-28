@@ -64,6 +64,4 @@ A partir deste instante eu tenho algumas vantagens excepcionais e até o momento
 
 ## Conclusão
 
-Com esta brincadeira que no início fui forçado a aprender, cheguei a construir uma imagem para desenvolvedores Laravel que está disponível no Docker Hub através [deste link](https://hub.docker.com/r/ediano/laravel){:rel="nofollow noopener noreferrer"}{:target="_blank"}, e com isso também irei deixar a imagem para construir projetos com Jekyll [neste link](https://hub.docker.com/r/ediano/jekyll){:rel="nofollow noopener noreferrer"}{:target="_blank"}.
-
 Eu espero que todos você tenha gostado deste post, não sou expert no assunto, ainda estou aprendo mais sobre Docker, mas qualquer dúvida que tiver não exite em perguntar é só deixar nos comentários.
