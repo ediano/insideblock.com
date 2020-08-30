@@ -38,10 +38,11 @@ Se preferir você também pode fazer o uso do [Yarn](https://classic.yarnpkg.com
 O React Native requer uma instalação do Java SDK, anteriormente além do Java SDK era necessário adicionar uma variável de ambiente no sistema, porém isso não é mais necessário, então vamos partir diretamente para a instalação.
 
 ```bash
-sudo add-apt-repository ppa:openjdk-r/ppa \
-&& sudo apt update \
+sudo apt update && sudo apt upgrade \
+&& sudo add-apt-repository -y ppa:openjdk-r/ppa \
 && sudo apt install -y openjdk-8-jdk \
-&& sudo apt install -y gcc-multilib lib32z1 lib32stdc++6
+&& sudo apt install -y gcc-multilib lib32z1 lib32stdc++6 \
+&& sudo apt -y update && sudo apt -y upgrade
 ```
 
 Note que o comando instala a SDK do Java 8, porém *dependendo da data em que você estiver vendo este artigo esta versão pode não ser mais um requisito, por isso recomendo que veja ligeiramente a documentação oficial do [React Native](https://reactnative.dev/docs/environment-setup){:target="_blank"}{:rel="nofollow noopener noreferrer"}*, veja que adicionamos alguns pacotes que muita das vezes é necessária para emular o projeto.
