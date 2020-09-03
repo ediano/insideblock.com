@@ -41,7 +41,7 @@ Ainda depois do primeiro evento, eu iniciei alguns projetos pessoais apenas para
 
 ## Conclusão
 
-Para ter um pouco mais de foco em meus objetivos como desenvolvedor, eu precisei de um empurrãozinho, a Rocketseat me ajudou muito com isso, ainda não sou expert da tecnologia mas hoje sou capaz de desenvolver projetos como uma das maiores tecnologias do mercado.
+Para ter um pouco mais de foco em meus objetivos como desenvolvedor, eu precisei de um empurrãozinho, a Rocketseat me ajudou muito com isso, ainda não sou expert na tecnologia mas hoje sou capaz de desenvolver projetos como uma das maiores tecnologias do mercado.
 
 Se você ainda não com certeza de qual segmento na sua carreira você vai tomar, sugiro que Veja pelo menos um dos eventos da Rocketseat, pois eles vão te ajudar muito.
 
