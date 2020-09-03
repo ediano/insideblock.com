@@ -20,7 +20,7 @@ comments: true
 ads: true
 ---
 
-Com certeza muitos de vocês já sabem que o Inside Block é construído em cima do Jekyll, e por muito tempo usamos para fazer o deploy o [Netlify](https://www.netlify.com){:target="_blank"}{:rel="nofollow noopener noreferrer"},  porém depois de algum tempo usando este serviço,  acabei conhecendo a [Vercel](https://vercel.com){:target="_blank"}{:rel="nofollow noopener noreferrer"}, que por sua vez acabei gostando muito,  porém não posso afirmar se é melhor ou pior que o Netlify,  pois eu acredito que isso é uma questão de gosto e análise de custo benefício.
+Com certeza muitos de vocês já sabem que o Inside Block é construído em cima do Jekyll, e por muito tempo usamos para fazer deploy o [Netlify](https://www.netlify.com){:target="_blank"}{:rel="nofollow noopener noreferrer"},  porém depois de algum tempo usando este serviço,  acabei conhecendo a [Vercel](https://vercel.com){:target="_blank"}{:rel="nofollow noopener noreferrer"}, que por sua vez acabei gostando muito,  porém não posso afirmar se é melhor ou pior que o Netlify,  pois eu acredito que isso é uma questão de gosto e análise de custo benefício.
 
 Eu particularmente, achei a ferramenta de deploy da Vercel mais simples,  porém encontrei uma certa complicação, durante o processo de migração,  que diz respeito a exibição personalizada de páginas 404.  Nativamente, a Vercel não exibe a página 404  customizável do Jekyll, ela exibe sua própria página 404.
 
