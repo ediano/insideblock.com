@@ -102,7 +102,7 @@ Em seguida você deve selecionar exatamente as mesmas configurações abaixo.
 #### Where does your code run? …
 
 ```text
-✔ Browser
+‣ ✔ Browser
 ✔ Node
 ```
 
