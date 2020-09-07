@@ -44,7 +44,7 @@ Como citei anteriormente, a Vercel  não consegue identificar a página 404 cust
 
 Primeiro vamos criar um arquivo chamado `vercel.json`  na raiz do  repositório,  em seguida vamos adicionar as seguintes configurações.
 
-```json
+```js
 {
   "name": "insideblock",
   "routes": [
@@ -52,7 +52,7 @@ Primeiro vamos criar um arquivo chamado `vercel.json`  na raiz do  repositório,
     { "src": "/(.*)", "status": 404, "dest": "/404.html" }
   ]
 }
-``` 
+```
 
 Observe que este arquivo de configuração é bem simples, entretanto ele deve seguir algumas regras,  na opção `name`,  você deve substituir pelo nome do projeto que foi criado na Vercel, algo parecido como https://vercel.com/edianodev/**insideblock**.
 
