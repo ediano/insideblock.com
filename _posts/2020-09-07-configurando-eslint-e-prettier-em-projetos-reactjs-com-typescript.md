@@ -87,7 +87,6 @@ Em seguida você deve selecionar exatamente as mesmas configurações abaixo.
 #### Which framework does your project use? …
 
 ```text
-? Which framework does your project use? …
 ▸ React
   Vue.js
   None of these
