@@ -68,7 +68,7 @@ yarn eslint --init
 
 Em seguida você deve selecionar exatamente as mesmas configurações abaixo.
 
-#### How would you like to use ESLint? …
+### How would you like to use ESLint? …
 
 ```text
   To check syntax only
@@ -76,7 +76,7 @@ Em seguida você deve selecionar exatamente as mesmas configurações abaixo.
 ▸ To check syntax, find problems, and enforce code style
 ```
 
-#### What type of modules does your project use? …
+### What type of modules does your project use? …
 
 ```text
 ▸ JavaScript modules (import/export)
@@ -84,7 +84,7 @@ Em seguida você deve selecionar exatamente as mesmas configurações abaixo.
   None of these
 ```
 
-#### Which framework does your project use? …
+### Which framework does your project use? …
 
 ```text
 ▸ React
@@ -92,20 +92,20 @@ Em seguida você deve selecionar exatamente as mesmas configurações abaixo.
   None of these
 ```
 
-#### Does your project use TypeScript? ‣ No / Yes
+### Does your project use TypeScript? ‣ No / Yes
 
 ```text
 ‣ Yes
 ```
 
-#### Where does your code run? …
+### Where does your code run? …
 
 ```text
 ‣ ✔ Browser
 ✔ Node
 ```
 
-#### How would you like to define a style for your project? …
+### How would you like to define a style for your project? …
 
 ```text
 ▸ Use a popular style guide
@@ -113,7 +113,7 @@ Em seguida você deve selecionar exatamente as mesmas configurações abaixo.
   Inspect your JavaScript file(s)
 ```
 
-#### Which style guide do you want to follow? …
+### Which style guide do you want to follow? …
 
 ```text
 ▸ Airbnb: https://github.com/airbnb/javascript
@@ -121,7 +121,7 @@ Em seguida você deve selecionar exatamente as mesmas configurações abaixo.
   Google: https://github.com/google/eslint-config-google
 ```
 
-#### What format do you want your config file to be in? …
+### What format do you want your config file to be in? …
 
 ```text
   JavaScript
@@ -131,7 +131,7 @@ Em seguida você deve selecionar exatamente as mesmas configurações abaixo.
 
 Este ponto é um dos mais importantes, o próprio ESLint vai sugerir a instalação de algumas dependências de configuração, independentemente se você estiver usando yarn ou npm simplesmente aceite a instalação nesta opção.
 
-#### Would you like to install them now with npm? ‣ No / Yes
+### Would you like to install them now with npm? ‣ No / Yes
 
 ```text
 ▸ Yes
@@ -211,13 +211,13 @@ module.exports = {
 
 Pronto, agora só falta uma coisinha, o ESLint fica ouvindo todos os nossos diretórios e arquivos dentro do projeto, porém alguns arquivos não serão necessário que ele verifique, por isso vamos ignorar alguns deles, ainda na raiz do projeto crie um novo arquivo chamado `.eslintignore`, em seguida adicione as seguintes configurações.
 
-```js
-{% raw %}**{% endraw %}/*.js
+```text
+**/*.js
 node_modules
 build
 ```
 
-Agora sim, todas as nossas configurações estão concluídas.
+Agora sim, todas as configurações estão concluídas.
 
 ## Conclusão
 
