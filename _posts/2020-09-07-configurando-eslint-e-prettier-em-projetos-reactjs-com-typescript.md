@@ -212,8 +212,10 @@ module.exports = {
 Pronto, agora só falta uma coisinha, o ESLint fica ouvindo todos os nossos diretórios e arquivos dentro do projeto, porém alguns arquivos não serão necessário que ele verifique, por isso vamos ignorar alguns deles, ainda na raiz do projeto crie um novo arquivo chamado `.eslintignore`, em seguida adicione as seguintes configurações.
 
 ```js
-****/*.js
+**/*.js
+
 node_modules
+
 build
 ```
 
