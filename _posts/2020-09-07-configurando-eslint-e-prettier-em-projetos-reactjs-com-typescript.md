@@ -169,6 +169,12 @@ Agora precisamos adicionar algumas alterações no arquivo `.eslintrc.json`, ess
   "react-hooks/exhaustive-deps": "warn",
   "react/jsx-filename-extension": [ 1, {"extensions": [".tsx"]} ],
   "import/prefer-default-export": "off",
+  "@typescript-eslint/explicit-function-return-type": [
+    "error",
+    {
+      "allowExpressions": true
+    }
+  ],
   "import/extensions": [
     "error",
     "ignorePackages",
