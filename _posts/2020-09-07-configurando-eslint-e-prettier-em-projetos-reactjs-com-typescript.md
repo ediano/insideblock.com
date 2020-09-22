@@ -18,7 +18,7 @@ comments: true
 ads: true
 ---
 
-Fala dev, este é mais um artigo sobre ReactJS, e hoje nós vamos mostrar, como você pode configurar o ESLint e o Prettier, para montar uma padronização de código, usando ReactJS com TypeScript. Fique atento, as configurações que vamos mostrar aqui, pode mudar muito rápido, portanto recomendamos que consulte as documentações oficiais das tecnologias apresentadas, quando surgir dúvidas que não estiver explicados por aqui.
+Fala dev, este é mais um artigo sobre ReactJS, e hoje nós vamos mostrar, como você pode configurar o ESLint e o Prettier, para seguir uma padronização de código, usando ReactJS com TypeScript. Fique atento, as configurações que vamos mostrar aqui, pode mudar muito rápido, portanto recomendamos que consulte as documentações oficiais das tecnologias apresentadas, quando surgir dúvidas que não estiver explicados por aqui.
 
 ## Construindo aplicação ReactJS
 
