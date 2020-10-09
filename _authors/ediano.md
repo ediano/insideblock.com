@@ -12,25 +12,25 @@ social:
     rel: noopener
     type: GitHub
 
-  - profile: 'https://www.facebook.com/edianodev'
+  - profile: 'https://www.facebook.com/ediano'
     icon: icon-facebook
     target: _black
     rel: noopener
     type: Facebook
 
-  - profile: 'https://twitter.com/edianodev'
+  - profile: 'https://twitter.com/edianobr'
     icon: icon-twitter
     target: _black
     rel: noopener
     type: Twitter
 
-  - profile: 'https://www.instagram.com/edianodev/'
+  - profile: 'https://www.instagram.com/edianobr'
     icon: icon-instagram
     target: _black
     rel: noopener
     type: Instagram
 
-  - profile: 'https://www.linkedin.com/in/edianodev'
+  - profile: 'https://www.linkedin.com/in/ediano'
     icon: icon-linkedin
     target: _black
     rel: noopener
