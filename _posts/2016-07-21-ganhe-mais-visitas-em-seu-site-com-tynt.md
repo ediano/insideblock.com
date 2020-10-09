@@ -7,7 +7,8 @@ tags:
   - dicas
   - otimização
   - tynt
-category: misc
+category:
+  - misc
 image: /ganhe-mais-visitas-em-seu-site-com-tynt.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

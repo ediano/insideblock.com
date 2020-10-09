@@ -3,7 +3,8 @@ layout: post
 title: Apple libera iOS 9.3 - Veja as novidades
 datePublished: "2016-07-21 14:05:00"
 tags: [mobile, ios, dicas]
-category: misc
+category:
+  - misc
 image: /apple-libera-ios-93-veja-as-novidades/apple-libera-ios-93-veja-as-novidades.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

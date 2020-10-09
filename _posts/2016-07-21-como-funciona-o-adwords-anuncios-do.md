@@ -5,7 +5,8 @@ datePublished: '2016-07-21 18:05:00'
 tags:
   - dicas
   - adwords
-category: misc
+category:
+  - misc
 image: /como-funciona-o-adwords-anuncios-do.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

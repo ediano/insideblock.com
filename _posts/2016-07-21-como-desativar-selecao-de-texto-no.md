@@ -3,7 +3,8 @@ layout: post
 title: Como desativar a seleção de texto no Blogger
 datePublished: "2016-07-21 14:05:00"
 tags: [blogger, segurança]
-category: js
+category:
+  - js
 image: /como-desativar-selecao-de-texto-no.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
@@ -21,7 +22,7 @@ Recomendamos que antes de fazer qualquer alteração em seu template que faça o
 
 1. Acesse o Painel do Blogger, escolha o blog que você deseja instalar, selecione a opção "Modelo" e clique em "Editar HTML".
 
-2. Agora procure pelo código abaixo. 
+2. Agora procure pelo código abaixo.
 
 ```html
 </head>
@@ -34,7 +35,7 @@ Recomendamos que antes de fazer qualquer alteração em seu template que faça o
 <script type="text/javascript">
     function disableSelection(target) {
         if (typeof target.onselectstart != "undefined") target.onselectstart = function() {
-            return false 
+            return false
             }
             else if (typeof target.style.MozUserSelect != "undefined") target.style.MozUserSelect = "none"
                 else target.onmousedown = function() {

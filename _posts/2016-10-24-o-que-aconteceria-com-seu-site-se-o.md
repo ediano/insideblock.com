@@ -3,7 +3,8 @@ layout: post
 title: O que aconteceria com seu site se o Google acabasse agora
 datePublished: "2016-10-24 20:37:00"
 tags: [seo, dicas]
-category: misc
+category:
+  - misc
 image: /o-que-aconteceria-com-seu-site-se-o.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

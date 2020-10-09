@@ -3,7 +3,8 @@ layout: post
 title: Melhores botões de compartilhamento
 datePublished: "2016-07-21 17:59:00"
 tags: [redes sociais, seo, otimização]
-category: misc
+category:
+  - misc
 image: /melhores-botoes-de-compartilhamento.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

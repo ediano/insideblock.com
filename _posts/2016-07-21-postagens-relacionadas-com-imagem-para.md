@@ -4,7 +4,8 @@ title: Postagens relacionadas com imagem para Blogger
 datePublished: "2016-07-21 09:22:00"
 dateModified: '2020-01-31 23:40:00'
 tags: [seo, blogger, otimização]
-category: dev
+category:
+  - dev
 image: /postagens-relacionadas-com-imagem-para.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

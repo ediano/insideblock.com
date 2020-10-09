@@ -3,7 +3,8 @@ layout: post
 title: Resumo de postagem automático com imagem para Blogger
 datePublished: "2016-09-17 19:01:00"
 tags: [blogger, dicas, otimização]
-category: dev
+category:
+  - dev
 image: /resumo-de-postagem-automatico-com.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

@@ -6,7 +6,8 @@ dateModified: '2019-12-23 01:18:38'
 tags:
   - dicas
   - apps
-category: misc
+category:
+  - misc
 image: /visual-studio-code-novo-editor-de.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
@@ -19,7 +20,7 @@ Este IDE é uma versão compacta das versões anteriores do Visual Studio que j�
 
 ## Conhecendo o IDE
 
-Após <a href="https://code.visualstudio.com/"  target="_blank" rel="nofollow noopener noreferrer">baixar e instalar o software da página oficial</a> e hora de conhecer o nosso ambiente de trabalho. Apesar de estar em inglês você verá logo de início que a interface do IDE é bem simples e atraente, no topo você tem menus e na lateral esquerda você terá opções que interage com o ambiente de desenvolvimento. 
+Após <a href="https://code.visualstudio.com/"  target="_blank" rel="nofollow noopener noreferrer">baixar e instalar o software da página oficial</a> e hora de conhecer o nosso ambiente de trabalho. Apesar de estar em inglês você verá logo de início que a interface do IDE é bem simples e atraente, no topo você tem menus e na lateral esquerda você terá opções que interage com o ambiente de desenvolvimento.
 
 * **Explorer:** O Explorer é responsável por facilitar o gerenciamento dos arquivos e pastas dos projetos, se você não está familiarizado com os explores de IDE, você pode usar os menus do topo, clique em “File” e escolha a opção desejada, New File - criar novo arquivo, New Windows - criar um novo ambiente de trabalho em uma janela separada, Open File... - abrir um arquivo, Open Folder… - abrir uma pasta. São essas as funções básicas que o explorer exerce.
 * **Search:** A função de pesquisa do VS Code e muito eficiente, porém até o momento ela pesquisa apenas por arquivos ou pastas que já tenha sido aberta anteriormente pelo software, para encontrar um arquivo basta pesquisar pelo nome ou pela extensão da linguagem de programação.

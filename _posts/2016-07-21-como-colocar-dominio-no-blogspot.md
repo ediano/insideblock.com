@@ -3,7 +3,8 @@ layout: post
 title: "Como colocar domínio personalizado no Blogger"
 datePublished: "2016-07-21 14:51:00"
 tags: [seo, blogger, tutorial]
-category: dev
+category:
+  - dev
 image: /como-colocar-dominio-no-blogspot.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

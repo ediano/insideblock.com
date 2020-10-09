@@ -3,7 +3,8 @@ layout: post
 title: Qual a importância dos botões de compartilhamento?
 datePublished: "2016-07-21 17:28:00"
 tags: [redes sociais, seo]
-category: misc
+category:
+  - misc
 image: /qual-importancia-dos-botoes-de.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

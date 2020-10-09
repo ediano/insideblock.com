@@ -8,7 +8,8 @@ tags:
   - html
   - dev
   - css
-category: jekyll
+category:
+  - jekyll
 image: /performance-web-comprimir-html-com-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
@@ -20,7 +21,7 @@ Olá pessoal, nossos posts começaram a chegar, espero que continuem assim, fiqu
 
 Se você chegou a este artigo, com certeza é um amante de Jekyll assim como eu, ou pretende desenvolver algum tipo de projeto com a aplicação do mesmo. São poucos os serviços web preparados para realizar a compilação do código fonte de um site. A compilação pode ser realizada por diversas ferramentas, no presente artigo vamos falar sobre uma aplicação que pode ser facilmente usada em site estaticos com Jekyll.
 
-A soluções é bem simples de aplicar, no entanto para que tudo ocorra como esperado é necessário observar se o repositório do Jekyll está usando à versão anterior a 3.0, se estiver sugiro que seja feito um update. 
+A soluções é bem simples de aplicar, no entanto para que tudo ocorra como esperado é necessário observar se o repositório do Jekyll está usando à versão anterior a 3.0, se estiver sugiro que seja feito um update.
 
 Primeiro passo dentro de seu arquivo **_config.yml**, adicione as seguintes linhas.
 
@@ -33,7 +34,7 @@ compress_html:
   profile: false
 ```
 
-Note que as linhas fazem menção à compressão HTML, todavia depois de pronta a aplicação pode compilar quase todos os tipo linguagem, incluído CSS e JS. 
+Note que as linhas fazem menção à compressão HTML, todavia depois de pronta a aplicação pode compilar quase todos os tipo linguagem, incluído CSS e JS.
 
 Posteriormente, para parametrizar todas as regras de compilação vamos criar um novo arquivo, dentro do diretório **_layouts**, com o nome **compress.html**, em seguida adicione o código abaixo dentro do novo arquivo.
 

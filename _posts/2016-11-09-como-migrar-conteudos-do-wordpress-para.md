@@ -10,7 +10,8 @@ tags:
   - blogger
   - wordpress
   - tutorial
-category: misc
+category:
+  - misc
 image: /como-migrar-conteudos-do-wordpress-para.jpg
 image_source: Inside Block
 author: Ediano Silva Santos

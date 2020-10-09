@@ -3,7 +3,8 @@ layout: post
 title: Caixa de pesquisa personalizado para blogger
 datePublished: "2016-07-21 17:18:00"
 tags: [front-end, seo, blogger]
-category: dev
+category:
+  - dev
 image: /caixa-de-pesquisa-personalizado-para.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
@@ -13,7 +14,7 @@ ads: true
 
 A caixa de pesquisa ( ou caixa de busca) é um dos recursos mais importantes em um blog. É através dela que o leitor irá procurar por outros posts mais antigos e de maior interesse dele. É muito útil também para o dono do blog encontrar seus próprios artigos e tornando mais fácil a navegação em seu blog ou site.
 
-Neste artigo iremos trabalar apenas com códigos CSS e HTML, desta formar 
+Neste artigo iremos trabalar apenas com códigos CSS e HTML, desta formar
 
 1. Adicone o CSS dentro da folha de estilo do site.
 

@@ -3,7 +3,8 @@ layout: post
 title: Qual a função do Sintonizador System UI do Android 6
 datePublished: "2016-07-21 17:45:00"
 tags: [mobile, android, tutorial]
-category: misc
+category:
+  - misc
 image: /qual-funcao-do-sintonizador-system-ui.jpg
 image_source: Google Imagens
 author: Ediano Silva Santos

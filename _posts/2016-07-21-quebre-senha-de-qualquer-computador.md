@@ -3,7 +3,8 @@ layout: post
 title: Quebre a senha de qualquer computador Windows
 datePublished: "2016-07-21 13:37:00"
 tags: [windows, segurança]
-category: misc
+category:
+  - misc
 image: /quebre-senha-de-qualquer-computador/quebre-senha-de-qualquer-computador.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

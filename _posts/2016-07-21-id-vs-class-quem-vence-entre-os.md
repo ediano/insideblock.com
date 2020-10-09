@@ -3,7 +3,8 @@ layout: post
 title: ID vs CLASS quem vence entre os seletores HTML
 datePublished: "2016-07-21 18:49:00"
 tags: [seo, dicas, front-end]
-category: css
+category:
+  - css
 image: /id-vs-class-quem-vence-entre-os.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

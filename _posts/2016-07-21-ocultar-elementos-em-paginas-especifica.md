@@ -3,7 +3,8 @@ layout: post
 title: Ocultar elementos em páginas específica do Blogger
 datePublished: "2016-07-21 22:34:00"
 tags: [seo, blogger, dicas]
-category: dev
+category:
+  - dev
 image: /ocultar-elementos-em-paginas-especifica.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
@@ -42,7 +43,7 @@ Deverá ficar assim:
 <div id="ads" class="ads">
 
 </div>
-<!--Fim do Anuncio Que Iremos Ocultar--> 
+<!--Fim do Anuncio Que Iremos Ocultar-->
 </b:if>
 ```
 

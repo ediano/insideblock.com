@@ -12,7 +12,8 @@ tags:
   - js
   - disqus
   - jekyll
-category: dev
+category:
+  - dev
 image: /desativar-links-automaticos-do-markdown-com-jekyll.jpg
 image_source: Dillinger
 author: Ediano Silva Santos

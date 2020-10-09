@@ -3,7 +3,8 @@ layout: post
 title: Como remover a pasta Windows.old
 datePublished: "2016-07-21 09:58:00"
 tags: [windows, tutorial, otimização]
-category: misc
+category:
+  - misc
 image: /como-remover-pasta-windowsold.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

@@ -6,7 +6,8 @@ tags:
   - seo
   - redes sociais
   - otimização
-category: dev
+category:
+  - dev
 image: /incorporar-caixas-de-redes-sociais-no.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

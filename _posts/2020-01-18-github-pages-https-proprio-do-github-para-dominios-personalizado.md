@@ -9,7 +9,8 @@ tags:
   - dev
   - seo
   - dicas
-category: dev
+category:
+  - dev
 image: /github-pages-https-proprio-do-github-para-dominios-personalizado.jpg
 image_source: Inside Block
 author: Ediano Silva Santos

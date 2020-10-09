@@ -6,7 +6,8 @@ tags:
   - seo
   - dicas
   - tutorial
-category: dev
+category:
+  - dev
 image: /como-publicar-automaticamente-do-blog.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

@@ -9,7 +9,8 @@ tags:
   - css
   - dev
   - dicas
-category: css
+category:
+  - css
 image: /criando-imagens-responsivas-com-css.jpg
 image_source: Inside Block
 author: Ediano Silva Santos

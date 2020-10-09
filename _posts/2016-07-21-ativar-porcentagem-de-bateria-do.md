@@ -3,7 +3,8 @@ layout: post
 title: Ativar a porcentagem de bateria do Android 6
 datePublished: "2016-07-21 23:29:00"
 tags: [mobile, android, dicas, tutorial]
-category: misc
+category:
+  - misc
 image: /ativar-porcentagem-de-bateria-do/ativar-porcentagem-de-bateria-do.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

@@ -3,7 +3,8 @@ layout: post
 title: Qual a importância de criar uma página no Google Plus?
 datePublished: "2016-07-21 13:10:00"
 tags: [redes sociais, seo]
-category: misc
+category:
+  - misc
 image: /qual-importancia-de-criar-uma-pagina-no.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

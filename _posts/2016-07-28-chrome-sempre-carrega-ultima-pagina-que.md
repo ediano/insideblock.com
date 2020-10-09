@@ -3,7 +3,8 @@ layout: post
 title: Chrome sempre carrega a ultima página que foi fechada
 datePublished: "2016-07-28 21:25:00"
 tags: [apps, tutorial]
-category: misc
+category:
+  - misc
 image: /chrome-sempre-carrega-ultima-pagina-que.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

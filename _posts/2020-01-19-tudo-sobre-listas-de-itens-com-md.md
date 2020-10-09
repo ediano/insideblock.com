@@ -10,7 +10,7 @@ tags:
   - seo
   - md
   - markdown
-category: 
+category:
   - dev
 image: /tudo-sobre-listas-de-itens-com-md.jpg
 image_source: Inside Block
@@ -138,7 +138,7 @@ Criar listas ordenadas é tão simples quanto criar as desordenadas, a formataç
 3. Item 3
 
 ## Lista ordenada em cascata
-Assim como as listas desordenadas, as ordenadas também pode ser escrita em forma de cascata, seguindo o mesmo exemplo anterior, para aplicar o formato cascata você deve recuar a linha com 4 espaços ou um tab. 
+Assim como as listas desordenadas, as ordenadas também pode ser escrita em forma de cascata, seguindo o mesmo exemplo anterior, para aplicar o formato cascata você deve recuar a linha com 4 espaços ou um tab.
 
 #### Entrada Markdown
 ```md

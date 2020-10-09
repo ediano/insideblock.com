@@ -3,7 +3,8 @@ layout: post
 title: Hard Reset Moto G2 2014 Android 6.0 Marshmallow
 datePublished: "2016-07-21 23:59:00"
 tags: [mobile, android, tutorial]
-category: misc
+category:
+  - misc
 image: /hard-reset-moto-g2-2014-android-60.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

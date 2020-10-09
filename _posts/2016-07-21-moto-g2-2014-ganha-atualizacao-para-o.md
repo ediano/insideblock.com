@@ -5,7 +5,8 @@ datePublished: '2016-07-21 21:34:00'
 tags:
   - mobile
   - android
-category: misc
+category:
+  - misc
 image: /moto-g2-2014-ganha-atualizacao-para-o.jpg
 image_source: Google Imagens
 author: Ediano Silva Santos

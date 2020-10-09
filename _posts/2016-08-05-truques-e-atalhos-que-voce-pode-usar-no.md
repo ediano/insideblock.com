@@ -3,7 +3,8 @@ layout: post
 title: Truques e atalhos que você pode usar no Google Chrome
 datePublished: "2016-08-05 18:51:00"
 tags: [apps, dicas, tutorial]
-category: misc
+category:
+  - misc
 image: /truques-e-atalhos-que-voce-pode-usar-no.jpg
 image_source: Google Imagens
 author: Ediano Silva Santos

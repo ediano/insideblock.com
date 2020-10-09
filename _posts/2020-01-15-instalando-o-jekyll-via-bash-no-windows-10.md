@@ -11,7 +11,8 @@ tags:
   - bash
   - windows
   - jekyll
-category: jekyll
+category:
+  - jekyll
 image: /instalando-o-jekyll-via-bash-no-windows-10.jpg
 image_source: Inside Block
 author: Ediano Silva Santos

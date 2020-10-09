@@ -3,7 +3,8 @@ layout: post
 title: Música no toque do iPhone?
 datePublished: "2016-07-21 18:18:00"
 tags: [mobile, ios, dicas, tutorial]
-category: misc
+category:
+  - misc
 image: /como-por-musica-no-toque-do-iphone.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

@@ -3,7 +3,8 @@ layout: post
 title: Técnicas comprovada para ter um blog de qualidade
 datePublished: "2016-09-13 00:33:00"
 tags: [seo, dicas, otmização]
-category: misc
+category:
+  - misc
 image: /tecnicas-comprovada-para-ter-um-blog-de.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

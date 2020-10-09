@@ -3,7 +3,8 @@ layout: post
 title: Help desk software a solução para a sua empresa
 datePublished: "2016-07-23 14:21:00"
 tags: [dicas]
-category: misc
+category:
+  - misc
 image: /help-desk-software-solucao-para-sua.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

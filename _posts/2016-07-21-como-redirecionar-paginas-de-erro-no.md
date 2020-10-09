@@ -5,7 +5,8 @@ datePublished: '2016-07-21 16:41:00'
 tags:
   - blogger
   - seo
-category: js
+category:
+  - js
 image: /como-redirecionar-paginas-de-erro-no.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

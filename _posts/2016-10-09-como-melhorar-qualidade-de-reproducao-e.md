@@ -3,7 +3,8 @@ layout: post
 title: Como melhorar a qualidade de reprodução e gravação do computador
 datePublished: "2016-10-09 02:11:00"
 tags: [windows, dicas, tutorial]
-category: misc
+category:
+  - misc
 image: /como-melhorar-qualidade-de-reproducao-e.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
@@ -21,7 +22,7 @@ Antes de iniciarmos as configurações e interessante que você tenha conhecimen
 No momento iremos precisar apenas do drive de áudio, mesmo que o áudio já esteja funcionando com o drive padrão do Windows, recomendo que instale o original da fabricante, se você não sabe o modelo da placa mãe ou fabricante você pode usar o SlimDrivers ou o Everest para te auxiliar.
 
 ## Dispositivos de reprodução
-Nas configurações de reprodução, você pode aumentar o volume do som, e ativar a qualidade de estúdio caso o hardware suporte. 
+Nas configurações de reprodução, você pode aumentar o volume do som, e ativar a qualidade de estúdio caso o hardware suporte.
 
 1. Clique com o botão direito do mouse sobre o ícone de áudio, no canto inferior direito próximo da data e horas do computador, escolha “*Dispositivos de reprodução*”.
 

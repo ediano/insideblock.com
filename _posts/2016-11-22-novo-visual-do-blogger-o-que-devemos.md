@@ -9,7 +9,8 @@ datePublished: '2016-11-22 22:34:00'
 tags:
   - dicas
   - blogger
-category: misc
+category:
+  - misc
 image: /novo-visual-do-blogger-o-que-devemos/novo-visual-do-blogger-o-que-devemos.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

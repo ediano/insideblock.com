@@ -9,7 +9,8 @@ datePublished: '2018-01-07 19:10:45'
 dateModified: '2020-01-14 12:00:00'
 tags:
   - notícias
-category: comunicado
+category:
+  - comunicado
 image: /comunicado-o-primeiro-update-do-inside-block.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

@@ -10,7 +10,8 @@ datePublished: '2017-01-05 22:10:00'
 tags:
   - dicas
   - front-end
-category: dev
+category:
+  - dev
 image: /os-melhores-frameworks-front-end-para.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

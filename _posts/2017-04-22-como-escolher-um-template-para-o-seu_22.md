@@ -10,7 +10,8 @@ datePublished: '2017-04-22 16:49:00'
 tags:
   - seo
   - dicas
-category: dev
+category:
+  - dev
 image: /como-escolher-um-template-para-o-seu_22.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

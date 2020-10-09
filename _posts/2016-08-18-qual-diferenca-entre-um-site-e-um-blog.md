@@ -3,7 +3,8 @@ layout: post
 title: Qual a diferença entre um site e um blog
 datePublished: "2016-08-18 19:26:00"
 tags: [dicas]
-category: misc
+category:
+  - misc
 image: /qual-diferenca-entre-um-site-e-um-blog.jpg
 image_source: Pixabay
 author: Ediano Silva Santos
