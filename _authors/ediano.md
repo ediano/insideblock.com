@@ -12,7 +12,7 @@ social:
     rel: noopener
     type: GitHub
 
-  - profile: 'https://www.facebook.com/ediano'
+  - profile: 'https://www.facebook.com/edianobr'
     icon: icon-facebook
     target: _black
     rel: noopener
