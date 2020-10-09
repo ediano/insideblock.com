@@ -10,7 +10,8 @@ tags:
   - seo
   - md
   - markdown
-category: dev
+category: 
+  - dev
 image: /tudo-sobre-listas-de-itens-com-md.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
