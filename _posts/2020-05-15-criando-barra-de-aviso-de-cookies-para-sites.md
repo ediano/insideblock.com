@@ -30,6 +30,7 @@ OBS: Caso você seja um usuário do Blogger e faz uso de templates oficiais da p
 A código fonte da barra de aviso de cookies é muito simples, primeiro vamos criar a nossa box com HTML, em seguida vamos adicionar um pouco de CSS para estilizar a barra, por último vamos aplicar um função com JavaScript puro.
 
 Adicionando o HTML
+
 ```html
 <div class="box-cookies">
    <p class="msg-cookies">Este site usa cookies para garantir que você obtenha a melhor experiência.</p>
@@ -40,71 +41,67 @@ Adicionando o HTML
 Veja que o código HTML é bem simples, ao todo ele é composto por quatro linhas, uma div `.box-cookies` que vai fazer o container das outras duas linhas `.msg-cookies` e `.btn-cookies`.
 
 Adicionando o CSS
+
 ```css
-.box-cookies.accept {
-   display: none !important
+.box-cookies.hide {
+  display: none !important;
 }
 
 .box-cookies {
-   bottom: 0;
-   width: 100%;
-   z-index: 998;
-   color: #fff;
-   position: fixed;
-   background: rgba(0, 0, 0, .9)
+  position: fixed;
+  background: rgba(0, 0, 0, .9);
+  width: 100%;
+  z-index: 998;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .box-cookies .msg-cookies,
 .box-cookies .btn-cookies {
-   text-align: center;
-   padding: 10px 15px;
-   color: #fff
+  text-align: center;
+  padding: 25px;
+  color: #fff;
+  font-size: 18px;
 }
 
 .box-cookies .btn-cookies {
-   background: #1e88e5
+  background: #1e88e5;
+  cursor: pointer;
+  align-self: normal;
 }
 
-@media screen and (min-width: 576px) {
-   .box-cookies {
-       display: flex;
-       align-items: center;
-       height: 60px
-   }
-   .box-cookies .btn-cookies {
-       height: 60px;
-       margin-left: auto;
-       color: #fff
-   }
-}
-
-@media screen and (max-width: 575px) {
-   .box-cookies .btn-cookies {
-       width: 100%
-   }
+@media screen and (max-width: 600px) {
+  .box-cookies {
+    flex-direction: column;
+  }
 }
 ```
 
 O código CSS ele é um pouquinho maior, porém isso é necessário para que ele fique em uma posição fixa e totalmente responsivo. OBS: A função responsiva só vai funcionar se o blog também for responsivo.
 
 Adicionando o JavaScript
+
 ```js
-if (localStorage.cookies) {
-   document.getElementsByClassName("box-cookies")[0].classList.add("accept");
+if (!localStorage.cookiesInsideBlock) {
+  document.querySelector(".box-cookies").classList.remove('hide');
+}
+
+const acceptCookies = () => {
+  document.querySelector(".box-cookies").classList.add('hide');
+  localStorage.setItem("cookiesInsideBlock", "accept");
 };
 
-var acceptCookies = function() {
-   document.getElementsByClassName("box-cookies")[0].classList.add("accept");
-   localStorage.setItem("cookies", "accept");
-};
+const btnCookies = document.querySelector(".btn-cookies");
 
-var btnCookies = document.getElementsByClassName("btn-cookies")[0];
-btnCookies.onclick = acceptCookies;
+btnCookies.addEventListener('click', acceptCookies);
 ```
 
 O código JS também é considerado pequeno, pois estamos trabalhando com o armazenamento local no navegador `localStorage`, assim podemos garantir que quando o visitante clicar no botão “Aceitar”, que ele não precise clicar novamente ao retornar ao blog ou a página.
 
 ## Conclusão
+
 Mesmo que você não use o código fonte criado pelo Inside Block, é extremamente importante que você faça uso do aviso de cookies em seu blog, pois assim você garantir um pouco mais que o seu blog esteja de acordo com as leis da União Europeia quando for visitada por um usuário da região.
 
 Bom, eu espero que todos vocês tenham gostado, não esqueça de fazer um comentário sobre o assunto e compartilhe na redes sociais.
