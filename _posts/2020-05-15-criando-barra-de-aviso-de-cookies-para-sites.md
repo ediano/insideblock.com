@@ -25,6 +25,8 @@ Para evitar que o seu blog seja punido por algum motivo relacionado, iremos most
 
 OBS: Caso você seja um usuário do Blogger e faz uso de templates oficiais da plataforma, o Google se encarrega de exibir este aviso automaticamente caso um visitante acesse o blog da União Europeia.
 
+**OBS:** Para adicionar esta funcionalidade em páginas construídas com ReactJS, explore [este repositório](https://github.com/ediano/cookie-notice-for-react){:target="_blank"}{:rel="nofollow noopener noreferrer"}.
+
 A código fonte da barra de aviso de cookies é muito simples, primeiro vamos criar a nossa box com HTML, em seguida vamos adicionar um pouco de CSS para estilizar a barra, por último vamos aplicar um função com JavaScript puro.
 
 Adicionando o HTML
