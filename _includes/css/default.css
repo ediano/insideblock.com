@@ -126,7 +126,12 @@ main.home {
   background: #007092;
 }
 
+.nextjs a {
+  background: #333;
+}
+
 .react-native a {
+  color: #333;
   background: #61dafb;
 }
 

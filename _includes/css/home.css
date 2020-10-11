@@ -100,6 +100,11 @@ article.grid-flex {
   background: #007092;
 }
 
+.card .content .label.nextjs {
+  color: #f0f0f0;
+  background: #333;
+}
+
 .card .content .label.react-native {
   color: #444;
   background: #61dafb;

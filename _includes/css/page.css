@@ -83,8 +83,9 @@ main.page textarea:focus {
     color: #fff
 }
 
-.categories .col.js a {
-    color: #444
+.categories .col.js a,
+.categories .col.react-native a {
+    color: #333
 }
 
 
