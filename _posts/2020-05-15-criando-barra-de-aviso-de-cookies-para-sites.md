@@ -84,13 +84,13 @@ O código CSS ele é um pouquinho maior, porém isso é necessário para que ele
 Adicionando o JavaScript
 
 ```js
-if (!localStorage.cookiesInsideBlock) {
+if (!localStorage.pureJavaScriptCookies) {
   document.querySelector(".box-cookies").classList.remove('hide');
 }
 
 const acceptCookies = () => {
   document.querySelector(".box-cookies").classList.add('hide');
-  localStorage.setItem("cookiesInsideBlock", "accept");
+  localStorage.setItem("pureJavaScriptCookies", "accept");
 };
 
 const btnCookies = document.querySelector(".btn-cookies");
