@@ -2,7 +2,7 @@
 layout: post
 title: "Next.js o hype da hora que está dominando o desenvolvimento front-end"
 description: >-
-  Hoje irei apresentar o Next.js, uma biblioteca javascript de comecei a estudar em paralelo com ReactJS.
+  Hoje irei apresentar o Next.js, uma biblioteca javascript de comecei a estudar em paralelo com React.
 datePublished: "2020-10-11 12:00:00"
 dateModified: "2020-10-11 12:00:00"
 tags:
@@ -25,17 +25,17 @@ Mas por que será que o Next se tornou tão popular, vindo que já existe centen
 
 Quando trabalhamos com desenvolvimento front-end, devemos levar algumas questões em consideração, performance, agilidade, SEO, entre outras.
 
-## ReactJS
+## React
 
-O ReactJS por exemplo, não lida muito bem com otimização de SEO, por isso ele não é recomendado para construção de blogs, que geralmente precisam que seus posts seja indexados por motores de buscas.
+O React por exemplo, não lida muito bem com otimização de SEO, por isso ele não é recomendado para construção de blogs, que geralmente precisam que seus posts seja indexados por motores de buscas.
 
-Site oficial: [ReactJS](https://reactjs.org){:target="_blank"}{:rel="nofollow noopener noreferrer"}
+Site oficial: [React](https://reactjs.org){:target="_blank"}{:rel="nofollow noopener noreferrer"}
 
-## GatsbyJS
+## Gatsby.js
 
 O Gatsby consegue lidar muito bem com esse tipo de otimização, e é muito usado para construção de blogs, ou sites que não precisam ser atualizados constantemente, ou que não tenha muitas páginas para ser processadas de uma única vez.
 
-Site oficial: [GatsbyJS](https://www.gatsbyjs.com){:target="_blank"}{:rel="nofollow noopener noreferrer"}
+Site oficial: [Gatsby.js](https://www.gatsbyjs.com){:target="_blank"}{:rel="nofollow noopener noreferrer"}
 
 ## Next.js
 
