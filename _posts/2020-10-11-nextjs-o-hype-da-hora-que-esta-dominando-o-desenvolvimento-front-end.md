@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "NextJS o hype da hora que está dominando o desenvolvimento front-end"
+title: "Next.js o hype da hora que está dominando o desenvolvimento front-end"
 description: >-
-  Hoje irei apresentar o NextJS, uma biblioteca javascript de comecei a estudar em paralelo com ReactJS.
+  Hoje irei apresentar o Next.js, uma biblioteca javascript de comecei a estudar em paralelo com ReactJS.
 datePublished: "2020-10-11 12:00:00"
 dateModified: "2020-10-11 12:00:00"
 tags:
@@ -19,7 +19,7 @@ comments: true
 ads: true
 ---
 
-Você já parou para pensar o quanto as pessoas vem falando de [NextJS](https://nextjs.org){:target="_blank"}{:rel="nofollow noopener noreferrer"} nos últimos tempos, eu não vou fazer diferente, e como você pode ter lido no título, estou aqui também para falar dessa incrível biblioteca JavaScript, que aparentemente parece que vai dominar o mundo do desenvolvimento front-end.
+Você já parou para pensar o quanto as pessoas vem falando de [Next.js](https://nextjs.org){:target="_blank"}{:rel="nofollow noopener noreferrer"} nos últimos tempos, eu não vou fazer diferente, e como você pode ter lido no título, estou aqui também para falar dessa incrível biblioteca JavaScript, que aparentemente parece que vai dominar o mundo do desenvolvimento front-end.
 
 Mas por que será que o Next se tornou tão popular, vindo que já existe centenas de outras bibliotecas que ajudam no desenvolvimento front-end? Bom, para isso existem várias respostas, para entender melhor qual é a proposta dele, primeiro temos que fazer algumas comparações, com React, Gatsby e o Next.
 
@@ -37,7 +37,7 @@ O Gatsby consegue lidar muito bem com esse tipo de otimização, e é muito usad
 
 Site oficial: [GatsbyJS](https://www.gatsbyjs.com){:target="_blank"}{:rel="nofollow noopener noreferrer"}
 
-## NextJS
+## Next.js
 
 Sabendo dessas limitações entre bibliotecas, Next tem uma pegada bem mais pesada, o seu poder de processamento de dados é incrível, quando ele faz o build de 50 mil posts por exemplo, não significa que 50 mil páginas vão ser processadas ao mesmo tempo.
 
@@ -49,7 +49,7 @@ Depois do primeiro deploy do projeto, conforme os usuários forem acessando os d
 
 Sem contar, que caso você já tenha conhecimento com React, todo esse aprendizado pode ser reaproveitado em cima do Next, pois, o Next e construído com React.
 
-Site oficial: [NextJS](https://nextjs.org){:target="_blank"}{:rel="nofollow noopener noreferrer"}
+Site oficial: [Next.js](https://nextjs.org){:target="_blank"}{:rel="nofollow noopener noreferrer"}
 
 ## Deploy
 
