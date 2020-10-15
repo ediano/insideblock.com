@@ -1,6 +1,6 @@
 ---
 layout: category
-title: React.js
+title: ReactJS
 category: reactjs
 ---
 
