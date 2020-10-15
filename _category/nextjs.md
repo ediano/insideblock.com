@@ -1,6 +1,6 @@
 ---
 layout: category
-title: NextJS
+title: Next.js
 category: nextjs
 ---
 
