@@ -5,13 +5,8 @@ description: >-
   Neste artigo iremos aprender como adicionar numeração de páginas em sites construídos com Jekyll.
 datePublished: '2020-05-25 07:00:00'
 dateModified: '2020-05-25 07:00:00'
-tags:
-  - jekyll
-  - seo
-  - dev
-  - html
-category:
-  - jekyll
+tags: [jekyll, seo, dev, html]
+categories: [jekyll, dev]
 image: /numeracao-de-paginas-com-jekyll.png
 image_source: Inside Block
 author: Ediano Silva Santos
@@ -98,7 +93,7 @@ Agora dentro do diretório `includes` crie uma arquivo chamado `pagination.html`
        <a class="previous" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">⇠</a>
    </li>
    {% endif %}
- 
+
    {% if paginator.page_trail %}
    {% for trail in paginator.page_trail %}
        <li {% if page.url == trail.path %}class="selected"{% endif %}>
@@ -106,14 +101,14 @@ Agora dentro do diretório `includes` crie uma arquivo chamado `pagination.html`
        </li>
    {% endfor %}
    {% endif %}
- 
+
    {% if paginator.next_page %}
    <li>
        <a class="next" href="{{ paginator.next_page_path | prepend: site.baseurl }}">⇢</a>
    </li>
    {% endif %}
 </ul>
- 
+
 <span class="page_number">Página: {{ paginator.page }} de {{ paginator.total_pages }}</span>
 {% endif %}
 ```

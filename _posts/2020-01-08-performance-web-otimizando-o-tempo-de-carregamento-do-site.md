@@ -6,14 +6,8 @@ description: >-
   eficientes.
 datePublished: '2020-01-07 09:34:09'
 dateModified: '2020-01-07 09:34:09'
-tags:
-  - dev
-  - js
-  - javascript
-  - dicas
-  - performance web
-category:
-  - js
+tags: [dev, js, javascript]
+categories: [dev]
 image: /performance-web-otimizando-o-tempo-de-carregamento-do-site.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
@@ -88,13 +82,13 @@ Alternativas como o redimensionamento de imagem, compactação de peso e formato
 ```js
 // Elemento (tag img src)
 const articleImg = document.querySelectorAll('img');
- 
+
 // URL de todas as imagens
 const src = [];
- 
+
 // Controle do fluxo (abrir site e scroll)
 const flow = [];
- 
+
 // Função para carregar a imagem
 function img() {
     for (let i = 0; i < articleImg.length; i++) {
@@ -104,13 +98,13 @@ function img() {
         }
     }
 }
- 
+
 // Carrega as imagens 1 segundo depois de abrir o site
 setTimeout(
     function() {
         img();
     }, 1000);
- 
+
 // Carrega as imagens 1 segundo depois de rolar a página
 this.addEventListener('scroll', function() {
     setTimeout(
@@ -160,7 +154,7 @@ Como é de se esperar fizemos algumas alterações no código oficial para melho
     function gtag() {dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'UA-0000000-1');
- 
+
     // A partir daqui criamos nossa função melhorada.
     setTimeout(function() {
         const gtag = document.createElement('script');

@@ -5,12 +5,8 @@ description: >-
   Você não conhece Docker, para com isso, vamos entender um pouco como ele funciona.
 datePublished: '2020-05-17 07:00:00'
 dateModified: '2020-05-17 07:00:00'
-tags:
-  - docker
-  - dev
-  - dicas
-category:
-  - docker
+tags: [docker, dev]
+categories: [docker]
 image: /um-pequeno-passo-com-docker.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
@@ -32,7 +28,7 @@ Para um iniciante conseguir entender imagens Docker pode ser um pouco confuso. P
 
 Para simplificar de forma direta, imagine que você seja um usuário do Windows e use o pacote Office por exemplo, toda vez que você formatar seu computador você tem o hábito de instalar o pacote Office, para poupar tempo você constrói uma ISO do Windows com pacote Office pré-instalado, dessa forma, toda vez que você usar esta ISO para formatar o computador, o pacote Office virar por padrão instalado no sistema. Contextualizando a partir deste conceito, podemos definir esta ISO como uma imagem Docker, que é uma pré-configuração de um sistema que será executado a partir de um container.
 
-Podemos ainda dizer que a partir do momento que uma imagem é construída, ela não poderá ser mudada, apesar disso não fazer muito sentido, para redefinir as configurações de uma imagem já existe, você deverá criar uma nova a partir daquele ponto já definido. 
+Podemos ainda dizer que a partir do momento que uma imagem é construída, ela não poderá ser mudada, apesar disso não fazer muito sentido, para redefinir as configurações de uma imagem já existe, você deverá criar uma nova a partir daquele ponto já definido.
 
 ## Container
 O conceito de container pode ser o mais complicado para se entender, pois ele é facilmente confundido com as imagens, na prática e na teoria, um contêiner só pode ser construído e inicializando a partir de uma imagem, entretanto, diferente das imagens, containers podem ser modificado durante o seu ciclo de construção e execução.

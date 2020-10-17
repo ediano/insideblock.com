@@ -4,4 +4,4 @@ title: Desenvolvimento
 category: dev
 ---
 
-Tudo sobre desenvolvimento e aplicações web
+Um pouco de miscelânea sobre desenvolvimento, javascript, css, html, entre outras tecnologias.

@@ -5,14 +5,8 @@ description: >-
   Entenda como você pode fazer o seu primeiro deploy na Vercel, usando qualquer tipo de Framework para construção de site estático.
 datePublished: "2020-08-30 07:00:00"
 dateModified: "2020-08-30 07:00:00"
-tags:
-  - jekyll
-  - dev
-  - vercel
-  - reactjs
-  - deploy
-category:
-  - jekyll
+tags: [jekyll, dev, vercel, reactjs, deploy]
+categories: [jekyll, dev]
 image: /fazendo-deploy-na-vercel-com-sites-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos

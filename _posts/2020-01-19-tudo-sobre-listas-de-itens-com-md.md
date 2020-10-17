@@ -5,13 +5,8 @@ description: >-
   Conheça tudo sobre as listas de itens ordenadas e desordenadas do markdown.
 datePublished: '2020-01-19 07:00:00'
 dateModified: '2020-01-19 07:00:00'
-tags:
-  - dev
-  - seo
-  - md
-  - markdown
-category:
-  - dev
+tags: [dev, seo, md, markdown]
+categories: [dev]
 image: /tudo-sobre-listas-de-itens-com-md.jpg
 image_source: Inside Block
 author: Ediano Silva Santos

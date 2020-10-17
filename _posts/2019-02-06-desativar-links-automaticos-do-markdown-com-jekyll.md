@@ -6,14 +6,8 @@ description: >-
   fácil ainda.
 datePublished: '2019-02-06 18:20:00'
 dateModified: '2020-01-07 07:45:49'
-tags:
-  - markdown
-  - html
-  - js
-  - disqus
-  - jekyll
-category:
-  - dev
+tags: [markdown, html, js, disqus, jekyll]
+categories: [jekyll, dev]
 image: /desativar-links-automaticos-do-markdown-com-jekyll.jpg
 image_source: Dillinger
 author: Ediano Silva Santos

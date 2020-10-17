@@ -5,13 +5,8 @@ description: >-
   Hoje irei apresentar o NextJS, uma biblioteca javascript de comecei a estudar em paralelo com React.
 datePublished: "2020-10-11 12:00:00"
 dateModified: "2020-10-11 12:00:00"
-tags:
-  - nextjs
-  - reactjs
-  - dev
-  - javascript
-category:
-  - nextjs
+tags: [nextjs, reactjs, dev, javascript]
+categories: [nextjs, reactjs, dev]
 image: /nextjs-o-hype-da-hora-que-esta-dominando-o-desenvolvimento-front-end.png
 image_source: Inside Block
 author: Ediano Silva Santos

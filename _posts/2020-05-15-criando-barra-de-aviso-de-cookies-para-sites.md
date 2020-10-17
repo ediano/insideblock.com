@@ -5,13 +5,8 @@ description: >-
   Aprenda a criar, instalar e personalizar a barra de aviso de cookies em seu site.
 datePublished: '2020-05-15 07:00:00'
 dateModified: '2020-05-15 07:00:00'
-tags:
-  - dev
-  - js
-  - html
-  - css
-category:
-  - dev
+tags: [dev, js, html, css, reactjs]
+categories: [dev]
 image: /criando-barra-de-aviso-de-cookies-para-sites.jpg
 image_source: Inside Block
 author: Ediano Silva Santos

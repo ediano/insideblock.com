@@ -5,12 +5,8 @@ description: >-
   Melhore o visual do seu blog construído com o Jekyll, deixe ele com o idioma de sua preferência.
 datePublished: '2020-01-22 09:00:00'
 dateModified: '2020-01-22 09:00:00'
-tags:
-  - jekyll
-  - seo
-  - dev
-category:
-  - jekyll
+tags: [jekyll, dev, seo]
+categories: [jekyll, dev]
 image: /date-language-em-portugues-com-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos

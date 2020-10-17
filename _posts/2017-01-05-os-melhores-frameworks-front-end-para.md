@@ -7,11 +7,8 @@ description: >-
   sites e aplicativos. Criamos uma lista com os melhores e mais populares,
   confira você mesmo.
 datePublished: '2017-01-05 22:10:00'
-tags:
-  - dicas
-  - front-end
-category:
-  - dev
+tags: [dev, front-end, css, html, javascript]
+categories: [dev]
 image: /os-melhores-frameworks-front-end-para.jpg
 image_source: Pixabay
 author: Ediano Silva Santos

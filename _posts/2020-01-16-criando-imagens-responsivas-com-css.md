@@ -5,12 +5,8 @@ description: >-
   Você já deve ter notado que não é tão simples criar imagens responsivas, conheça um pouco sobre as técnicas que usamos em nosso blog.
 datePublished: '2020-01-16 18:00:00'
 dateModified: '2020-01-16 18:00:00'
-tags:
-  - css
-  - dev
-  - dicas
-category:
-  - css
+tags: [dev, css]
+categories: [dev]
 image: /criando-imagens-responsivas-com-css.jpg
 image_source: Inside Block
 author: Ediano Silva Santos

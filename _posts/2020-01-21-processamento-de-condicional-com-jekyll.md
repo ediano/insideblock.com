@@ -5,12 +5,8 @@ description: >-
   Saiba como criar condições de variáveis com Jekyll (if, elsif ou else).
 datePublished: '2020-01-21 21:00:00'
 dateModified: '2020-01-21 21:00:00'
-tags:
-  - jekyll
-  - seo
-  - dev
-category:
-  - jekyll
+tags: [jekyll, seo, dev]
+categories: [jekyll, dev]
 image: /processamento-de-condicional-com-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
@@ -28,7 +24,7 @@ Então criamos as seguintes condições, exceto para o arquivo “default.css”
 
 OBS: Para iniciarmos uma condição no Jekyll é inserido {% raw %}`{% if tipo.variavel %}`{% endraw %}, lembrando que as condicionais são aplicadas com base nas variáveis inseridas no “liquid template” da página.
 
-Primeira condição: Se na página tiver a variável “layout: post”, então insira o CSS de “css/post.css”. 
+Primeira condição: Se na página tiver a variável “layout: post”, então insira o CSS de “css/post.css”.
 
 {% raw %}
 ```html

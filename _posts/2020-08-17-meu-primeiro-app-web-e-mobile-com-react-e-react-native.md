@@ -5,15 +5,8 @@ description: >-
   Vou contar um pouco para todos vocês, como foi minha primeira experiência desenvolvendo um app web como React.
 datePublished: "2020-08-17 07:00:00"
 dateModified: "2020-08-17 07:00:00"
-tags:
-  - reactjs
-  - react-native
-  - javascript
-  - html
-  - css
-  - nodejs
-category:
-  - reactjs
+tags: [reactjs, react-native, javascript, html, css, nodejs]
+categories: [reactjs, dev]
 image: /meu-primeiro-app-web-e-mobile-com-react-e-react-native.png
 image_source: Inside Block
 author: Ediano Silva Santos

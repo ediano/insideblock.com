@@ -5,12 +5,8 @@ description: >-
   Tudo é possível com o Jekyll, ainda mais para quem sabe procurar bem.
 datePublished: '2020-01-20 07:00:00'
 dateModified: '2020-01-20 07:00:00'
-tags:
-  - jekyll
-  - seo
-  - dev
-category:
-  - jekyll
+tags: [jekyll, seo, dev]
+categories: [jekyll, dev]
 image: /postagens-relacionadas-com-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
@@ -76,7 +72,7 @@ Agora temos que chamar o nosso arquivo related.html para começar exibir os link
 
 Pronto, agora já é possível ver os link relacionado ao abrir um artigo. Repare que os artigos não são exibidos mais que a quantidade máxima determina, porém pode ser exibido menos, isso acontece porque se uma categoria tiver 5 posts, e você determinou que é para mostrar no máximo 6, a categoria do post atual não vai pode relacionar mais artigo, isso não é um bug e sim uma limitação muito lógica.
 
-Já que está tudo andando como o esperado, vamos aplicar um pouquinho de CSS, para deixar os links um pouco mais elegantes. Aplique o CSS dentro da folha de estilo, e deixe a magia acontecer. 
+Já que está tudo andando como o esperado, vamos aplicar um pouquinho de CSS, para deixar os links um pouco mais elegantes. Aplique o CSS dentro da folha de estilo, e deixe a magia acontecer.
 
 ```css
 @media only screen and (min-width: 601px) {

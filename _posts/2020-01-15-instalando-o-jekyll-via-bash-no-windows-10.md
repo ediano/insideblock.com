@@ -5,14 +5,8 @@ description: >-
   Para os apaixonados em desenvolvimento de projetos digitais, o Jekyll pode ser a melhor opção open source.
 datePublished: '2020-01-15 07:00:00'
 dateModified: '2020-01-15 07:00:00'
-tags:
-  - bundler
-  - ruby
-  - bash
-  - windows
-  - jekyll
-category:
-  - jekyll
+tags: [dev, bundler, ruby, bash, windows, jekyll]
+categories: [jekyll, dev]
 image: /instalando-o-jekyll-via-bash-no-windows-10.jpg
 image_source: Inside Block
 author: Ediano Silva Santos

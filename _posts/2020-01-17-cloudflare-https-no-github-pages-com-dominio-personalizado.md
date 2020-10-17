@@ -5,12 +5,8 @@ description: >-
   Garantir a segurança e a privacidade de nossos leitores é fundamental, o protocolo HTTPS é a aplicação mais usada em páginas web. Este tipo de serviços geralmente são muitos caros quando contratados por grandes empresas, felizmente a CloudFlare disponibilizou um serviços gratuitos para seus usuários.
 datePublished: '2020-01-17 12:00:00'
 dateModified: '2020-01-17 12:00:00'
-tags:
-  - dev
-  - seo
-  - dicas
-category:
-  - dev
+tags: [dev, seo, github]
+categories: [dev]
 image: /cloudflare-https-no-github-pages-com-dominio-personalizado.jpg
 image_source: Inside Block
 author: Ediano Silva Santos

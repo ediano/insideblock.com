@@ -1,19 +1,12 @@
 ---
 layout: post
 title: "Configurando o Linux com Android Studio e React Native"
-description: >- 
+description: >-
   Hoje iremos aprender como podemos configurar uma distro Linux, para rodar qualquer projeto React Native no Android Studio.
 datePublished: "2020-08-23 07:00:00"
 dateModified: "2020-08-23 07:00:00"
-tags:
-  - react-native
-  - reactjs
-  - javascript
-  - android
-  - dev
-  - nodejs
-category:
-  - react-native
+tags: [react-native, reactjs, javascript, android, dev, nodejs]
+categories: [react-native, dev]
 image: /configurando-o-linux-com-android-studio-e-react-native.jpg
 image_source: Inside Block
 author: Ediano Silva Santos

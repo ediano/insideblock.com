@@ -5,14 +5,8 @@ description: >-
   Melhore um performance do seu site, permita que os navegadores faça cache e que os usuário consumir menos dados.
 datePublished: '2020-01-24 07:00:00'
 dateModified: '2020-01-24 07:00:00'
-tags:
-  - jekyll
-  - dev
-  - dicas
-  - performance web
-  - tutorial
-category:
-  - jekyll
+tags: [jekyll, dev, performance web]
+categories: [jekyll, dev]
 image: /ative-o-cache-do-navegador-com-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
@@ -101,7 +95,7 @@ Inclua as linha a seguir dentro no arquivo “**_config.yml**”.
 ```yml
 pages_to_cache:
  - /offline/index.html
-``` 
+```
 {% endraw %}
 
 Em seguida crie uma arquivo chamado “**offline.html**” dentro do diretório **_layouts** e inclua o exemplo “liquid” a seguir dentro da mesma.

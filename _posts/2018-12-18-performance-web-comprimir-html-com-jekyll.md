@@ -3,13 +3,8 @@ layout: post
 title: 'Performance web: Comprimir HTML com Jekyll'
 description: Compile o código fonte de seu site e trabalhe a favor da performance web.
 datePublished: '2018-12-18 10:00:00'
-tags:
-  - performance web
-  - html
-  - dev
-  - css
-category:
-  - jekyll
+tags: [jekyll, html, dev, css]
+categories: [jekyll, dev]
 image: /performance-web-comprimir-html-com-jekyll.jpg
 image_source: Inside Block
 author: Ediano Silva Santos

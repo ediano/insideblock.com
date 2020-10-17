@@ -5,14 +5,8 @@ description: >-
   Minha primeira experiência com Docker não foi das melhores, mas garanto que valeu muito o tempo para aprender esta tecnologia.
 datePublished: '2020-05-12 07:00:00'
 dateModified: '2020-05-12 07:00:00'
-tags:
-  - misc
-  - dev
-  - dicas
-  - jekyll
-  - docker
-category:
-  - docker
+tags: [docker, jekyll, dev]
+categories: [docker]
 image: /meu-primeiro-contato-com-docker.jpg
 image_source: Inside Block
 author: Ediano Silva Santos

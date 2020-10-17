@@ -5,12 +5,8 @@ description: >-
   GitHub Pages agora tem HTTPS próprio para domínios personalizados, confira o método de aplicação para o seu blog.
 datePublished: '2020-01-18 07:00:00'
 dateModified: '2020-01-18 07:00:00'
-tags:
-  - dev
-  - seo
-  - dicas
-category:
-  - dev
+tags: [dev, seo, github]
+categories: [dev]
 image: /github-pages-https-proprio-do-github-para-dominios-personalizado.jpg
 image_source: Inside Block
 author: Ediano Silva Santos
