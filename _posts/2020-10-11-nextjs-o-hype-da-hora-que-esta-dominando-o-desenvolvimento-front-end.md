@@ -58,4 +58,4 @@ No momento eu estou testando o NextJS, porém não posso afirmar com clareza se 
 
 Por isso eu convido todos vocês para se juntar, se possível deixe um comentário, uma dica de como eu poderia melhorar meu aprendizado com desenvolvimento front-end.
 
-Eu espero que todos vocês tenham curtido esse post, muito em breve eu espero trazer mais conteúdo sobre, React e NextJS.
+Eu espero que todos vocês tenham curtido esse post, muito em breve eu espero trazer mais conteúdo sobre, React e Next.

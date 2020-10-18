@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Configurando ESLint e Prettier em projetos ReactJS com TypeScript"
+title: "Configurando ESLint e Prettier em projetos React com TypeScript"
 description: >-
   Mais um artigo sobre ReactJS, hoje iremos aprender como podemos configurar o ESLint e o Prettier para padronizar nossos código.
 datePublished: "2020-09-07 07:00:00"
