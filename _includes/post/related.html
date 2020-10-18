@@ -1,9 +1,9 @@
 <section class="related">
 <div class="related-post grid">
-<h4>Posts relacionados</h4>
+<h4>Posts recentes</h4>
 <ul class="row">
 {% assign maxRelated = 6 %}
-{% assign minCommonTags =  2 %}
+{% assign minCommonTags =  1 %}
 {% assign maxRelatedCounter = 0 %}
 
 {% for post in site.posts %}
@@ -21,8 +21,11 @@
   {% endfor %}
 
   {% if sameTagCount >= minCommonTags %}
-    <li class="col m6">
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a>
+    <li class="col x6 s4">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <span>{{ post.title }}{{ commonTags }}</span>
+        <img width="100%" src="/assets/thumbs/{{post.image}}">
+      </a>
     </li>
     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
     {% if maxRelatedCounter >= maxRelated %}

@@ -273,6 +273,8 @@ article .image figcaption {
 }
 
 .related a {
+    display: flex;
+    flex-direction: column-reverse;
     color: #757575
 }
 
