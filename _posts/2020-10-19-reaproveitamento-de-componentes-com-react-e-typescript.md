@@ -47,7 +47,7 @@ export default App;
 
 Com este pequeno exemplo, vou fazer uma divisão, para entender melhor o que é componente. Neste cenário o elemento HTML `h1` pode ser considerado um componente, porém da forma que ele está representado, `h1` não é uma componente direto do React.
 
-O elemento `h1` não tem nada demais, ele simplesmente renderiza um **Hello World** no navegador. Mas agora imagine, se fosse um elemento HTML, que poderia se repetir em vários pontos do arquivo **app.tsx**`, neste caso podemos criar uma função de componente, para reaproveitada o código.
+O elemento `h1` não tem nada demais, ele simplesmente renderiza um **Hello World** no navegador. Mas agora imagine, se fosse um elemento HTML, que poderia se repetir em vários pontos do arquivo **app.tsx**, neste caso podemos criar uma função de componente, para reaproveitada o código.
 
 ## Exemplo 2 - Criando o primeiro componente
 
@@ -228,7 +228,7 @@ interface Props {
 
 const MyComponent = ({ title }: Props) => {
  return (
-   <div>{title}</div>
+   <>{title}</>
  )
 };
 
