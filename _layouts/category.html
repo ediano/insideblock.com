@@ -18,7 +18,7 @@ layout: page
     {% for post in site.categories[page.category] %}
         <div class="content grid-flex col s6 l4">
             <a class="col shadow no-pd" href="{{ post.url | absolute_url }}">
-                <img src="/assets/blog-thumbnail{{ post.image }}" alt="{{ post.title }}"/>
+                <img src="/assets/thumbs{{ post.image }}" alt="{{ post.title }}"/>
                 <h3>{{ post.title }}</h3>
             </a>
         </div>

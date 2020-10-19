@@ -18,7 +18,7 @@ pagination:
 
         <div class="content">
             {% for label in site.category %}
-            {% if post.category contains label.category %}
+            {% if post.categories[0] contains label.category %}
                 <a href="/{{ label.category }}" class="label {{ label.category }}">{{ label.title }}</a>
             {% endif %}
             {% endfor %}
