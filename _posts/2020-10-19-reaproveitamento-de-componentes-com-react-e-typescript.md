@@ -114,7 +114,7 @@ Observe também que para usar o componente `MyComponentSpan`, coloquei ele da me
 
 A partir deste ponto, podemos repetir o componente dentro da função **App**, quantas vezes for necessário.
 
-## Terceiro exemplo - Repetindo componente
+## Terceiro exemplo - Repetindo componentes
 
 './app.tsx'
 
