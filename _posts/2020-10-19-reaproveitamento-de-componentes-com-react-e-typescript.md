@@ -298,7 +298,7 @@ const App = () => {
 export default App;
 ```
 
-Neste cenário se iniciamos nosso app React, ele deve apresentar um erro de compilação, isso por que não estamos esperando uma propriedade `icon` no componente `MyComponent`, para que isso seja possível, vamos fazer algumas alterações no arquivo **./components/MyComponent**.
+Neste cenário se iniciamos nosso app React, ele deve apresentar um erro de compilação, isso porque não estamos esperando a propriedade `icon` no `MyComponent`, para que isso seja possível, vamos fazer algumas alterações nele.
 
 './components/MyComponent'
 
