@@ -313,11 +313,11 @@ interface Props {
 
 const MyComponent = ({ title, icon: Icon }: Props) => {
  return (
-   <div>
+   <>
      {title}
 
      {Icon && <Icon size={32} />}
-   </div>
+   </>
  )
 };
 
@@ -356,13 +356,13 @@ interface Props {
 
 const MyComponent = ({ title, icon: Icon, children }: Props) => {
  return (
-   <div>
+   <>
      {title}
 
      {Icon && <Icon size={32} />}
 
      {children}
-   </div>
+   </>
  )
 };
 
