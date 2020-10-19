@@ -29,7 +29,7 @@ npx create-react-app reuse-of-components-with-react --template typescript
 
 ## Primeiro Exemplo - Projeto inicial
 
-Neste primeiro momento, vou criar um elemento HTML simples, um `H1` diretamente no arquivo **app.tsx**.
+Neste primeiro momento, vou criar um elemento HTML simples, um `h1` diretamente no arquivo **app.tsx**.
 
 './app.tsx'
 
