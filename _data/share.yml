@@ -16,17 +16,10 @@ list:
     target: _black
     rel: noopener
 
-  - page: https://web.whatsapp.com/send?text=
+  - page: https://api.whatsapp.com/send?text=
     icon: icon-whatsapp
     target: _black
     rel: noopener
-    class: d
-
-  - page: whatsapp://send?text=
-    icon: icon-whatsapp
-    target: _black
-    rel: noopener
-    class: m
 
   - page: https://telegram.me/share/url?url=
     icon: icon-telegram

@@ -5,9 +5,6 @@
     .header-post .info div>span {
         justify-content: center
     }
-    .share a.icon-whatsapp.d {
-        display: none
-    }
 }
 
 @media (min-width:768px) {
@@ -20,9 +17,6 @@
     }
     .header-post .info .authors span>svg {
         margin-left: auto
-    }
-    .share a.icon-whatsapp.m {
-        display: none
     }
     .share.one {
         display: flex;
