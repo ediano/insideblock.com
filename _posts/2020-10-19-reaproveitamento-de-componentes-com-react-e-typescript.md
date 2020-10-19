@@ -27,7 +27,7 @@ npx create-react-app reuse-of-components-with-react --template typescript
 
 ```
 
-## Primeiro Exemplo - Projeto inicial
+## Exemplo 1 - Projeto inicial
 
 Neste primeiro momento, vou criar um elemento HTML simples, um `h1` diretamente no arquivo **app.tsx**.
 
@@ -49,7 +49,7 @@ Com este pequeno exemplo, vou fazer uma divisão, para entender melhor o que é 
 
 O elemento `h1` não tem nada demais, ele simplesmente renderiza um **Hello World** no navegador. Mas agora imagine, se fosse um elemento HTML, que poderia se repetir em vários pontos do arquivo **app.tsx**`, neste caso podemos criar uma função de componente, para reaproveitada o código.
 
-## Segundo exemplo - Criando o primeiro componente
+## Exemplo 2 - Criando o primeiro componente
 
 './app.tsx'
 
@@ -114,7 +114,7 @@ Observe também que para usar o componente `MyComponentSpan`, coloquei ele da me
 
 A partir deste ponto, podemos repetir o componente dentro da função **App**, quantas vezes for necessário.
 
-## Terceiro exemplo - Repetindo componentes
+## Exemplo 3 - Repetindo componentes
 
 './app.tsx'
 
@@ -146,7 +146,7 @@ Apesar do componente `MyComponentSpan` pode ser reaproveitado, ele ainda não é
 
 Para lidar com isso, o React permite que passemos propriedades de um componente para o outro, vamos ver como isso fica na prática, fazendo uma pequena alteração no componente `MyComponentSpan`.
 
-## Quarto Exemplo - Adicionando propriedade
+## Exemplo 4 - Adicionando propriedade
 
 './app.tsx'
 
@@ -215,7 +215,7 @@ Em seguida, crie um arquivo chamado `MyComponent.tsx` dentro da pasta *component
 
 Agora vamos criar o código inicial do componente `MyComponent`.
 
-## Quinto exemplo - Abstraindo componente
+## Exemplo 5 - Abstraindo componente
 
 './components/MyComponent'
 
@@ -288,9 +288,9 @@ const App = () => {
    <>
      <h1>Hello World</h1>
 
-     <MyComponent title="GitHub" icon={FaLinkedin} />
+     <MyComponent title="LinkedIn" icon={FaLinkedin} />
      <MyComponent title="GitHub" icon={FaGithub} />
-     <MyComponent title="GitHub" icon={FaTwitter} />
+     <MyComponent title="Twitter" icon={FaTwitter} />
    </>
  );
 }
@@ -386,13 +386,13 @@ const App = () => {
    <>
      <h1>Hello World</h1>
 
-     <MyComponent title="GitHub" icon={FaLinkedin} />
+     <MyComponent title="LinkedIn" icon={FaLinkedin} />
      <MyComponent title="GitHub" icon={FaGithub} />
 
      <MyComponent title="Componente que recebe children">
        <h2>Finalizando artigo</h2>
 
-       <MyComponent title="GitHub" icon={FaTwitter} />
+       <MyComponent title="Twitter" icon={FaTwitter} />
      </MyComponent>
    </>
  );
