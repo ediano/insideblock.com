@@ -11,7 +11,7 @@ list:
     target: _black
     rel: noopener
 
-  - page: http://www.linkedin.com/shareArticle?mini=true&url=
+  - page: https://www.linkedin.com/shareArticle?mini=true&url=
     icon: icon-linkedin
     target: _black
     rel: noopener
