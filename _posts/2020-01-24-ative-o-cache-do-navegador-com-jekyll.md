@@ -101,7 +101,7 @@ pages_to_cache:
 Em seguida crie uma arquivo chamado “**offline.html**” dentro do diretório **_layouts** e inclua o exemplo “liquid” a seguir dentro da mesma.
 
 {% raw %}
-```liquid
+```yml
 ---
 layout: default
 title: Page Offline

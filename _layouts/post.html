@@ -18,7 +18,7 @@ layout: default
                         <a href="{{ author.site }}" target="_black">{{ author.title }}</a>
                     </span>
                     {% endif %}
-                    
+
                     {% assign coauthor = site.authors | where: 'title', page.coauthor | first %}
                     {% if page.coauthor %}
                     <span class="coauthor col">
@@ -30,7 +30,7 @@ layout: default
 
                 <div class="time-comments col x12 m6">
                     <span class="time col">
-                        <svg><use xlink:href="#icon-time"></use></svg>     
+                        <svg><use xlink:href="#icon-time"></use></svg>
                         <span datetime="
                             {% if page.dateModified %}
                                 {{ page.dateModified | date_to_xmlschema}}
@@ -62,7 +62,7 @@ layout: default
     </div>
     {% endif %}
     {% endfor %}
-    
+
     {% include services/ads.html %}
 
     <div class="share one grid">
@@ -74,7 +74,7 @@ layout: default
     </article>
 
     {% include services/ads.html %}
-  
+
     <script src="{{ site.url }}/adverts.js"></script>
     {% include js/adblock.html %}
 
@@ -88,6 +88,19 @@ layout: default
     {% include post/comments.html %}
 </main>
 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/prism.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/components/prism-css.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/components/prism-jsx.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/components/prism-javascript.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/components/prism-typescript.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/components/prism-bash.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/components/prism-json.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/components/prism-yaml.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/components/prism-ruby.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/components/prism-liquid.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/components/prism-markdown.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/components/prism-docker.min.js"></script>
+
 <script type="application/ld+json">
-{% include seo/blog_posting.json %}
+  {% include seo/blog_posting.json %}
 </script>

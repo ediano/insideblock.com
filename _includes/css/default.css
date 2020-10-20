@@ -56,8 +56,7 @@ footer,
 nav,
 figure,
 img,
-video,
-span {
+video {
   display: block;
 }
 

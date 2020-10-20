@@ -32,7 +32,7 @@ Note que estamos criando um projeto com o nome **react-com-eslint**, o comando q
 
 Acesse o arquivo `package.json` e remova o trecho de código abaixo, não esqueça de salvar as alterações.
 
-```text
+```json
 "eslintConfig": {
   "extends": "react-app"
 },
@@ -139,7 +139,7 @@ No caso do yarn, depois de instalar as dependências, será necessário remover 
 
 Agora precisamos adicionar algumas alterações no arquivo `.eslintrc.json`, essas alterações serão necessárias para que o ESLint trabalha em conjunto com TypeScript, certifique-se de que esses trecho de códigos tenha exatamente a mesma estrutura ou algo parecido.
 
-```js
+```json
 "extends": [
   "plugin:react/recommended",
   "airbnb",
@@ -149,7 +149,7 @@ Agora precisamos adicionar algumas alterações no arquivo `.eslintrc.json`, ess
 ],
 ```
 
-```js
+```json
 "plugins": [
   "react",
   "react-hooks",
@@ -158,7 +158,7 @@ Agora precisamos adicionar algumas alterações no arquivo `.eslintrc.json`, ess
 ],
 ```
 
-```js
+```json
 "rules": {
   "prettier/prettier": "error",
   "react-hooks/rules-of-hooks": "error",
@@ -203,7 +203,7 @@ Observe que além do Prettier, estamos adicionando mais uma dependência do type
 
 Por padrão algumas configurações do Prettier, consegue subscrever algumas regras do ESLint, por esse motivo iremos criar um novo arquivo da raiz do nosso projeto chamado `prettier.config.js`, com o arquivo criado adicione as seguintes configurações.
 
-```js
+```json
 module.exports = {
   singleQuote: true,
   trailingComa: "all",

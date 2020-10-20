@@ -1,6 +1,6 @@
 # Serving
-# host: 0.0.0.0
-# port: 4000
+host: 0.0.0.0
+port: 4000
 
 # Info Blog
 title: Inside Block
@@ -31,8 +31,11 @@ pagination:
     after: 2
 
 # Jekyll Plugins and Tools
+highlighter: none
 markdown: kramdown
-highlighter: rouge
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
 plugins: ["jekyll-paginate-v2", "jekyll-sitemap"]
 
 # Include # Collections

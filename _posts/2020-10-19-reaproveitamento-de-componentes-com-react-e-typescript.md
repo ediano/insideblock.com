@@ -33,7 +33,7 @@ Neste primeiro momento, vou criar um elemento HTML simples, um `h1` diretamente 
 
 './app.tsx'
 
-```tsx
+```jsx
 import React from 'react';
 
 const App = () => {
@@ -53,7 +53,7 @@ O elemento `h1` não tem nada demais, ele simplesmente renderiza um **Hello Worl
 
 './app.tsx'
 
-```tsx
+```jsx
 import React from 'react';
 
 function MyComponentSpan(){
@@ -77,7 +77,7 @@ OBS: Note que adicionei dois símbolos no `return` da função **App**, `<> … 
 
 Não suportando pelo React
 
-```tsx
+```jsx
 return (
  <h1>Hello World</h1>
 
@@ -88,7 +88,7 @@ return (
 
 Suportado pelo React
 
-```tsx
+```jsx
 return (
  <>
    <h1>Hello World</h1>
@@ -100,7 +100,7 @@ return (
 
 Neste exemplo, criei uma função de componente chamado `MyComponentSpan`, note que ela inicia com a primeira letra maiúscula, este detalhe é muito importante para o React, pois dessa forma, ele consegue diferenciar componentes React de elementos HTML.
 
-```tsx
+```jsx
 function MyComponentSpan(){
  return <span>Meu componente com o elemento HTML span</span>
 }
@@ -108,7 +108,7 @@ function MyComponentSpan(){
 
 Observe também que para usar o componente `MyComponentSpan`, coloquei ele da mesma forma que um elemento HTML, o nome do mesmo assume a responsabilidades de um tag HTML padrão, entre os sinais de menor e maior `< … />`.
 
-```tsx
+```jsx
 <MyComponentSpan />
 ```
 
@@ -118,7 +118,7 @@ A partir deste ponto, podemos repetir o componente dentro da função **App**, q
 
 './app.tsx'
 
-```tsx
+```jsx
 import React from 'react';
 
 function MyComponentSpan(){
@@ -150,7 +150,7 @@ Para lidar com isso, o React permite que passemos propriedades de um componente 
 
 './app.tsx'
 
-```tsx
+```jsx
 import React from 'react';
 
 interface MyComponentSpanProps {
@@ -180,7 +180,7 @@ export default App;
 
 Como optei por usar TypeScript nos exemplos deste artigo, para receber dados de forma dinâmica através das `props`, primeiro temos que criar uma interface, para receber a tipagem das propriedades.
 
-```tsx
+```jsx
 interface MyComponentSpanProps {
  title: string;
 }
@@ -188,7 +188,7 @@ interface MyComponentSpanProps {
 
 Em seguida devemos informar a função de componente `MyComponentSpan`, que ela vai passar a receber parâmetros, e que o tipo dos parâmetros é igual a interface `MyComponentSpanProps`. Observe que no exemplo estou usando a desestruturação do JavaScript, pegando apenas a propriedade **title** e repassar para dentro do elemento `span`.
 
-```tsx
+```jsx
 function MyComponentSpan({ title }: MyComponentSpanProps){
  return <span>{title}</span>
 }
@@ -196,7 +196,7 @@ function MyComponentSpan({ title }: MyComponentSpanProps){
 
 Depois da estrutura pronta, podemos simplesmente usar o componente, inserindo a propriedade **title**, e passando um valor do tipo string para ele, da mesma forma que utilizamos atributos comuns dos elementos HTML.
 
-```tsx
+```jsx
 <MyComponentSpan title="1 - Meu componente com o elemento HTML span" />
 
 <MyComponentSpan title="2 - Meu componente com o elemento HTML span" />
@@ -219,7 +219,7 @@ Agora vamos criar o código inicial do componente `MyComponent`.
 
 './components/MyComponent'
 
-```tsx
+```jsx
 import React from 'react';
 
 interface Props {
@@ -239,7 +239,7 @@ O código inicial do novo componente não é grande coisa, mas vamos chegar lá,
 
 './app.tsx'
 
-```tsx
+```jsx
 import React from 'react';
 
 import MyComponent from './components/MyComponent'
@@ -277,7 +277,7 @@ Agora vamos ao arquivo **app.tsx** e importar alguns icons do pacote que acabamo
 
 './app.tsx'
 
-```tsx
+```jsx
 import React from 'react';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'
 
@@ -302,7 +302,7 @@ Neste cenário se iniciamos nosso app React, ele deve apresentar um erro de comp
 
 './components/MyComponent'
 
-```tsx
+```jsx
 import React from 'react';
 import { IconBaseProps } from 'react-icons'
 
@@ -328,13 +328,13 @@ Voltando as tipagens do TypeScript, na interface adicionei uma nova propriedade 
 
 Agora informamos a nossa função de componentes `MyComponent` que ela vai receber um novo parâmetro chamado `icon`, porém como este parâmetro também é um componente, e no React ele deve iniciar com primeira letra maiúscula, atribui um apelido a propriedade, em vez de usar `icon`, iremos usar `Icon`, com a primeira letra maiúscula.
 
-```tsx
+```jsx
 ({ title, icon: Icon }: Props)
 ```
 
 Para fazer uso da nova propriedade, optei por colocar ela abaixo de `title`, note que não podemos usá-la diretamente dentro do retorno da nossa função, por não se trata de uma propriedade obrigatório, primeiro devemos verificar se ela existe, neste caso estou usando um verificador ternário.
 
-```tsx
+```jsx
 {Icon && <Icon size={32} />}
 ```
 
@@ -344,7 +344,7 @@ Para fechar este artigo, precisamos adicionar mais uma propriedade no componente
 
 './components/MyComponent'
 
-```tsx
+```jsx
 import React, { ReactNode } from 'react';
 import { IconBaseProps } from 'react-icons'
 
@@ -375,7 +375,7 @@ Agora podemos voltar ao nosso arquivo **app.tsx** e replicar o componente, mas e
 
 './app.tsx'
 
-```tsx
+```jsx
 import React from 'react';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'
 

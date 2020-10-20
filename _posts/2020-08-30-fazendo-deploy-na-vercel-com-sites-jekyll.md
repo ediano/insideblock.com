@@ -38,7 +38,7 @@ Como citei anteriormente, a Vercel  não consegue identificar a página 404 cust
 
 Primeiro vamos criar um arquivo chamado `vercel.json`  na raiz do  repositório,  em seguida vamos adicionar as seguintes configurações.
 
-```js
+```json
 {
   "name": "insideblock",
   "routes": [

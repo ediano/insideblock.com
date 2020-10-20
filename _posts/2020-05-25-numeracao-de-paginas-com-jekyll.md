@@ -21,7 +21,7 @@ Este processo requer quatro passos simples que consiste na alteração de 3 arqu
 ## Passo 1 (Gemfile)
 Para começarmos, temos de adicionar o plugin `jekyll-paginate-v2` dentro do arquivo **Gemfile**, caso exista outro plugin de paginação sugiro remover o mesmo para evitar possíveis conflitos de compilação do Jekyll.
 
-```yml
+```ruby
 group :jekyll_plugins do
  gem "jekyll-paginate-v2" #New plugin paginate
  gem "jekyll-sitemap"
@@ -31,7 +31,7 @@ end
 
 Em seguida deve executar o seguir comando para instalar e atualizar as dependências do novos plugin.
 
-```
+```bash
 bundle install
 ```
 
@@ -64,7 +64,7 @@ Agora já podemos trabalhar no nosso arquivos `index`, aqui são dois passos sim
 
 Front Matter: Adiciona o seguinte código dentro da estrutura *Front Matter* do arquivo **index**.
 
-```md
+```yml
 ---
 layout: home
 pagination:
@@ -75,7 +75,7 @@ pagination:
 Include: Ainda dentro do arquivo **index** adicionar a seguinte linha, esta linha deve ser adicionado você deseja que a numeração de página seja exibida.
 
 {% raw %}
-```md
+```liquid
 {% include pagination.html %}
 ```
 {% endraw %}

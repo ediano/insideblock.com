@@ -34,7 +34,7 @@ Note que as linhas fazem menção à compressão HTML, todavia depois de pronta 
 Posteriormente, para parametrizar todas as regras de compilação vamos criar um novo arquivo, dentro do diretório **_layouts**, com o nome **compress.html**, em seguida adicione o código abaixo dentro do novo arquivo.
 
 {% raw %}
-```yml
+```md
 ---
 # Jekyll layout that compresses HTML
 # v3.0.1
