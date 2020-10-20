@@ -57,7 +57,7 @@ O elemento `h1` não tem nada demais, ele simplesmente renderiza um **Hello Worl
 import React from 'react';
 
 function MyComponentSpan(){
- return <span>Meu componente com o elemento HTML span</span>
+ return <span>Meu componente com o elemento HTML span</span>;
 }
 
 const App = () => {
@@ -102,7 +102,7 @@ Neste exemplo, criei uma função de componente chamado `MyComponentSpan`, note 
 
 ```jsx
 function MyComponentSpan(){
- return <span>Meu componente com o elemento HTML span</span>
+ return <span>Meu componente com o elemento HTML span</span>;
 }
 ```
 
@@ -122,7 +122,7 @@ A partir deste ponto, podemos repetir o componente dentro da função **App**, q
 import React from 'react';
 
 function MyComponentSpan(){
- return <span>Meu componente com o elemento HTML span</span>
+ return <span>Meu componente com o elemento HTML span</span>;
 }
 
 const App = () => {
@@ -158,7 +158,7 @@ interface MyComponentSpanProps {
 }
 
 function MyComponentSpan({ title }: MyComponentSpanProps){
- return <span>{title}</span>
+ return <span>{title}</span>;
 }
 
 const App = () => {
@@ -190,7 +190,7 @@ Em seguida devemos informar a função de componente `MyComponentSpan`, que ela 
 
 ```jsx
 function MyComponentSpan({ title }: MyComponentSpanProps){
- return <span>{title}</span>
+ return <span>{title}</span>;
 }
 ```
 
@@ -223,7 +223,7 @@ Agora vamos criar o código inicial do componente `MyComponent`.
 import React from 'react';
 
 interface Props {
- title: string
+ title: string;
 }
 
 const MyComponent = ({ title }: Props) => {
@@ -242,7 +242,7 @@ O código inicial do novo componente não é grande coisa, mas vamos chegar lá,
 ```jsx
 import React from 'react';
 
-import MyComponent from './components/MyComponent'
+import MyComponent from './components/MyComponent';
 
 const App = () => {
  return (
@@ -279,9 +279,9 @@ Agora vamos ao arquivo **app.tsx** e importar alguns icons do pacote que acabamo
 
 ```jsx
 import React from 'react';
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 
-import MyComponent from './components/MyComponent'
+import MyComponent from './components/MyComponent';
 
 const App = () => {
  return (
@@ -304,7 +304,7 @@ Neste cenário se iniciamos nosso app React, ele deve apresentar um erro de comp
 
 ```jsx
 import React from 'react';
-import { IconBaseProps } from 'react-icons'
+import { IconBaseProps } from 'react-icons';
 
 interface Props {
  title: string;
@@ -346,7 +346,7 @@ Para fechar este artigo, precisamos adicionar mais uma propriedade no componente
 
 ```jsx
 import React, { ReactNode } from 'react';
-import { IconBaseProps } from 'react-icons'
+import { IconBaseProps } from 'react-icons';
 
 interface Props {
  title: string;
@@ -377,9 +377,9 @@ Agora podemos voltar ao nosso arquivo **app.tsx** e replicar o componente, mas e
 
 ```jsx
 import React from 'react';
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 
-import MyComponent from './components/MyComponent'
+import MyComponent from './components/MyComponent';
 
 const App = () => {
  return (
