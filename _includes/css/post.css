@@ -103,7 +103,7 @@ article::first-line {
 article>* {
     float: none;
     display: block;
-    margin: 0 3rem;
+    margin: 3rem 0;
     font-style: normal;
     text-align: justify
 }
