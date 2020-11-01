@@ -2,7 +2,7 @@
 layout: post
 title: "Populando dados estáticos nas entidades com Typeorm"
 description: >-
-  Que tal um pouco de banco de dados, hoje iremos aprender uma forma simples de popula dados estáticos com typeorm migration:run.
+  Que tal um pouco de banco de dados, hoje iremos aprender uma forma simples de popular dados estáticos com typeorm migration:run.
 datePublished: "2020-11-01 07:00:00"
 dateModified: "2020-11-01 07:00:00"
 tags: [nodejs, dev, javascript, typescript, typeorm, express]
