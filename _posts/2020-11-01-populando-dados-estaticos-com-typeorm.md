@@ -160,7 +160,7 @@ Como pode ver, no método `up` foi iniciado um segundo `queryRunner`, este méto
 
 Note que estou definindo apenas os valores da coluna `name`, as demais colunas para esta tabela será preenchida de forma automática pelo próprio Typeorm (**id**, **created_at**, **updated_at**).
 
-Dessa forma, toda vez que tivermos a necessidade de inserimos valores default na tabelas, podemos usar este métodos, lembrando que este tipo de execução é recomendada para informações que serão usadas em produção.
+Dessa forma, toda vez que tivermos a necessidade de inserimos valores default na tabelas, podemos usar este método, lembrando que este tipo de execução é recomendada para informações que serão usadas em produção.
 
 ## Conclusão
 
