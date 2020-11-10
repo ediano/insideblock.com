@@ -1,6 +1,6 @@
 ---
 layout: category
-title: NodeJS
+title: Node
 category: nodejs
 ---
 
