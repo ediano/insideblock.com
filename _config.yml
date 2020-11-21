@@ -31,11 +31,7 @@ pagination:
     after: 2
 
 # Jekyll Plugins and Tools
-highlighter: none
 markdown: kramdown
-kramdown:
-   syntax_highlighter_opts:
-      disable : true
 plugins: ["jekyll-paginate-v2", "jekyll-sitemap"]
 
 # Include # Collections
