@@ -71,9 +71,9 @@ module.exports = {
 }
 ```
 
-Note que o domínio não pode conter HTTP ou HTTPS no endereço, exceto, em casos em que for preferir usar provedores de nuvem para otimizar imagens.
+Note que o domínio não pode conter HTTP ou HTTPS no endereço, exceto em casos em que for usar provedores de nuvem para otimizar as imagens.
 
-Para saber mais sobre provedores de nuvem para otimizar imagens, veja a [documentação oficial](https://nextjs.org/docs/basic-features/image-optimization){:target="_blank"}{:rel="nofollow noopener noreferrer"}.
+Para saber mais sobre provedores de nuvem para otimização de imagens, veja a [documentação oficial](https://nextjs.org/docs/basic-features/image-optimization){:target="_blank"}{:rel="nofollow noopener noreferrer"}.
 
 ```tsx
 <Image
@@ -161,6 +161,6 @@ Agora que já entendemos como lidar com imagens dentro do Next, podemos colocar 
 
 ## Conclusão
 
-Devs, este foi o mais um artigo sobre Next.js, meu pretinho do trazer mais conteúdos como este para dentro do blog, porém gostaria muito de saber sobre a opinião de vocês, do quê achou sobre o artigo, o que eu poderia melhorar e o que vocês esperam encontrar aqui dentro.
+Devs, este foi mais um artigo sobre Next.js, meu pretinho do trazer mais conteúdos como este para dentro do blog, porém gostaria muito de saber sobre a opinião de vocês, do quê achou sobre o artigo, o que eu poderia melhorar e o que vocês esperam encontrar aqui dentro.
 
 Eu vou ficando por aqui, não esqueça de deixar um comentário e compartilhar nas redes sociais com seus amigos.
