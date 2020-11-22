@@ -145,7 +145,7 @@ export default Home
 
 ### Image background com styled-components
 
-Se você estiver usando o `styled-components` para processar o CSS das páginas, você também terá que fazer uso da biblioteca que instalamos anteriormente `next-images`, pois da mesma forma que um Next não suporta importações de imagens fora do diretório `public`, o styled-components também não tem suporte nativo.
+Se você estiver usando o `styled-components` para processar o CSS das páginas, você também terá que fazer uso da biblioteca que instalamos anteriormente `next-images`, pois da mesma forma que um Next não suporta importações de imagens, o styled-components com Next também não.
 
 ```ts
 import styled from 'styled-components'
