@@ -26,7 +26,6 @@ ou
 
 ```bash
 npx create-react-app reuse-of-components-with-react --template typescript
-
 ```
 
 ## Exemplo 1 - Projeto inicial
