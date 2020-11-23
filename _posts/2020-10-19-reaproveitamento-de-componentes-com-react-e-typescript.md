@@ -20,9 +20,11 @@ Para este post, vou usar o Create React App com template TypeScript, em seguida 
 
 ```bash
 yarn create react-app reuse-of-components-with-react --template typescript
+```
 
-#or
+ou
 
+```bash
 npx create-react-app reuse-of-components-with-react --template typescript
 
 ```
@@ -265,9 +267,11 @@ Para criar um cenaria mais próximo do real possível, vamos instalar o pacote d
 
 ```bash
 yarn add react-icons
+```
 
-#or
+ou
 
+```bash
 npm i react-icons
 ```
 
