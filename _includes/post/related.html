@@ -24,7 +24,7 @@
     <li class="col x6 s4">
       <a href="{{ site.baseurl }}{{ post.url }}">
         <span>{{ post.title }}{{ commonTags }}</span>
-        <img width="100%" src="/assets/thumbs/{{post.image}}">
+        <img alt="{{ post.title }}{{ commonTags }}" src="/assets/thumbs{{post.image}}">
       </a>
     </li>
     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
