@@ -27,6 +27,7 @@ Se você por um desenvolvedor Next, já deve estar familiarizado com a recomenda
 Para facilitar a usabilidade e a otimização de imagens, o Next desenvolveu um componente padrão do React. E este componente pode ser importado de dentro do próprio Next, veja o exemplo.
 
 ```tsx
+// src/pages/Home
 import React from 'react'
 import Image from 'next/image'
 
@@ -34,7 +35,7 @@ const Home = () => {
  return (
    <>
      <Image
-       src="./"
+       src="./my-image.png"
        alt="My Image"
        width={300}
        height={300}
@@ -54,7 +55,7 @@ Se por algum motivo você não queira que a imagem tenha um tamanho fixo, podemo
 
 ```tsx
 <Image
- src="My Image"
+ src="./my-image.png"
  unsized={true}
 />
 ```
@@ -64,6 +65,7 @@ Se por algum motivo você não queira que a imagem tenha um tamanho fixo, podemo
 Também é possível otimizar imagens hospedados em sites externos, para que isso seja possível primeiro devemos habilitar o endereço padrão das imagens, crie o arquivo `next.config.js` na raiz do projeto, em seguida adicione as configurações.
 
 ```js
+// next.config.js
 module.exports = {
  images: {
    domains: ['i.imgur.com'],
@@ -105,6 +107,7 @@ npm install --save next-images
 Adicione as configurações da biblioteca no arquivo `next.config.js`.
 
 ```js
+// next.config.js
 const withImages = require('next-images')
 module.exports = withImages({
  esModule: true
@@ -122,10 +125,11 @@ Caso o seu projeto Next esteja usando TypeScript, acrescente a tipagem da biblio
 Depois das configurações realizadas, estamos pronto para importar as imagens, como exemplo, vou usar um pasta chamada `assets` localizada dentro do diretório `src`.
 
 ```tsx
+// src/page/Home
 import React from 'react'
 import Image from 'next/image'
 
-import img from '../assets/img.jpeg'
+import img from '../assets/my-image.png'
 
 const Home = () => {
  return (
@@ -148,9 +152,10 @@ export default Home
 Se você estiver usando o `styled-components` para processar o CSS das páginas, você também terá que fazer uso da biblioteca que instalamos anteriormente `next-images`, pois da mesma forma que um Next não suporta importações de imagens, o styled-components com Next também não.
 
 ```ts
+// src/styles/page/Home
 import styled from 'styled-components'
 
-import img from '../../assets/img.jpeg'
+import img from '../../assets/my-image.png'
 
 export const Container = styled.div`
  background: url(${img}) no-repeat;
