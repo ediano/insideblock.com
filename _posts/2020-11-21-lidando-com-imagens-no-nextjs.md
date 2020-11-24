@@ -152,7 +152,7 @@ export default Home
 Se você estiver usando o `styled-components` para processar o CSS das páginas, você também terá que fazer uso da biblioteca que instalamos anteriormente `next-images`, pois da mesma forma que um Next não suporta importações de imagens, o styled-components com Next também não.
 
 ```ts
-// src/styles/page/Home
+// src/styles/pages/Home
 import styled from 'styled-components'
 
 import img from '../../assets/my-image.png'
