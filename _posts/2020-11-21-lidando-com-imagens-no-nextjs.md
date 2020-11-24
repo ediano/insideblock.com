@@ -125,7 +125,7 @@ Caso o seu projeto Next esteja usando TypeScript, acrescente a tipagem da biblio
 Depois das configurações realizadas, estamos pronto para importar as imagens, como exemplo, vou usar um pasta chamada `assets` localizada dentro do diretório `src`.
 
 ```tsx
-// src/page/Home
+// src/pages/Home
 import React from 'react'
 import Image from 'next/image'
 
