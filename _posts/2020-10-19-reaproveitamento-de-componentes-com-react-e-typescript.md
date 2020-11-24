@@ -33,7 +33,7 @@ npx create-react-app reuse-of-components-with-react --template typescript
 Neste primeiro momento, vou criar um elemento HTML simples, um `h1` diretamente no arquivo **app.tsx**.
 
 ```tsx
-// ./app.tsx
+// src/app.tsx
 import React from 'react';
 
 const App = () => {
@@ -52,7 +52,7 @@ O elemento `h1` não tem nada demais, ele simplesmente renderiza um **Hello Worl
 ## Exemplo 2 - Criando o primeiro componente
 
 ```tsx
-// ./app.tsx
+// src/app.tsx
 import React from 'react';
 
 function MyComponentSpan(){
@@ -116,7 +116,7 @@ A partir deste ponto, podemos repetir o componente dentro da função **App**, q
 ## Exemplo 3 - Repetindo componentes
 
 ```tsx
-// ./app.tsx
+// src/app.tsx
 import React from 'react';
 
 function MyComponentSpan(){
@@ -147,7 +147,7 @@ Para lidar com isso, o React permite que passemos propriedades de um componente 
 ## Exemplo 4 - Adicionando propriedade
 
 ```tsx
-// ./app.tsx
+// src/app.tsx
 import React from 'react';
 
 interface MyComponentSpanProps {
@@ -215,7 +215,7 @@ Agora vamos criar o código inicial do componente `MyComponent`.
 ## Exemplo 5 - Abstraindo componente
 
 ```tsx
-// ./components/MyComponent
+// src/components/MyComponent
 import React from 'react';
 
 interface Props {
@@ -234,7 +234,7 @@ export default MyComponent;
 O código inicial do novo componente não é grande coisa, mas vamos chegar lá, agora podemos importar o componente que acabamos de criar para dentro do arquivo **app.tsx**.
 
 ```tsx
-// ./app.tsx
+// src/app.tsx
 import React from 'react';
 
 import MyComponent from './components/MyComponent';
@@ -273,7 +273,7 @@ Agora vamos ao arquivo **app.tsx** e importar alguns icons do pacote que acabamo
 ## Exemplo 6 - Passando componentes de ícone
 
 ```tsx
-// ./app.tsx
+// src/app.tsx
 import React from 'react';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 
@@ -297,7 +297,7 @@ export default App;
 Neste cenário se iniciamos nosso app React, ele deve apresentar um erro de compilação, isso porque não estamos esperando a propriedade `icon` no `MyComponent`, para que isso seja possível, vamos fazer algumas alterações nele.
 
 ```tsx
-// ./components/MyComponent
+// src/components/MyComponent
 import React from 'react';
 import { IconBaseProps } from 'react-icons';
 
@@ -338,7 +338,7 @@ Para fechar este artigo, precisamos adicionar mais uma propriedade no componente
 ## Exemplo 7 - Children
 
 ```tsx
-// ./components/MyComponent
+// src/components/MyComponent
 import React, { ReactNode } from 'react';
 import { IconBaseProps } from 'react-icons';
 
@@ -368,7 +368,7 @@ Nessa nova alteração, adicionamos uma nova propriedade `children` do tipo `Rea
 Agora podemos voltar ao nosso arquivo **app.tsx** e replicar o componente, mas em vez de usar em *line*, iremos usar como um `div` HTML.
 
 ```tsx
-// ./app.tsx
+// src/app.tsx
 import React from 'react';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 
