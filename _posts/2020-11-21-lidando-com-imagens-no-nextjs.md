@@ -54,7 +54,7 @@ Se por algum motivo você não queira que a imagem tenha um tamanho fixo, podemo
 
 ```tsx
 <Image
- src="./"
+ src="My Image"
  unsized={true}
 />
 ```
