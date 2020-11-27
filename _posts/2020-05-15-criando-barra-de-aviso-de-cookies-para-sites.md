@@ -79,18 +79,20 @@ O código CSS ele é um pouquinho maior, porém isso é necessário para que ele
 Adicionando o JavaScript
 
 ```js
-if (!localStorage.pureJavaScriptCookies) {
-  document.querySelector(".box-cookies").classList.remove('hide');
-}
-
-const acceptCookies = () => {
-  document.querySelector(".box-cookies").classList.add('hide');
-  localStorage.setItem("pureJavaScriptCookies", "accept");
-};
-
-const btnCookies = document.querySelector(".btn-cookies");
-
-btnCookies.addEventListener('click', acceptCookies);
+(() => {
+  if (!localStorage.pureJavaScriptCookies) {
+    document.querySelector(".box-cookies").classList.remove('hide');
+  }
+  
+  const acceptCookies = () => {
+    document.querySelector(".box-cookies").classList.add('hide');
+    localStorage.setItem("pureJavaScriptCookies", "accept");
+  };
+  
+  const btnCookies = document.querySelector(".btn-cookies");
+  
+  btnCookies.addEventListener('click', acceptCookies);
+})()
 ```
 
 O código JS também é considerado pequeno, pois estamos trabalhando com o armazenamento local no navegador `localStorage`, assim podemos garantir que quando o visitante clicar no botão “Aceitar”, que ele não precise clicar novamente ao retornar ao blog ou a página.
