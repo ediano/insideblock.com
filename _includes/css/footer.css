@@ -68,6 +68,10 @@
     padding: 15px 0
 }
 
+.footer-copyright div div span {
+    display: block
+}
+
 @media (min-width: 768px) {
     .footer-copyright .link {
         text-align: right
