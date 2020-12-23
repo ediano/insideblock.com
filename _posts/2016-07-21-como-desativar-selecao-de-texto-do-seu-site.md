@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Como desativar a seleção de texto do seu site
+title: "Como desativar a 'seleção' de texto do seu site"
 datePublished: "2016-07-21 14:05:00"
 tags: [dev, javascript]
 categories: [dev]
