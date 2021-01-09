@@ -17,10 +17,4 @@ social:
     target: _black
     rel: noopener
     type: Twitter
-
-  - profile: 'https://github.com/insideblock'
-    icon: icon-github
-    target: _black
-    rel: noopener
-    type: GitHub
 ---
