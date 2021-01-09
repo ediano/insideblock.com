@@ -17,4 +17,10 @@ social:
     target: _black
     rel: noopener
     type: Twitter
+    
+  - profile: 'https://github.com/ediano/insideblock.com'	
+    icon: icon-github	
+    target: _black	
+    rel: noopener	
+    type: GitHub
 ---
