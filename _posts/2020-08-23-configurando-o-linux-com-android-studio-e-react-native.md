@@ -139,4 +139,4 @@ Bom eu espero que todos vocês tenham curtido este artigo, e que tenha entendido
 
 Caso surja alguma dúvida ou tenha algum problema, por favor não exite em deixar nos comentários, pois dessa forma eu posso lhe ajudar.
 
-Eu vou ficar no pretinho, não esqueça de compartilhar esse artigo nas redes sociais com seus amigos.
+Eu vou ficando por aqui, não esqueça de compartilhar esse artigo nas redes sociais com seus amigos.
